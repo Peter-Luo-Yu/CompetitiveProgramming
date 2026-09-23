@@ -50,8 +50,6 @@ int main () {
     freopen("output.txt", "w", stdout);
 
     auto start = high_resolution_clock::now();
-    auto end = high_resolution_clock::now();
-    duration<double, milli> elapsed = end - start;
 
     ll N = 1e7 + 5;
     vector<ll> factor(N); // smallest prime factor
@@ -63,11 +61,13 @@ int main () {
         }
     }
 
-    
+    //auto end = high_resolution_clock::now();
+    //duration<double, milli> elapsed = end - start;
+    //print("sieve: ", elapsed.count());
 
     vector<ll> primes; // idx -> prime
     ll val = 2;
-    while (val < N) {
+    while (val * val < N) {
         if (factor[val] == val) {
             primes.push_back(val);
         }
@@ -135,17 +135,18 @@ int main () {
 
         //space;
 
-        
+        /*
         if (i % 10000 == 0) {
             end = high_resolution_clock::now();
             elapsed = end - start;
             print(i, elapsed.count());
         }
-        
+        */
         
     }
 
     //print(ans);
+
 
     
     string s;
@@ -160,11 +161,7 @@ int main () {
         cout << ans[n] << endl;
         
     }
-
-
-    end = high_resolution_clock::now();
-    elapsed = end - start;
-    cout << "finished: " << elapsed.count() << endl;
+        
         
         
         

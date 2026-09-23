@@ -2,6 +2,7 @@
 
 #include <bits/stdc++.h>
 using namespace std;
+using namespace std::chrono;
 
 #ifdef LOCAL
 #define print(...) debug(#__VA_ARGS__, __VA_ARGS__)
@@ -24,7 +25,7 @@ if (s[i] == ')' || s[i] == '}') b--; else if (s[i] == ',' && b == 0) {cerr << "\
 
 #define ll long long
 #define ld long double
-#define endl "\n"
+//#define endl "\n"
 
 ll MOD = 1e9 + 7;
 
@@ -48,27 +49,42 @@ int main () {
     freopen("input.txt", "r", stdin);
     freopen("output.txt", "w", stdout);
 
-    int N = 1e2 + 5;
+    auto start = high_resolution_clock::now();
+
+    int N = 1e7 + 5;
     vector<int> factor(N); // smallest prime factor
-    for (int i = 2; i <= N; i++) {
+    for (int i = 2; i < N; i++) {
         if (factor[i] == 0) {
-            for (int j = i; j <= N; j += i) {
+            for (int j = i; j < N; j += i) {
                 factor[j] = i;     
             }
         }
     }
 
-    vector<int> primes (1e4);
-    for (int i = 0; i < 1e4; i++) {
-        if (factor[i] == i) {
-            primes[i] = 1;
+    auto end = high_resolution_clock::now();
+    duration<double, milli> elapsed = end - start;
+    print("sieve: ", elapsed.count());
+
+    vector<int> primes; // idx -> prime
+    int val = 2;
+    while (val * val < N) {
+        if (factor[val] == val) {
+            primes.push_back(val);
         }
+        val++;
     }
 
-    print(primes);
+    print(primes, primes.size());
 
+    unordered_map<int, int> pidx; // prime -> idx
+    for (int i = 0; i < primes.size(); i++) {
+        pidx[primes[i]] = i;
+    }
+    vector<int> exponents (primes.size());
+
+    
     vector<ll> ans (N);
-    for (int i = 1; i <= N; i++) {
+    for (int i = 1; i < N; i++) {
         ll n = i;
 
         //print(n);
@@ -82,20 +98,20 @@ int main () {
             }
 
             //print(fac, exp);
-            freq[fac] += exp;
+            exponents[pidx[fac]] += exp;
         }
 
         //print(freq);
 
         ll a = 1;
-        for (auto f : freq) {
-            ll exp = f.second;
-            if (f.second % 2 == 1) {
+        for (int i = 0; i < exponents.size(); i++) {
+            ll exp = exponents[i];
+            if (exp % 2 == 1) {
                 exp--;
             }
 
             if (exp > 0) {
-                a *= power(f.first, exp);
+                a *= power(primes[i], exp);
                 a %= MOD;
             }
         }
@@ -104,6 +120,13 @@ int main () {
         //print(a);
 
         //space;
+
+        if (i % 10000 == 0) {
+            end = high_resolution_clock::now();
+            elapsed = end - start;
+            print(i, elapsed.count());
+        }
+        
     }
 
     //print(ans);
@@ -111,6 +134,8 @@ int main () {
     for (auto a : ans) {
         cout << a << ", ";
     }
+
+    
 
     /*
     string s;
