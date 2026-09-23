@@ -30,10 +30,45 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
-    
+    int t; cin >> t;
+    while (t--) {
+        int n, m; cin >> n >> m;
+        vector<vector<char>> grid(n, vector<char> (m));
+
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                cin >> grid[i][j];
+            }
+        }
+
+        int Max = -1, row = -1, col = -1;
+        for (int i = 0; i < n; i++) {
+            int cur = 0;
+            for (int j = 0; j < m; j++) {
+                if (grid[i][j] == '#') {
+                    cur++;
+                }
+            }
+
+            if (cur > Max) {
+                Max = cur;
+                row = i;
+            }
+        }
+
+        for (int j = 0; j < m; j++) {
+            if (grid[row][j] == '#') {
+                col = j;
+                break;
+            }
+        }
+
+        cout << row + 1 << " " << (col + Max / 2) + 1 << endl;
+
+    }
 
 
     return 0;

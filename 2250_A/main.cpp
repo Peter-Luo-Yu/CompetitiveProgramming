@@ -30,10 +30,37 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
-    
+    int t; cin >> t;
+    while (t--) {
+        int n; cin >> n;
+
+        vector<int> arr (n);
+        for (int i = 0; i < n; i++) cin >> arr[i];
+
+        if (n % 2 == 1) {
+            cout << "NO" << endl;
+            continue;
+        }
+
+        int l = arr[1], r = arr[0];
+
+        for (int i = 2; i < n; i += 2) {
+            r = min(r, arr[i]);
+            l = max(l, arr[i + 1]);
+        }
+
+        print(l, r);
+
+        if (l + 1 < r) {
+            cout <<"YES" << endl;
+        } else {
+            cout <<"NO" << endl;
+        }
+
+    }
 
 
     return 0;

@@ -30,10 +30,45 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
-    
+    int t; cin >> t;
+    while (t--) {
+        ll n, m; cin >> n >> m;
+
+        ll ans = 0;
+
+        ll curT = 0, s = 0;
+        for (ll i = 0; i < n; i++) {
+            ll time, side; cin >> time >> side;
+
+            // at time = time, FJ has to be at side side
+            ll dt = time - curT;
+
+            //print(curT, s, time, side, dt);
+
+            if (s != side) {
+                dt--;
+                ans++;
+            } 
+            
+            ans += ((dt / 2) * 2) ;
+
+            //print(ans);
+            
+
+            curT = time;
+            s = side;
+        }
+
+
+        ll dt = m - curT;
+        ans += (dt);
+
+        cout << ans << endl;
+
+    }
 
 
     return 0;

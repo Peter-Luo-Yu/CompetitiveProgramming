@@ -30,10 +30,41 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
-    
+    int t; cin >> t;
+    while (t--) {
+        int n, k; cin >> n >> k;
+        string s; cin >> s;
+
+        map<char, int> freq;
+        for (int i = 0; i < n; i++) {
+            freq[s[i]]++;
+        }
+
+        int odd = 0;
+        for (auto f : freq) {
+            odd += (f.second % 2 == 1);
+        }
+
+        //cout << odd << endl;
+
+        if ((n - k) % 2 == 1) {
+            if ((odd - k) <= 1) {
+                cout << "YES" << endl;
+            } else {
+                cout << "NO" << endl;
+            }
+        } else {
+            if ((odd - k) <= 0) {
+                cout << "YES" << endl;
+            } else {
+                cout << "NO" << endl;
+            }
+        }
+        
+    }
 
 
     return 0;

@@ -30,10 +30,55 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
-    
+    int t; cin >> t;
+    while (t--) {
+        int n, s; cin >> n >> s;
+
+        int ans = 0;
+        for (int i = 0; i < n; i++) {
+            int dx, dy, x, y; cin >> dx >> dy >> x >> y;
+
+            if (dx == 1 && dy == 1) { // (s, s)
+                int deltaX = s - x;
+                int deltaY = s - y;
+
+                if (deltaX == deltaY) {
+                    ans++;
+                }
+            }
+            if (dx == -1 && dy == 1) { // (0, s)
+                int deltaX = x;
+                int deltaY = s - y;
+
+                if (deltaX == deltaY) {
+                    ans++;
+                }
+            }
+            if (dx == 1 && dy == -1) { // (s, 0)
+                int deltaX = s - x;
+                int deltaY = y;
+
+                if (deltaX == deltaY) {
+                    ans++;
+                }
+            }
+            if (dx == -1 && dy == -1) { // (0, 0)
+                int deltaX = x;
+                int deltaY = y;
+
+                if (deltaX == deltaY) {
+                    ans++;
+                }
+            }
+        }
+
+        cout << ans << endl;
+
+
+    }
 
 
     return 0;

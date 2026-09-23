@@ -30,10 +30,63 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
-    
+    int t; cin >> t;
+    while (t--) {
+        int n, k; cin >> n >> k;
+        string s; cin >> s;
+
+        int num1 = 0;
+
+        bool failed = false;
+        int prev = -1;
+        int len = 0;
+        for (int i = 0; i < n; i++) {
+            if (s[i] == '1') {
+                num1++;
+            }
+
+            if (s[i] == prev) {
+                len++;
+            } else {
+                len = 1;
+                prev = s[i];
+            }
+
+            if (len == k && prev == '1') {
+                failed = true;
+            }
+        }
+
+
+        if (failed) {
+            cout << "NO" << endl;
+            continue;
+        }
+
+        cout << "YES" << endl;
+        vector<int> ans (n);
+        int cur = 1;
+        for (int i = 0; i < n; i++) {
+            if (s[i] == '1') {
+                ans[i] = cur;
+                cur++;
+            }
+        }
+        for (int i = 0; i < n; i++) {
+            if (s[i] == '0') {
+                ans[i] = cur;
+                cur++;
+            }
+        }
+
+        for (auto a : ans) {
+            cout << a << " ";
+        }
+        cout << endl;
+    }
 
 
     return 0;

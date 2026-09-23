@@ -30,11 +30,22 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
-    
+    int t; cin >> t;
+    while (t--) {
+        ll n; cin >> n;
+        
+        ll t = n + 1;
 
+        ll ans = 1e9 - t;
+        cout << ans << endl;
+
+        //ld test = (n * 9 + ans) / (n + ans);
+        //cout << test << endl;
+
+    }
 
     return 0;
 }

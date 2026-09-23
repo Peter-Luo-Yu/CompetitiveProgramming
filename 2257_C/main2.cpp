@@ -1,4 +1,4 @@
-#define LOCAL
+//#define LOCAL
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -30,10 +30,36 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
-    
+    int t; cin >> t;
+    while (t--) {
+        int n;
+        cin >> n;
+
+        // We don't actually need the parent array.
+        for (int i = 2; i <= n; i++) {
+            int p;
+            cin >> p;
+        }
+
+        int m;
+        cin >> m;
+
+        vector<int> dams(m);
+        for (int i = 0; i < m; i++) {
+            cin >> dams[i];
+        }
+
+        sort(dams.begin(), dams.end());
+
+        cout << m - 1;
+        for (int i = 1; i < m; i++) {
+            cout << ' ' << dams[i];
+        }
+        cout << '\n';
+    }
 
 
     return 0;

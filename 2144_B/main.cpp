@@ -30,10 +30,59 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
-    
+    int t; cin >> t;
+    while (t--) {
+        int n; cin >> n;
+        vector<int> arr (n);
+        for (int i = 0; i < n; i++) {
+            cin >> arr[i];
+        }
+
+        int num0 = 0;
+        for (auto a : arr) {
+            num0 += (a == 0);
+        }
+
+        if (num0 == 1) {
+            vector<bool> vis (n + 1);
+            for (auto a : arr) {
+                vis[a] = true;
+            }
+
+            int notvis = -1;
+            for (int i = 1; i <= n; i++) {
+                if (!vis[i]) {
+                    notvis = i;
+                }
+            }
+
+            for (int i = 0; i < n; i++) {
+                if (arr[i] == 0) {
+                    arr[i] = notvis;
+                }
+            }
+        }
+
+        //print(arr);
+
+        int l = 1e9, r = -1e9;
+
+        for (int i = 0; i < n; i++) {
+            if (arr[i] == 0 || arr[i] != i + 1) {
+                l = min (l, i);
+                r = max (r, i);
+            }
+        }
+        
+        int ans = r - l + 1;
+
+        cout << max(0, ans) << endl;
+
+
+    }
 
 
     return 0;

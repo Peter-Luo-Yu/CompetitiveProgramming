@@ -30,11 +30,38 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
-    
+    int t; cin >> t;
+    while (t--) {
+        int n, q; cin >> n >> q;
+        string s1, s2; cin >> s1 >> s2;
 
+        vector<int> pref01 (n + 1), pref10 (n + 1), prefSame (n + 1);
+        for (int i = 0; i < n; i++) {
+            pref01[i + 1] = pref01[i] + (s1[i] == '0' && s2[i] == '1');
+            pref10[i + 1] = pref10[i] + (s1[i] == '1' && s2[i] == '0');
+            prefSame[i + 1] = prefSame[i] + (s1[i] == s2[i]);
+        }
 
+        while (q--) {
+            int l, r; cin >> l >> r;
+
+            int num01 = pref01[r] - pref01[l - 1];
+            int num10 = pref10[r] - pref10[l - 1];
+
+            int same = prefSame[r] - prefSame[l - 1];
+
+            if (abs(num01 - num10) <= same) {
+                cout << "Yes" << endl;
+            } else {
+                cout << "No" << endl;
+            }
+        }
+
+        //space;
+
+    }
     return 0;
 }

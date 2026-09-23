@@ -30,10 +30,31 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
-    
+    ll MOD = 1e9 + 7;
+
+    int t; cin >> t;
+    while (t--) {
+        int n; cin >> n;
+
+        if (n == 1) {
+            cout << 0 << endl;
+            continue;
+        }
+
+        ll ans = 1;
+
+        for (int i = 1; i <= n; i++) {
+            ans = ans * i % MOD;
+        }
+
+        ans = ans * (n) % MOD;
+        ans = ans * (n - 1) % MOD;
+
+        cout << ans << endl;
+    }
 
 
     return 0;

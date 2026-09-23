@@ -30,10 +30,51 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
+
+    int N = 1e2;
+
+    vector<bool> sieve (N, true);
+    sieve[0] = sieve[1] = false;
+    for (int i = 2; i * i < N; i++) {
+        for (int j = 2 * i; j < N; j += i) {
+            sieve[j] = false;
+        }
+    }
+
+    //print(sieve);
+
+    vector<int> primes;
+    for (int i = 0; i < N; i++) {
+        if (sieve[i]) {
+            primes.push_back(i);
+        }  
+    }
+
+    //print(primes.size());
     
-    
+    int t; cin >> t;
+    while (t--) {
+        int n; cin >> n;
+        vector<ll> arr (n);
+        for (int i = 0; i < n; i++) cin >> arr[i];
+
+        sort (arr.begin(), arr.end());
+
+        int smallest = 1e9;
+
+        for (auto a : arr) {
+            for (auto p : primes) {
+                if (gcd(a, p) == 1) {
+                    smallest = min (smallest, p);
+                }
+            }
+        }
+
+        cout << smallest << endl;
+
+    }
 
 
     return 0;

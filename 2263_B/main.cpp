@@ -1,4 +1,4 @@
-#define LOCAL
+//#define LOCAL
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -30,10 +30,53 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
-    
+    int t; cin >> t;
+    while (t--) {
+        int n, k; cin >> n >> k;
+
+        if (k < n || k > 2 * n - 1) {
+            cout << -1 << endl;
+            continue;
+        }
+
+        vector<vector<int>> ans (n, vector<int> (n));
+
+        int cur = 2;
+
+        ans[0][0] = 1;
+        for (int i = 0; i < k - n; i++) {
+            ans[1 + i][0] = cur;
+            cur++;
+        }
+
+        print(ans);
+
+        for (int i = 1; i < n; i++) {
+            ans[i][i] = cur;
+            cur++;
+        }
+
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                if (ans[i][j] == 0) {
+                    ans[i][j] = cur;
+                    cur++;
+                }
+            }
+        }
+
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                cout << ans[i][j] << " ";
+            }
+            cout << endl;
+        }
+
+
+    }
 
 
     return 0;

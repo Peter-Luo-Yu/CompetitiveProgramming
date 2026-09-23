@@ -30,11 +30,45 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
-    
+    int t; cin >> t;
+    while (t--) {
+        int n; cin >> n;
+        vector<int> arr (n);
+        for (int i = 0; i < n; i++) cin >> arr[i];
 
+        bool hasone = false;
+        bool onlyone = true;
+        int num0 = 0, num1 = 0;
+        for (int i = 0; i < n; i++) {
+            if (arr[i] == 0) num0++;
+            else {
+                num1++;
+                if (arr[i] == 1) {
+                    hasone = true;
+                }
+                if (arr[i] != 1) {
+                    onlyone = false;
+                }
+        
+            }
+        }
+
+        //cout << num0 << " " << num1 << endl;
+
+        if (num1 + 1 >= num0) { // using 1's to remove 0's to make mex 0
+            cout << 0 << endl;
+        }
+        else { // otherwise you have a lot of 0's and it's better to make mex 1 
+            if (hasone && onlyone) {
+                cout << 2 << endl;
+            } else {
+                cout << 1 << endl;
+            }
+        }
+    }
 
     return 0;
 }

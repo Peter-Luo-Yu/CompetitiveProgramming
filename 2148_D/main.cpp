@@ -30,10 +30,41 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
-    
+    int t; cin >> t;
+    while (t--) {
+        int n; cin >> n;
+        vector<int> arr (n);
+        for (int i = 0; i < n; i++) cin >> arr[i];
+        sort (arr.begin(), arr.end());
+
+        vector<int> odd;
+        for (auto a : arr) {
+            if (a % 2 == 1) {
+                odd.push_back(a);
+            }
+        }
+
+        ll ans = 0;
+        for (int i = 0; i < odd.size() / 2; i++) {
+            ans += odd[odd.size() - 1 - i];
+        }
+        if (odd.size() % 2 == 1) {
+            ans += odd[odd.size() / 2];
+        }
+
+        if (ans > 0) {
+            for (auto a : arr) {
+                if (a % 2 == 0) {
+                    ans += a;
+                }
+            }
+        }
+
+        cout << ans << endl;
+    }
 
 
     return 0;

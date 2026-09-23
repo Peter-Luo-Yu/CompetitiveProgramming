@@ -30,9 +30,38 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
+    int t; cin >> t;
+    while (t--) {
+        ll n, bat, a, b;
+        cin >> n >> bat >> a >> b;
+
+        bool failed = false;
+        
+        ll time = 0;
+        for (int i = 0; i < n; i++) {
+            ll val; cin >> val;
+
+            bat -= min ((val - time) * a, b);
+
+            if (bat <= 0) {
+                failed = true;
+            }
+
+            time = val;
+        }
+
+        //cout << bat << endl;
+
+        if (failed) {
+            cout << "NO" << endl;
+        } else {
+            cout << "YES" << endl;
+        }
+    }
+
     
 
 

@@ -1,4 +1,4 @@
-#define LOCAL
+//#define LOCAL
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -30,10 +30,41 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
-    
+    int t; cin >> t;
+    while (t--) {
+        int n, k; cin >> n >> k;
+
+        // who from 0 -> k is visited
+        map<int, int> vis;
+        for (int i = 0; i < n; i++) {
+            int val; cin >> val;
+            vis[val]++;
+        }
+
+        int need = 0;
+        for (int i = 0; i < k; i++) {
+            if (vis.count(i) == 0) {
+                need++;
+            }
+        }
+
+        int extra = vis[k];
+
+        print(k, vis, need, extra);
+
+        // the idea is to use one operation to simultaneously get rid of 
+        // an extra occurence of k and fill in a missing previous value
+        int ans = min(need, extra);
+        need -= ans;
+        extra -= ans;
+
+        ans += max(need, extra);
+        
+        cout << ans << endl;
+    }
 
 
     return 0;

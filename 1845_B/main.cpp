@@ -1,4 +1,4 @@
-#define LOCAL
+//#define LOCAL
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -30,10 +30,30 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
-    
+    int t; cin >> t;
+    while (t--) {
+        ll xa, ya, xb, yb, xc, yc; cin >> xa >> ya >> xb >> yb >> xc >> yc;
+
+        ll dxb = (xb - xa), dyb = (yb - ya); 
+        ll dxc = (xc - xa), dyc = (yc - ya);
+
+        ll absdxb = abs(xb - xa), absdyb = abs(yb - ya); 
+        ll absdxc = abs(xc - xa), absdyc = abs(yc - ya);
+
+        print(dxb, dxc, dyb, dyc);
+
+        ll ans = 1;
+        if ((dxb <= 0 && dxc <= 0) || (dxb >= 0 && dxc >= 0)) {
+            ans += min(absdxb, absdxc);
+        }
+        if ((dyb <= 0 && dyc <= 0) || (dyb >= 0 && dyc >= 0)) {
+            ans += min(absdyb, absdyc);
+        }
+        cout << ans << endl;
+    }
 
 
     return 0;

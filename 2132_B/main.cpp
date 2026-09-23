@@ -30,10 +30,36 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
-    
+    int t; cin >> t;
+    while (t--) {
+        ll n; cin >> n;
+
+        vector<ll> ans;
+
+        ll pow = 10;
+        for (int i = 1; i <= 18; i++) {
+
+            if (n % (1 + pow) == 0) {
+                ans.push_back(n/(1 + pow));
+            }
+
+            pow *= 10;
+        }
+
+        cout << ans.size() << endl;
+
+        sort (ans.begin(), ans.end());
+        for (auto a : ans) {
+            cout << a << " ";
+        }
+
+        if (ans.size() > 0) {
+            cout << endl;
+        }
+    }
 
 
     return 0;

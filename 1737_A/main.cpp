@@ -1,4 +1,4 @@
-#define LOCAL
+//#define LOCAL
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -30,10 +30,57 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
-    
+    int t; cin >> t;
+    while (t--) {
+        int n, k; cin >> n >> k;
+        string s; cin >> s;
+
+        map<char, int> freq;
+        for (char c : s) freq[c]++;
+
+        print(freq);
+
+        // observation: we don't have to simulate everything?
+        // because only a few letters actually mattter for the mex
+        // and we just track those frequencies
+
+        string ans = "";
+
+        for (int i = 0; i < k; i++) {
+            vector<bool> vis (26);
+
+            int cnt = 0;
+
+            char prev = 'a' - 1;
+            for (auto &f : freq) {
+                if (f.first != prev + 1) break;
+                if (f.second <= 0) break;
+
+                prev = f.first;
+                vis[f.first - 97] = true;
+
+                f.second--;
+                cnt++;
+
+                if (cnt == n / k) break;
+            }
+           
+            print(vis);
+
+            for (int i = 0; i < 26; i++) {
+                if (!vis[i]) {
+                    ans += (char) (i + 97);
+                    break;
+                }
+            }
+        }
+        
+        cout << ans << endl;
+
+    }
 
 
     return 0;

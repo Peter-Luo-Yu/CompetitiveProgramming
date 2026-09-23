@@ -30,10 +30,26 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
-    
+    int t; cin >> t;
+    while (t--) {
+        ll a, b, k; cin >> a >> b >> k;
+
+        ll g = gcd(a, b);
+        a /= g;
+        b /= g;
+
+        //cout << a << " " << b << endl;
+
+        if (k >= max(a, b)) {
+            cout << 1 << endl;
+        } else {
+            cout << 2 << endl;
+        }
+
+    }
 
 
     return 0;

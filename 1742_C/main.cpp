@@ -1,4 +1,4 @@
-#define LOCAL
+//#define LOCAL
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -30,11 +30,61 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
-    
+    int t; cin >> t;
+    while (t--) {
+        vector<vector<char>> grid (8, vector<char> (8));
 
+        for (int i = 0; i < 8; i++) {
+            for (int j = 0; j < 8; j++) {
+                cin >> grid[i][j];
+            }
+        }
+
+        char ans;
+
+        // horizontal must be red
+        for (int i = 0; i < 8; i++) {
+            char type = grid[i][0];
+            bool failed = false;
+            for (int j = 0; j < 8; j++) {
+                //cout << grid[i][j];
+                if (grid[i][j] != type) {
+                    failed = true;
+                }
+            }
+            //cout << endl;
+            if (!failed && type == 'R') {
+                ans = type;
+            }
+        }
+
+        //cout << "----------" << endl;
+
+        // vertical must be blue
+        for (int j = 0; j < 8; j++) {
+            char type = grid[0][j];
+            bool failed = false;
+            for (int i = 0; i < 8; i++) {
+                //cout << grid[i][j];
+                if (grid[i][j] != type) {
+                    failed = true;
+                }
+            }
+            //cout << endl;
+            if (!failed && type == 'B') {
+                ans = type;
+            }
+        }
+
+        print(ans);
+
+        cout << ans << endl;
+
+        space;
+    }
 
     return 0;
 }

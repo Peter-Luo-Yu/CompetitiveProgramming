@@ -30,11 +30,23 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
-    
+    int t; cin >> t;
+    while (t--) {
+        int n, m, k; cin >> n >> m >> k;
 
+        int most = (n / m) + (n % m != 0);
+        
+        //cout << most << endl;
+
+        if (k >= (n - most)) {
+            cout << "NO" << endl;
+        } else {
+            cout << "YES" << endl;
+        }
+    }
 
     return 0;
 }

@@ -1,4 +1,4 @@
-#define LOCAL
+//#define LOCAL
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -30,10 +30,56 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
-    
+    int t; cin >> t;
+    while (t--) {
+        int n; cin >> n;
+        vector<ll> arr(n), prefmin(n);
+
+        for (int i = 0; i < n; i++) {
+            cin >> arr[i];
+            
+            if (i == 0) {
+                prefmin[i] = arr[i];
+            } else {
+                prefmin[i] = min(prefmin[i - 1], arr[i]);
+            }
+        }
+
+        print(arr, prefmin);
+
+        vector<ll> prefsum(n + 1);
+        for (int i = 0; i < n; i++) {
+            prefsum[i + 1] = prefsum[i] + prefmin[i];
+        }
+
+        print(prefsum);
+
+        ll ans = prefsum[n];
+
+        for (int i = 0; i < n - 1; i++) {
+            print(i);
+            ll cur = 0;
+            if (i == 0) {
+                cur = arr[0] + arr[1];
+            }
+            else {
+                ll psum = prefsum[i] - prefsum[0];
+
+                cur = psum + min(prefmin[i], arr[i] + arr[i + 1]);
+
+                print(psum, cur);
+            }
+
+            ans = min (ans, cur);
+        }
+
+        cout << ans << endl;
+
+        space;
+    }
 
 
     return 0;

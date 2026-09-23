@@ -30,10 +30,26 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
-    
+    int t; cin >> t;
+    while (t--) {
+        int a, b, c, d; cin >> a >> b >> c >> d;
+
+        int minA = min(a, b), maxA = max(a, b);
+        int minB = min(c, d), maxB = max(c, d);
+
+        //cout << minA << " " << maxA << " " << minB << " " << maxB << endl;
+
+        // minA minB maxA maxB or minB minA maxB maxA
+        if ((minA <= minB && minB <= maxA && maxA <= maxB) || (minB <= minA && minA <= maxB && maxB <= maxA)) {
+            cout << "YES" << endl;
+        } else {
+            cout << "NO" << endl;
+        }
+
+    }
 
 
     return 0;

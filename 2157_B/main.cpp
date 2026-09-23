@@ -30,10 +30,34 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
-    
+    int t; cin >> t;
+    while (t--) {
+        int n, x, y; cin >> n >> x >> y;
+        x = abs(x); y = abs(y);
+
+        int num4 = 0, num8 = 0;
+        string s; cin >> s;
+
+        for (auto c : s) {
+            if (c == '4') {
+                num4++;
+            } else {
+                num8++;
+            }
+        }
+
+        x -= num8; y -= num8;
+        x = max(x, 0); y = max(y, 0);
+
+        if (num4 >= x + y) {
+            cout << "YES" << endl;
+        } else {
+            cout << "NO" << endl;
+        }
+    }
 
 
     return 0;

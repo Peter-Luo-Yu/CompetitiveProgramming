@@ -30,10 +30,40 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
-    
+    int t; cin >> t;
+    while (t--) {
+        int n; cin >> n;
+        string str; cin >> str;
+
+        vector<char> s;
+        for (auto c : str) {
+            s.push_back(c);
+        }
+
+        int Bidx = -1;
+        for (int i = n - 1; i >= 0; i--) {
+            if (s[i] == 'B') {
+                Bidx = i;
+                break;
+            }
+        }
+
+        int Aidx = 1e9;
+        for (int i = 0; i < n; i++) {
+            if (s[i] == 'A') {
+                Aidx = i;
+                break;
+            }
+        }
+
+        int ans = max (Bidx - Aidx, 0);
+
+        cout << ans << endl;
+
+    }
 
 
     return 0;

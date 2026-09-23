@@ -30,10 +30,51 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
-    
+    int t; cin >> t;
+    while (t--) {
+        int n; cin >> n;
+        string s; cin >> s;
+
+        int score = -1, pos = -1;
+        for (int i = 1; i < n - 1; i++) {
+            int cur = 0;
+            if (s[i + 1] == s[i - 1] && s[i] != s[i - 1]) {
+                cur = 2;
+            }
+            else if (s[i + 1] != s[i - 1] && s[i] != s[i + 1] && s[i] != s[i - 1]) {
+                cur = 1;
+            }
+
+
+            if (cur > score) {
+                score = cur;
+                pos = i;
+            }
+        }
+
+        string s2 = "";
+        for (int i = 0; i < n; i++) {
+            if (i != pos) {
+                s2 += s[i];
+            }
+        }
+
+        
+        //cout << s2 << endl;
+
+        int ans = 0;
+        for (int i = 0; i < n - 2; i++) {
+            if (s2[i] != s2[i + 1]) {
+                ans++;
+            }
+        }
+
+        cout << ans + 1 << endl;
+
+    }
 
 
     return 0;

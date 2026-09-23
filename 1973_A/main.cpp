@@ -30,10 +30,57 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
-    
+    // because both draws and wins contribute 2 pts, you can always squeeze out the maximum number of draws in a construction
+
+    int t; cin >> t;
+    while (t--) {
+        int a, b, c; cin >> a >> b >> c;
+
+        int draws = a;
+        
+        int diff = c - b;
+        if (diff > a) {
+            c -= a;
+        } else {
+            a -= diff;
+            c -= diff;
+
+            if (a % 2 == 0) {
+                b -= a/2;
+                c -= a/2;
+            }
+            else {
+                b -= a/2;
+                b--;
+                c -= a/2;
+            }
+        }
+
+        //cout << b << " " << c << endl;
+
+        int amt = min(b, c);
+        draws += amt; 
+        
+        b -= amt;
+        c -= amt;
+        
+        int remain = b + c;
+
+        if (remain % 2 == 1) {
+            cout << -1 << endl;
+        } else {
+            cout << draws << endl;
+        }
+
+
+        //cout << "----------" << endl;
+
+
+
+    }
 
 
     return 0;

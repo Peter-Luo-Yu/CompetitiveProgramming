@@ -30,10 +30,41 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
-    
+    int t; cin >> t;
+    while (t--) {
+        string s; cin >> s;
+
+        int ans = 0;
+
+        char prev = 's';
+        int len = 0;
+        for (int i = 1; i < s.size() - 1; i++) {
+            if (s[i] == prev) {
+                len++;
+            }
+            else {
+                if (prev == 'u') {
+                    ans += ((len - 1) / 2) + ((len - 1) % 2 != 0);
+                }
+
+                len = 1;
+                prev = s[i];
+            }
+        }
+
+        if (prev == 'u') {
+            ans += ((len - 1) / 2) + ((len - 1) % 2 != 0);
+        }
+
+        ans += (s[0] == 'u');
+        ans += (s[s.size() - 1] == 'u');
+
+        cout << ans << endl;
+
+    }
 
 
     return 0;

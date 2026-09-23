@@ -1,4 +1,4 @@
-#define LOCAL
+//#define LOCAL
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -30,10 +30,59 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
-    
+    int t; cin >> t;
+    while (t--) {
+        int n; cin >> n;
+
+        map<int, int> trap;
+        for (int i = 0; i < n; i++) {
+            int r, d; cin >> r >> d;
+
+            if (trap.count(r) == 0) {
+                trap[r] = d;
+            }
+            else {
+                trap[r] = min(trap[r], d);
+            }
+        }
+
+        print(trap);
+
+
+        int ans = 0;
+        for (int k = 1; k < 1000; k++) {
+
+            // arrival time is r - 1
+            // depart time is r - 1 + 2 (k - r) = 2k - r - 1
+
+            bool failed = false;
+
+            for (auto t : trap) {
+                int r = t.first;
+                int d = t.second;
+
+                int lock = r - 1 + d;
+
+                int arrive = r - 1;
+                int depart = 2 * k - r - 1;
+
+                if (depart >= lock) {
+                    failed = true;
+                }
+            }
+
+            if (!failed) {
+                ans = max (ans, k);
+            }
+        }
+
+        cout << ans << endl;
+
+        space;
+    }
 
 
     return 0;

@@ -30,10 +30,29 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
-    
+    int t; cin >> t;
+    while (t--) {
+        int n; cin >> n;
+        string s; cin >> s;
+
+        stack<char> stk;
+        for (auto c : s) {
+            if (!stk.empty() && stk.top() == c) {
+                stk.pop();
+            } else {
+                stk.push(c);
+            }
+        }
+
+        if (stk.empty()) {
+            cout << "YES" << endl;
+        } else {
+            cout << "NO" << endl;
+        }
+    }
 
 
     return 0;

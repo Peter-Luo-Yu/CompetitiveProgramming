@@ -30,9 +30,25 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
+    int t; cin >> t;
+    while (t--) {
+        int n, m, k; cin >> n >> m >> k;
+
+        int x, y; cin >> x >> y;
+        string ans = "YES";
+
+        for (int i = 0; i < k; i++) {
+            int xx, yy; cin >> xx >> yy;
+            if ((x + y) % 2 == (xx + yy) % 2) {
+                ans = "NO";
+            }
+        }
+
+        cout << ans << endl;
+    }
     
 
 

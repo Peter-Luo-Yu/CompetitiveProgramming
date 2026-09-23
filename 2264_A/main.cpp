@@ -30,10 +30,60 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
-    
+    int t; cin >> t;
+    while (t--) {
+        int n; cin >> n;
+        vector<int> arr (n);
+
+        for (int i = 0; i < n; i++) cin >> arr[i];
+
+        vector<bool> good (n);
+        for (int i = 0; i < n; i++) {
+            if (arr[i] == i + 1) {
+                good[i] = true;
+            }
+        }
+
+        vector<int> bad;
+        for (int i = 0; i < n; i++) {
+            if (!good[arr[i] - 1]) {
+                bad.push_back(arr[i]);
+            }
+        }
+
+        print(bad);
+
+        reverse(bad.begin(), bad.end());
+
+        if (bad.size() == 0) {
+            cout << "YES" << endl;
+            continue;
+        }
+
+        bool failed = false;
+
+        
+       
+        for (int i = 0; i < bad.size() - 1; i++) {
+            if (bad[i] > bad[i + 1]) {
+                failed = true;
+            }
+        } 
+            
+
+        if (failed) {
+            cout << "NO" << endl;
+        }
+        else {
+            cout << "YES" << endl;
+        }
+
+
+
+    }
 
 
     return 0;

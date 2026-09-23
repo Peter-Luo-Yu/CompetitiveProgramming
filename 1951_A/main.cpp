@@ -30,9 +30,49 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
+    int t; cin >> t;
+    while (t--) {
+        int n; cin >> n;
+        string s; cin >> s;
+
+        int num1 = 0;
+        for (auto c : s) {
+            if (c == '1') {
+                num1++;
+            }
+        }
+
+        //cout << num1 << endl;
+
+        if (num1 == 0) {
+            cout << "YES" << endl;
+            continue;
+        }
+
+        // num1 > 0 cases
+        if (num1 == 2) {
+            bool together = false;
+            for (int i = 0; i < n - 1; i++) {
+                if (s[i] == '1' && s[i + 1] == '1') {
+                    together = true;
+                }
+            }
+
+            if (together) {
+                cout << "NO" << endl;
+            } else {
+                cout << "YES" << endl;
+            }
+        }
+        else if (num1 % 2 == 0){
+            cout << "YES" << endl;
+        } else {
+            cout << "NO" << endl;
+        }
+    }
     
 
 

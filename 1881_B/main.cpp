@@ -30,10 +30,24 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
-    
+    int t; cin >> t;
+    while (t--) {
+        ll a, b, c; cin >> a >> b >> c;
+
+        ll GCD = gcd(a, gcd(b, c));
+
+        ll ops = a / GCD + b / GCD + c / GCD - 3;
+
+        if (ops <= 3) {
+            cout << "YES" << endl;
+        }
+        else {
+            cout << "NO" << endl;
+        }
+    }
 
 
     return 0;

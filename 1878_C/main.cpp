@@ -30,10 +30,29 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
-    
+    int t; cin >> t;
+    while (t--) {
+        ll n, k, x; cin >> n >> k >> x;
+
+        //ll sum1toK = k * (k + 1) / 2;
+        //ll sumNminusKtoN = (n - k + 1 + n) * (k) / 2;
+
+        ll Min = k * (k + 1) / 2;
+        ll Max = (n - k + 1 + n) * (k) / 2;
+
+        //cout << Min << " " << Max << endl;
+
+        if (Min <= x && x <= Max) {
+            cout << "YES" << endl;
+        }
+        else {
+            cout << "NO" << endl;
+        }
+
+    }
 
 
     return 0;

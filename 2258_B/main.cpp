@@ -33,7 +33,70 @@ int main () {
     freopen("input.txt", "r", stdin);
     freopen("output.txt", "w", stdout);
     
-    
+    int t; cin >> t;
+    while (t--) {
+        int n, m; cin >> n >> m;
+        vector<int> arr (n);
+        for (int i = 0; i < n; i++) cin >> arr[i];
+
+        int ans = -1;
+
+        int l = 0, r = m;
+        while (l <= r) {
+            int mid = (l + r) / 2;
+            int mid2 = mid + 1;
+
+            map<int, int> freq;
+            for (int i = 0; i < n; i++) {
+                if (arr[i] <= mid) {
+                    freq[arr[i]]++;
+                }
+                else {
+                    freq[mid]++;
+                    freq[arr[i] - mid]++;
+                }
+            }
+
+            int cur = -1;
+            for (auto f : freq) {
+                cur = max (cur, f.second);
+            }
+
+
+            freq = map<int, int> ();
+            for (int i = 0; i < n; i++) {
+                if (arr[i] <= mid2) {
+                    freq[arr[i]]++;
+                }
+                else {
+                    freq[mid2]++;
+                    freq[arr[i] - mid2]++;
+                }
+            }
+
+            int cur2 = -1;
+            for (auto f : freq) {
+                cur2 = max (cur2, f.second);
+            }
+
+            print(mid, mid2, cur, cur2);
+
+
+            ans = max (ans, max(cur, cur2));
+            if (cur <= cur2) {
+                r = mid - 1;
+            }
+            else {
+                l = mid + 1;
+            }
+
+        }
+
+        cout << ans << endl;
+
+        print(ans);
+        space;
+    }
 
 
     return 0;

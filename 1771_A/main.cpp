@@ -1,4 +1,4 @@
-#define LOCAL
+//#define LOCAL
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -30,10 +30,40 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
-    
+    int t; cin >> t;
+    while (t--) {
+        int n; cin >> n;
+        vector<int> arr (n);
+        for (int i = 0; i < n; i++) cin >> arr[i];
+
+        map<int, int> freq;
+
+        for (auto a : arr) {
+            freq[a]++;
+        }
+
+        //print(freq);
+
+        if ((*freq.begin()).first == (*freq.rbegin()).first) {
+            ll f = (*freq.begin()).second;
+            ll ans = f * (f - 1);
+            cout << ans << endl;
+        }
+        else {
+            ll Minfreq = (*freq.begin()).second;
+            ll Maxfreq = (*freq.rbegin()).second;
+
+            print(*freq.begin(), *freq.rbegin());
+            print(Minfreq, Maxfreq);
+
+            ll ans = Minfreq * Maxfreq * 2LL;
+
+            cout << ans << endl;
+        }
+    }
 
 
     return 0;

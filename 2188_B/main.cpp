@@ -1,4 +1,4 @@
-#define LOCAL
+//#define LOCAL
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -30,10 +30,73 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
-    
+    int t; cin >> t;
+    while (t--) {
+        int n; cin >> n;
+        string s; cin >> s;
+        
+        vector<char> arr;
+        for (auto c : s) {
+            arr.push_back(c);
+        }
+
+        vector<int> ones;
+        for (int i = 0; i < n; i++) {
+            if (arr[i] == '1') {
+                ones.push_back(i);
+            }
+        }
+
+        for (int i = 0; i < ones.size(); i++) {
+            if (ones[i] > 0) {
+                arr[ones[i] - 1] = '1';
+            }
+            if (ones[i] < n - 1) {
+                arr[ones[i] + 1] = '1';
+            }
+        }
+
+        print(arr);
+
+        
+        char prev = ' ';
+        int len = 0;
+
+        int ans = ones.size();
+
+        for (int i = 0; i < n; i++) {
+            if (prev == ' ') {
+                prev = arr[i];
+                if (arr[i] == '0') len++;
+                continue;
+            }
+
+            if (arr[i] == '0') {
+                if (prev != '0') {
+                    prev = '0';
+                }
+                len++;
+            }
+            else {
+                if (prev == '0') {
+                    print(len);
+
+                    ans += (len + 2) / 3;
+                    len = 0;
+                    prev = '1';
+                }
+            }
+        }
+
+        print(len);
+        ans += (len + 2) / 3;
+
+        cout << ans << endl;
+
+    }
 
 
     return 0;

@@ -1,4 +1,4 @@
-#define LOCAL
+//#define LOCAL
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -30,11 +30,32 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
-    
+    int t; cin >> t;
+    while (t--) {
+        ll n; cin >> n;
+        vector<ll> a(n), b(n);
+        for (int i = 0; i < n; i++) cin >> a[i];
+        for (int i = 0; i < n; i++) cin >> b[i];
 
+        ll sumA = 0, sumB = 0;
+        for (int i = 0; i < n; i++) {
+            sumA += a[i];
+            sumB += b[i];
+        }
+        
+        sort (a.begin(), a.end());
+        sort (b.begin(), b.end());
+
+        print(sumA, b[0]);
+        print(sumB, a[0]);
+
+        ll ans = min(sumA + n * (b[0]), sumB + n * (a[0]));
+
+        cout << ans << endl;
+    }
 
     return 0;
 }

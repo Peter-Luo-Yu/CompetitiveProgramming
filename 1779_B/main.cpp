@@ -30,10 +30,65 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
-    
+    int t; cin >> t;
+    while (t--) {
+        int n; cin >> n;
+
+        // n = 5
+        // -1 2 -1 2 -1, sum = 1
+
+        // try n = 7: -1 2 -1 2 -1 2 -1 = 6 - 4 = 2 BAD
+
+        // n = 7
+        // -2 3 -2 3 -2 3 -2 = 9 - 8 = 1
+
+        // n = 9
+        // -3 4 -3 4 -3 4 -3 4 -3 = 4 * 4 - 3 * 5 = 9
+
+        if (n == 3) {
+            cout << "NO" << endl;
+            continue;
+        }
+
+        if (n % 2 == 1) {
+            int m = 5;
+            int val = 1;
+
+            while (m < n) {
+                m += 2;
+                val++;
+            }
+
+            //cout << "val: " << val << endl;
+            cout << "YES" << endl;
+            for (int i = 0; i < n; i++) {
+                if (i % 2 == 0) {
+                    cout << -val << " ";
+                } else {
+                    cout << val + 1 << " ";
+                }
+            }
+            cout << endl;
+        }
+        
+        else {
+            cout << "YES" << endl;
+            for (int i = 0; i < n; i++) {
+                if (i % 2 == 0) {
+                    cout << 1 << " ";
+                }
+                else {
+                    cout << -1 << " ";
+                }
+            }
+            cout << endl;
+        }
+        
+        //cout << "----------" << endl;
+    }
 
 
     return 0;

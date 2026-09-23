@@ -1,7 +1,9 @@
 #define LOCAL
 
 #include <bits/stdc++.h>
+
 using namespace std;
+using namespace std::chrono;
 
 #ifdef LOCAL
 #define print(...) debug(#__VA_ARGS__, __VA_ARGS__)
@@ -31,9 +33,19 @@ int main () {
     cin.tie(nullptr);
 
     freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("output.txt", "w", stdout);
+
+    auto start = high_resolution_clock::now();
     
-    
+    for (ll i = 0; i < 1e10; i++) {
+        if (i % 100000 == 0){ 
+            auto end = high_resolution_clock::now();
+
+            duration<double, milli> elapsed = end - start;
+
+            cout << "i: " << i << " time: " << elapsed.count() << endl;
+        }
+    }
 
 
     return 0;

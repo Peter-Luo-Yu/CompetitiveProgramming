@@ -30,11 +30,44 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
-    
+    int n; cin >> n;
 
+    vector<ld> ans (n);
+    stack<pair<ld, ld>> stk; // r, x
+
+    // idea is to first compare with smaller radius before going to bigger radius,
+    // that way you never end up missing anything.
+
+    for (int i = 0; i < n; i++) {
+        ld x, r; cin >> x >> r;
+
+        ld cur_r = r;
+
+        while (!stk.empty()) {
+            pair<ld, ld> top = stk.top();
+            ld len = (top.second - x) * (top.second - x) / (4 * top.first);
+
+            cur_r = min(cur_r, len);
+
+            if (cur_r < top.first) {
+                break;
+            }
+
+            stk.pop();
+        }
+
+        stk.push({cur_r, x});
+        ans[i] = cur_r;
+    }
+
+    //print(ans);
+
+    for (auto a : ans) {
+        cout << fixed << setprecision(15) << a << endl;
+    }
 
     return 0;
 }

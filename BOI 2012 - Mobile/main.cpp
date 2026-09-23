@@ -1,4 +1,4 @@
-#define LOCAL
+//#define LOCAL
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -30,11 +30,52 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
-    
+    int n; ld len; cin >> n >> len;
 
+    vector<pair<ld, ld>> pts (n);
+    for (int i = 0; i < n; i++) {
+        cin >> pts[i].first >> pts[i].second;
+    }
+
+    ld l = 0, r = 5e9;
+    ld ans = -1;
+    while (r - l >= 1e-5) {
+        ld mid = (l + r) / (ld) 2; // is the radius
+
+        print(mid);
+        
+        // WE just have to SIMULATE, but first sort the points by x cordinate (already done)
+        // and union them together to find the entire high way is covered 
+
+        ld cur = 0;
+
+        for (int i = 0; i < n; i++) {
+            ld x = pts[i].first, y = pts[i].second;
+
+            if (abs(y) > mid) continue;
+
+            ld dx = sqrt(mid * mid - y * y);
+
+            ld l = x - dx, r = x + dx;
+
+            if (l <= cur) {
+                cur = max (cur, r);
+            }
+        }
+
+        if (cur >= len) {
+            ans = mid;
+            r = mid;
+        }
+        else {
+            l = mid;
+        }
+    }
+
+    cout << fixed << setprecision(6) << ans << endl;
 
     return 0;
 }

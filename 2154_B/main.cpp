@@ -1,4 +1,4 @@
-#define LOCAL
+//#define LOCAL
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -30,10 +30,68 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
+    int t; cin >> t;
+    while (t--) {
+        int n; cin >> n;
+        vector<int> arr (n);
+        for (int i = 0; i < n; i++) cin >> arr[i];
+        
+        ll ans = 0;
+        int Max = -1;
+        for (int i = 0; i < n; i++) {
+            Max = max (Max, arr[i]);
+
+            if (i % 2 == 1) {
+                arr[i] = max (arr[i], Max);
+            }
+        }
+
+        /*
+        for (auto a : arr) {
+            cout << a << " ";
+        }
+        cout << endl;
+        */
+
+        for (int i = 0; i < n - 1; i++) {
+            //Max = max (Max, arr[i]);
+            if (i % 2 == 0) { // need to be less than
+                
+                //print(arr[i], arr[i + 1], Max);
+
+                //arr[i + 1] = max(arr[i + 1], Max);
+
+                if (arr[i] >= arr[i + 1]) {
+                    ans += (arr[i] - arr[i + 1] + 1);
+                    
+                    cerr << "change: " << (arr[i] - arr[i + 1] + 1) << endl;
+                    
+                    arr[i] = arr[i + 1] - 1;
+                }
+            }
+            else {
+                //print(arr[i], arr[i + 1], Max);
+
+                if (arr[i] <= arr[i + 1]) {
+                    ans += (arr[i + 1] - arr[i] + 1);
+
+                    cerr << "change: " << (arr[i + 1] - arr[i] + 1) << endl;
+                
+                    arr[i + 1] = arr[i] - 1;
+                }
+            }
+
+            print(arr);
+        }
+
+        cout << ans << endl;
+
+        space;
     
+    }
 
 
     return 0;

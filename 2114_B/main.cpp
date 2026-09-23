@@ -30,10 +30,47 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
-    
+    int t; cin >> t;
+    while (t--) {
+        // note n is even
+        int n, k; cin >> n >> k;
+        string s; cin >> s;
+
+        int zeros = 0, ones = 0;
+        for (auto c : s) {
+            if (c == '0') {
+                zeros++;
+            } else {
+                ones++;
+            }
+        }
+
+        int big = max(zeros, ones);
+        int small = min(zeros, ones);
+
+        // you want k pairs to be the same, but that means the other pairs have to be diff
+        int diff = (n / 2) - k;
+        big -= diff; small -= diff;
+
+        if (big < 0 || small < 0) {
+            cout << "NO" << endl;
+            continue;
+        }
+        
+        //cout << big << " " << small << endl;
+
+        int pairs = big / 2 + small / 2;
+        if (pairs == k) {
+            cout << "YES" << endl;
+        } else {
+            cout << "NO" << endl;
+        }
+
+
+    }
 
 
     return 0;

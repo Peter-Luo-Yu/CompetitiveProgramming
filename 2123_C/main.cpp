@@ -30,9 +30,57 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
+    int t; cin >> t;
+    while (t--) {
+        int n; cin >> n;
+        vector<int> arr (n), prefmin(n, 1e9), suffmax(n, -1e9);
+
+        for (int i = 0; i < n; i++) {
+            cin >> arr[i];
+            if (i == 0) {
+                prefmin[i] = arr[i];
+            } else {
+                prefmin[i] = min(prefmin[i - 1], arr[i]);
+            }
+        }
+        for (int i = n - 1; i >= 0; i--) {
+            if (i == n - 1) {
+                suffmax[i] = arr[i];
+            } else {
+                suffmax[i] = max(suffmax[i + 1], arr[i]);
+            }
+        }
+
+        //print(arr);
+        //print(prefmin);
+        //print(suffmax);
+
+        vector<int> ans (n);
+        for (int i = 0; i < n; i++) {
+            if (i == 0) {
+                ans[i] = 1;
+            }
+            else if (i == n - 1) {
+                ans[i] = 1;
+            }
+            else {
+                if (arr[i] < prefmin[i - 1] || arr[i] > suffmax[i + 1]) {
+                    ans[i] = 1;
+                }
+                else {
+                    ans[i] = 0;
+                }
+            }
+        }
+
+        for (auto a : ans) {
+            cout << a;
+        }
+        cout << endl;
+    }
     
 
 

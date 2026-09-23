@@ -1,4 +1,4 @@
-#define LOCAL
+//#define LOCAL
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -33,7 +33,62 @@ int main () {
     freopen("input.txt", "r", stdin);
     freopen("output.txt", "w", stdout);
     
+    int t; cin >> t;
+    while (t--) {
+        int n;
+        cin >> n;
+
+        // We don't actually need the parent array.
+        for (int i = 2; i <= n; i++) {
+            int p;
+            cin >> p;
+        }
+
+        int m;
+        cin >> m;
+
+        vector<int> dams(m);
+        for (int i = 0; i < m; i++) {
+            cin >> dams[i];
+        }
+
+        bool root = false;
+        for (auto d : dams) {
+            if (d == 1) {
+                root = true;
+            }
+        }
+        
+        if (m - 1 == 0) {
+            cout << 0 << endl;
+            continue;
+        }
+
+        cout << m - 1 << endl;
+        // you can't print the root anyways because you only print u and no parent u
+        if (root) {
+            for (auto d : dams) {
+                if (d != 1) {
+                    cout << d << " ";
+                }
+            }
+            cout << endl;
+        }
+        else {
+            // otherwise you just skip one of the dams (you have to skip the earlier one?)
+            bool skip = true;
+            for (auto d : dams) {
+                if (skip) {
+                    skip = false;
+                    continue;
+                }
+                cout << d << " ";
+                
+            }
+            cout << endl;
+        }
     
+    }
 
 
     return 0;

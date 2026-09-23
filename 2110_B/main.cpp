@@ -30,10 +30,39 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
-    
+    // ()() -> )(
+
+    int t; cin >> t;
+    while (t--) {
+        string s; cin >> s;
+        
+        bool failed = false;
+
+        int bal = 0;
+        for (int i = 1; i < s.size() - 1; i++) {
+            if (s[i] == '(') {
+                bal++;
+            } else {
+                bal--;
+            }
+
+            if (bal < 0) {
+                failed = true;
+            }
+        }
+
+        if (failed) {
+            cout << "YES" << endl;
+        }
+        else {
+            cout << "NO" << endl;
+        }
+
+
+    }
 
 
     return 0;

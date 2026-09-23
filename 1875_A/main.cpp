@@ -30,10 +30,22 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
-    
+    int t; cin >> t;
+    while (t--) {
+        ll a, b, n; cin >> a >> b >> n;
+
+        ll ans = b;
+        for (int i = 0; i < n; i++) {
+            ll val; cin >> val;
+
+            ans += min(a - 1, val);
+        }
+
+        cout << ans << endl;
+    }
 
 
     return 0;

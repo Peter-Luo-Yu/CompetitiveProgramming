@@ -1,4 +1,4 @@
-#define LOCAL
+//#define LOCAL
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -30,10 +30,61 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
-    
+    int t; cin >> t;
+    while (t--) {
+        string s; cin >> s;
+
+        vector<int> arr;
+        int sum = 0;
+        for (int i = 0; i < s.size(); i++) {
+            if (i == 0) {
+                sum = s[i] - '0';
+            }
+            else {
+                arr.push_back(s[i] - '0');
+            }
+        }
+
+        sort (arr.begin(), arr.end());
+        print(arr);
+
+        int ans = 0;
+        for (int i = 0; i < arr.size(); i++) {
+            if (arr[i] + sum < 10) {
+                
+            }
+            else {
+                ans++;
+            }
+            sum += arr[i];
+        }
+
+
+        // consider replacing the first digit with 1
+        int ans2 = 1;
+        int sum2 = 1;
+        for (int i = 0; i < arr.size(); i++) {
+            if (arr[i] + sum2 < 10) {
+                
+            }
+            else {
+                ans2++;
+            }
+            sum2 += arr[i];
+        }
+
+        print(ans, ans2);
+
+        ans = min(ans, ans2);
+
+
+
+        cout << ans << endl;
+
+    }
 
 
     return 0;

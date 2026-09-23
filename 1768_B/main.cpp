@@ -30,10 +30,30 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
-    
+    int t; cin >> t;
+    while (t--) {
+        int n, k; cin >> n >> k;
+        vector<int> arr (n);
+        for (int i = 0; i < n; i++) cin >> arr[i];
+
+        int inorder = 0;
+        int cur = 1;
+        for (int i = 0; i < n; i++) {
+            if (arr[i] == cur) {
+                inorder++;
+                cur++;
+            }
+        }
+
+        //cout << inorder << endl;
+
+        // ceiling of not inorder / k
+        int ans = (n - inorder + k - 1) / k;
+        cout << ans << endl;
+    }
 
 
     return 0;

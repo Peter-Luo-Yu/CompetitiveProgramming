@@ -1,4 +1,4 @@
-#define LOCAL
+//#define LOCAL
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -26,14 +26,71 @@ if (s[i] == ')' || s[i] == '}') b--; else if (s[i] == ',' && b == 0) {cerr << "\
 #define ld long double
 #define endl "\n"
 
+int ccidx = 0;
+void dfs (int s, vector<vector<int>> &adj, vector<bool> &vis, vector<int> &CC) {
+    if (vis[s]) return;
+    vis[s] = true;
+    for (auto u : adj[s]) {
+        dfs(u, adj, vis, CC);
+    }
+    CC[s] = ccidx;
+}
+
 int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
-    
+    int t; cin >> t;
+    while (t--) {
+        int n, k; cin >> n >> k;
+        vector<int> arr (n);
+        for (int i = 0; i < n; i++) cin >> arr[i];
+
+        vector<vector<int>> adj (n);
+        for (int i = 0; i < k; i++) {
+            for (int j = i + k; j < n; j += k) {
+                adj[i].push_back(j);
+                //adj[j].push_back(i);
+            }
+        }
+        print(adj);
+
+        vector<bool> vis (n);
+        vector<int> CC (n);
+
+        ccidx = 0;
+        for (int i = 0; i < n; i++) {
+            dfs(i, adj, vis, CC);
+            ccidx++;
+        }
+
+        print(CC);
+
+        int numMisplaced = 0;
+        for (int i = 0; i < n; i++) {
+            if (CC[i] != CC[arr[i] - 1]) {
+                numMisplaced++;
+            }
+        }
+
+        print(numMisplaced);
+
+        if (numMisplaced == 0) {
+            cout << 0 << endl;
+        }
+        else if (numMisplaced == 2) {
+            cout << 1 << endl;
+        } 
+        else{
+            cout << -1 << endl;
+        }
+
+
+        space;
+    }
 
 
     return 0;

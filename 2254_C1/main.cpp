@@ -30,10 +30,40 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
-    
+    int t; cin >> t;
+    while (t--) {
+        int n; cin >> n;
+        string s1, s2; cin >> s1 >> s2;
+        vector<int> a(n), b(n);
+
+        for (int i = 0; i < n; i++) a[i] = s1[i] - '0';
+        for (int i = 0; i < n; i++) b[i] = s2[i] - '0';
+
+        int even1 = 0, odd1 = 0;
+        int even1b = 0, odd1b = 0;
+        for (int i = 0; i < n; i++) {
+            if (i % 2 == 0) {
+                even1 += (a[i] == 1);
+                even1b += (b[i] == 1);
+            }
+            else {
+                odd1 += (a[i] == 1);
+                odd1b += (b[i] == 1);
+            }
+        }
+
+        //print(even1, odd1, even1b, odd1b);
+
+        if (even1 == even1b && odd1 == odd1b) {
+            cout << "YES" << endl;
+        }
+        else {
+            cout << "NO" << endl;
+        }
+    }
 
 
     return 0;

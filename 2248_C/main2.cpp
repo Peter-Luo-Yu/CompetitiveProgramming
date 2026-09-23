@@ -1,4 +1,4 @@
-#define LOCAL
+//#define LOCAL
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -30,10 +30,58 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
-    
+    ll t; cin >> t;
+    while (t--) {
+        ll n; cin >> n;
+        vector<ll> arr (2 * n);
+
+        map<ll, vector<ll>> mp; // left and right locations of val
+        for (ll i = 0; i < 2 * n; i++) {
+            cin >> arr[i]; arr[i]--;
+            mp[arr[i]].push_back(i);
+        }
+
+        print(arr);
+        print(mp);
+
+
+        vector<ll> dp (2 * n);
+        dp[0] = 1;
+
+        for (int i = 1; i < 2 * n; i++) {
+            ll l = mp[arr[i]][0], r = mp[arr[i]][1];
+            ll score = (r - l + 1) * (r - l + 1);
+
+            
+            if (i == r) {
+                // take the current interval from l to r and add dp[l - 1]
+                if (l - 1 < 0) {
+                    print("c1");
+                    dp[i] = max(score, dp[i]);
+                } else {
+                    print("c2");
+                    dp[i] = max(score + dp[l - 1], dp[i]);
+                }
+
+
+                // or choose not to -> covered in the i == l case
+            }
+            
+            dp[i] = max(dp[i - 1] + 1, dp[i]);
+            
+        }
+
+        print(dp);
+        
+        cout << dp[2 * n - 1] << endl;
+
+
+        space;
+
+    }
 
 
     return 0;

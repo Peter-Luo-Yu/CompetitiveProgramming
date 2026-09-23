@@ -1,4 +1,4 @@
-#define LOCAL
+//#define LOCAL
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -30,10 +30,70 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
-    
+    int t; cin >> t;
+    while (t--) {
+        int n, m; cin >> n >> m;
+        vector<int> arr (n);
+        for (int i = 0; i < n; i++) cin >> arr[i];
+
+        map<int, int> freq;
+        for (auto a : arr) {
+            freq[a]++;
+        }
+
+        
+        vector<pair<int, int>> temp;
+        int idx = 0;
+        for (auto f : freq) {
+            if (f.first % 2 == 0 && freq.count(f.first / 2) == 0) {
+                temp.push_back({f.first / 2, 0});
+            }
+            temp.push_back({f.first, f.second});
+        }
+
+        sort (temp.begin(), temp.end());
+
+        vector<int> lens (temp.size());
+        vector<int> fs (temp.size());
+
+        for (int i = 0; i < temp.size(); i++) {
+            lens[i] = temp[i].first;
+            fs[i] = temp[i].second;
+        }
+
+        print(lens);
+        print(fs);
+
+        vector<int> pref (fs.size() + 1);
+        for (int i = 0; i < fs.size(); i++) {
+            pref[i + 1] = pref[i] + fs[i];
+        }
+
+        print(pref);
+
+        
+        int ans = -1;
+        for (int i = 0; i < lens.size(); i++) {
+            int bigger = pref[pref.size() - 1] - pref[i + 1];
+
+            int cur = fs[i] + bigger;
+            if (freq.count(lens[i] * 2) > 0) {
+                cur += freq[lens[i] * 2];
+            }
+
+            print(lens[i], cur);
+
+            ans = max (ans, cur);
+        }
+
+        cout << ans << endl;
+
+        print(ans);
+        space;
+    }
 
 
     return 0;

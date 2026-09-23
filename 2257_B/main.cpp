@@ -30,10 +30,35 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
-    
+    int t; cin >> t;
+    while (t--) {
+        int n, m; cin >> n >> m;
+
+        vector<ll> a(n), b(m);
+        for (int i = 0; i < n; i++) cin >> a[i];
+        for (int i = 0; i < m; i++) cin >> b[i];
+
+        ll A = a[n - 1], B = b[m - 1];
+        for (int i = 0; i < n - 1; i++) {
+            A += (a[i] - a[i + 1] + 1);
+        }
+        for (int i = 0; i < m - 1; i++) {
+            B += (b[i] - b[i + 1] + 1);
+        }
+
+        //cout << A << " " << B << endl;
+
+        if (A >= B) {
+            cout << 1 << endl;
+        } else {
+            cout << 2 << endl;
+        }
+
+
+    }
 
 
     return 0;

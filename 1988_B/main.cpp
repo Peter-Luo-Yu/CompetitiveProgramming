@@ -30,10 +30,46 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
-    
+    int t; cin >> t;
+    while (t--) {
+        int n; cin >> n;
+        string s; cin >> s;
+
+        int zeroblocks = 0; 
+        char prev = s[0];
+
+        for (int i = 1; i < n; i++) {
+            if (s[i] != prev) {
+                if (prev == '0') {
+                    zeroblocks++;
+                } 
+            }
+
+            prev = s[i];
+        }
+
+        if (prev == '0') {
+            zeroblocks++;
+        } 
+
+        int numones = 0;
+        for (auto c : s) {
+            if (c == '1') {
+                numones++;
+            }
+        }
+
+        //print(zeroblocks, numones);
+
+        if (numones > zeroblocks) {
+            cout << "YES" << endl;
+        } else {
+            cout << "NO" << endl;
+        }
+    }
 
 
     return 0;

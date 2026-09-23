@@ -1,4 +1,4 @@
-#define LOCAL
+//#define LOCAL
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -30,9 +30,72 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
+    int t; cin >> t;
+    while (t--) {
+        int n, k; cin >> n >> k;
+        vector<int> arr (n);
+        for (int i = 0; i < n; i++) cin >> arr[i];
+
+        int idx; cin >> idx; idx--;
+        int type = arr[idx];
+
+        
+        int blocks = 0;
+        int prev = -1;
+
+        for (int i = 0; i < idx; i++) {
+            if (prev == -1) {
+                if (arr[i] == type) {
+                    continue;
+                }
+                prev = arr[i];
+            }
+
+            if (arr[i] != prev) {
+                blocks++;
+                prev = arr[i];
+            }
+        }
+        if (prev != -1) {
+            blocks++;
+        }
+
+        print(arr, idx, type);
+        print(blocks);
+
+
+        int blocks2 = 0;
+        int prev2 = -1;
+
+        for (int i = n - 1; i > idx; i--) {
+            if (prev2 == -1) {
+                if (arr[i] == type) {
+                    continue;
+                }
+                prev2 = arr[i];
+            }
+
+            if (arr[i] != prev2) {
+                blocks2++;
+                prev2 = arr[i];
+            }
+        }
+        if (prev2 != -1) {
+            blocks2++;
+        }
+
+        print(blocks2);
+
+        int ans = max (blocks, blocks2);
+        ans += (ans % 2 == 1);
+
+        cout << ans << endl;
+
+
+    }
     
 
 

@@ -30,10 +30,29 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
-    
+    int t; cin >> t;
+    while (t--) {
+        int a, b, n; cin >> a >> b >> n;
+
+        //cout << a << " " << b << " " << n << endl;
+
+        if (n == 1) {
+            cout << 1 << endl;
+            continue;
+        }
+
+        ld len = (ld) a / (ld) n; // min len, max len is a / 1 = a
+        
+        if (a <= b || b <= len) {
+            cout << 1 << endl;
+        } else {
+            cout << 2 << endl;
+        }
+
+    }
 
 
     return 0;

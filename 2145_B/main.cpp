@@ -30,10 +30,64 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
-    
+    int t; cin >> t; 
+    while (t--) {
+        int n, k; cin >> n >> k;
+        string s; cin >> s;
+
+        vector<char> ans (n);
+
+        int num0 = 0, num1 = 0, num2 = 0;
+        for (auto c : s) {
+            num0 += (c == '0');
+            num1 += (c == '1');
+            num2 += (c == '2');   
+        }
+
+        for (int i = 0; i < num0; i++) {
+            ans[i] = '-';
+        }
+        for (int i = n - 1; i > n - 1 - num1; i--) {
+            ans[i] = '-';
+        }
+
+
+        for (int i = num0; i < min(num0 + num2, n); i++) {
+            if (ans[i] != '-') {
+                ans[i] = '?';
+            }    
+        }
+        for (int i = n - 1 - num1; i > max(n - 1 - num1 - num2, 0); i--) {
+            if (ans[i] != '-') {
+                ans[i] = '?';
+            }    
+        }
+
+        for (int i = 0; i < n; i++) {
+            if (ans[i] != '-' && ans[i] != '?') {
+                ans[i] = '+';
+            }
+        }
+
+
+
+        if (k == n) {
+            for (int i = 0; i < n; i++) {
+                ans[i] = '-';
+            }
+        }
+
+        for (auto a : ans) {
+            cout << a;
+        }
+        cout << endl;
+
+        //print(num0, num1, num2, ans);
+
+    }
 
 
     return 0;

@@ -30,10 +30,44 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
-    
+    vector<ll> deals(20);
+    deals[0] = 3;
+    for (int i = 1; i <= 19; i++) {
+        ll cost = pow(3, i + 1) + i * pow(3, i - 1); 
+        deals[i] = cost;
+    }
+
+    //print(deals);
+ 
+    int t; cin >> t;
+    while (t--) {
+        int n; cin >> n;
+
+        ll ans = 0;
+        while (n > 0) {
+            int idx = 0;
+            
+            while (pow(3, idx) < n) {
+                idx++;
+            }
+
+            if (pow(3, idx) > n) {
+                idx--;
+            }
+
+            print(deals[idx]);
+
+            n -= pow(3, idx);
+            ans += deals[idx];
+
+        }
+
+        cout << ans << endl;
+
+    }
 
 
     return 0;

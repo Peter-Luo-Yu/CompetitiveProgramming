@@ -1,4 +1,4 @@
-#define LOCAL
+//#define LOCAL
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -30,10 +30,64 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
-    
+    int t; cin >> t;
+    while (t--) {
+        int n; cin >> n;
+        string s; cin >> s;
+        vector<int> arr (n);
+
+        for (int i = 0; i < n; i++) {
+            arr[i] = s[i] - '0';
+        }
+
+        print(arr);
+
+        int num0 = 0, num1 = 0;
+        for (auto a : arr) {
+            num0 += (a == 0);
+            num1 += (a == 1);
+        }
+
+        if (num0 % 2 == 0 && num1 % 2 == 1) {
+            cout << -1 << endl;
+            continue;
+        }
+
+        if (num0 % 2 == 1) {
+            vector<int> ans;
+            for (int i = 0; i < n; i++) {
+                if (arr[i] == 0) {
+                    ans.push_back(i);
+                }
+            }
+            cout << ans.size() << endl;
+            for (auto a : ans) {
+                cout << a + 1 << " ";
+            }
+            if (ans.size() > 0) {
+                cout << endl;
+            }
+        }
+        else {
+            vector<int> ans;
+            for (int i = 0; i < n; i++) {
+                if (arr[i] == 1) {
+                    ans.push_back(i);
+                }
+            }
+            cout << ans.size() << endl;
+            for (auto a : ans) {
+                cout << a + 1 << " ";
+            }
+            if (ans.size() > 0) {
+                cout << endl;
+            }
+        }
+
+    }
 
 
     return 0;

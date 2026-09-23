@@ -30,10 +30,48 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
-    
+    int t; cin >> t;
+    while (t--) {
+        int n; cin >> n;
+        string s; cin >> s;
+
+        vector<int> order;
+        for (int i = n - 1; i >= 0; i--) {
+            if (s[i] == 'b' || s[i] == 'c' || s[i] == 'd') {
+                order.push_back(2);
+                i -= 2;
+            } else {
+                order.push_back(1);
+                i -= 1;
+            }
+        }
+
+        reverse(order.begin(), order.end());
+
+        print(order);
+
+        string ans = "";
+        int idx = 0;
+        for (int i = 0; i < order.size(); i++) {
+            if (order[i] == 1) {
+                ans += s[idx]; idx++;
+                ans += s[idx]; idx++;
+                ans += ".";
+            } else {
+                ans += s[idx]; idx++;
+                ans += s[idx]; idx++;
+                ans += s[idx]; idx++;
+                ans += ".";
+            }
+        }
+
+        ans = ans.substr(0, ans.size() - 1);
+
+        cout << ans << endl;
+    }
 
 
     return 0;
