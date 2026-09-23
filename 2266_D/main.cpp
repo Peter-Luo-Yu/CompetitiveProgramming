@@ -1,4 +1,4 @@
-#define LOCAL
+//#define LOCAL
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -31,8 +31,8 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
 
     int t; cin >> t;
     while (t--) {
@@ -40,16 +40,43 @@ int main () {
         vector<int> arr (n);
         for (int i = 0; i < n; i++) cin >> arr[i];
 
-        ll sum = 0;
-        for (auto a : arr) {
-            sum += a;
+        vector<int> invariant (n);
+        for (int i = 0; i < n; i++) {
+            invariant[i] = arr[i] - i;
         }
 
-        ll avg = sum / n;
-        
-        print(arr);
-        print(sum, avg);
+        print(invariant);
 
+        set<int> st;
+        for (auto i : invariant) {
+            st.insert(i);
+        }
+
+        int best = -1;
+        int cur = 0;
+        int prev = -1;
+        for (auto x : st) {
+            if (prev == -1) {
+                prev = x;
+                cur++;
+                continue;
+            }
+
+            if (x == prev + 1) {
+                prev = x;
+                cur++;
+            }
+            else {
+                best = max (best, cur);
+                
+                prev = x;
+                cur = 1;
+            }
+        }
+        
+        best = max (best, cur);
+
+        cout << best << endl;
     }
 
     
