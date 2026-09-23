@@ -1,0 +1,4 @@
+i: 0 remain: 5 blocked: 0
+i: 1 remain: 4 blocked: 0
+i: 2 remain: 3 blocked: 3
+2

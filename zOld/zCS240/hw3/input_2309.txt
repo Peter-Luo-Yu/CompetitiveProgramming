@@ -1,0 +1,195 @@
+Robert Waters|2003-12-21|2023-02-11|59699246668473564,Love Story,Rosie Koch|98|4.2|02.65|12.70
+Ken Jenkins|2008-10-10|2026-07-30|14618174300336985,A Fairy Tale Of New York,Clinton Brekke|8|6.7|35.52|02.53
+Sonja Block|2000-05-11|2002-12-28|47689756148217663,Vile Bodies,Meredith Donnelly-Spinka|95|8.9|39.85|31.50
+Cora Wiza|2005-08-05|2026-12-09|64856750013489581,Gone With The Wind,Shawna Hermann|69|6.4|30.63|46.88
+Kelvin Fritsch|2013-12-07|2024-02-08|47689756148217663,Vile Bodies,Meredith Donnelly-Spinka|72|1.5|49.16|03.29
+Jon Hartmann|2009-08-24|2015-01-09|14618174300336985,A Fairy Tale Of New York,Clinton Brekke|48|7.2|30.14|24.65
+Richard Klein|2025-04-11|2025-08-11|54901188788426983,Flauberts Parrot,Roderick Walker|23|2.6|13.76|38.39
+Dianne Morar|2001-02-18|2019-08-02|59699246668473564,Love Story,Rosie Koch|87|6.3|15.59|00.39
+Cora Kling|2011-11-05|2019-07-14|92463832103890984,The Famished Road,Raquel Schumm|29|1.0|09.25|33.46
+Rolando Windler|2009-08-16|2013-02-10|59699246668473564,Love Story,Rosie Koch|57|4.4|32.44|14.73
+Ginger Lang|2004-11-26|2015-03-19|92463832103890984,The Famished Road,Raquel Schumm|69|7.2|46.46|36.85
+Mattie Kovacek|2000-01-28|2015-11-09|32903786650540609,Crash,Molly Kub|83|8.8|04.61|20.96
+Estelle Howell|2000-01-20|2013-06-09|21040234545528845,Arturos Island,Lonnie Rolfson|19|8.9|43.83|36.11
+Marshall Wolff|2005-01-19|2022-07-20|32903786650540609,Crash,Molly Kub|36|0.7|17.85|10.86
+Candace Schuster|2014-12-13|2018-01-06|94735682329838219,Thank You Jeeves,Shaun Langosh|8|0.9|29.30|22.89
+Bernice Watsica|2009-12-01|2023-08-22|89597172951978467,Ada Or Ardor,Ashley Bartoletti|72|8.0|30.47|20.78
+Monica Barrows|2014-07-25|2016-01-22|70631230524507073,The Man Who Loved Children,Cassandra Marks|18|3.3|42.73|14.69
+Gary Kunze|2025-08-23|2026-05-12|92463832103890984,The Famished Road,Raquel Schumm|99|7.4|04.53|21.56
+Ebony Mosciski|2023-02-27|2024-03-23|64856750013489581,Gone With The Wind,Shawna Hermann|38|4.5|37.08|34.45
+Dennis McCullough|2008-12-05|2026-03-07|06312775977893428,A Dark-Adapted Eye,Kelvin Bradtke|9|4.5|21.59|25.52
+Timothy Rempel|2007-05-28|2013-03-25|14618174300336985,A Fairy Tale Of New York,Clinton Brekke|25|2.3|32.55|01.71
+Sheri Rutherford|2005-07-29|2016-07-01|06312775977893428,A Dark-Adapted Eye,Kelvin Bradtke|66|2.9|48.60|26.85
+Erin Brekke|2016-05-17|2026-05-28|06146492675114243,The Witches Of Eastwick,Forrest Ebert|30|3.3|27.98|35.83
+Colin McClure|2003-01-30|2023-05-28|09557968142528637,The Remains Of The Day,Patty Lynch|96|9.5|06.05|48.86
+Beulah Casper|2016-01-10|2019-11-29|41746164039442954,Lucky Jim,Jim Bruen|66|8.2|06.68|17.37
+Delores McCullough|2000-04-29|2009-05-25|41746164039442954,Lucky Jim,Jim Bruen|79|4.5|07.08|29.47
+Billie Hansen|2006-06-16|2025-10-02|41746164039442954,Lucky Jim,Jim Bruen|49|9.5|48.62|48.87
+Olivia Turner|2006-01-12|2026-10-16|94735682329838219,Thank You Jeeves,Shaun Langosh|50|3.3|43.56|32.10
+Tyrone Kirlin-Zemlak|2006-06-24|2026-06-13|32903786650540609,Crash,Molly Kub|56|2.6|49.66|37.37
+Terry Barrows|2002-01-28|2017-07-18|06312775977893428,A Dark-Adapted Eye,Kelvin Bradtke|17|9.1|19.49|18.53
+Samuel Hahn|2010-11-14|2014-06-10|54901188788426983,Flauberts Parrot,Roderick Walker|6|1.5|15.56|30.73
+Doug Ankunding|2018-12-05|2020-01-07|14618174300336985,A Fairy Tale Of New York,Clinton Brekke|22|9.8|18.64|20.44
+Delia Cassin|2002-06-07|2005-07-16|59699246668473564,Love Story,Rosie Koch|40|5.5|19.54|28.73
+Lindsey Harvey|2010-12-29|2013-07-04|32903786650540609,Crash,Molly Kub|95|4.2|35.80|21.03
+Forrest Anderson|2014-10-26|2019-11-02|09557968142528637,The Remains Of The Day,Patty Lynch|28|4.0|16.31|02.75
+Miguel Crooks|2004-11-05|2024-12-15|06146492675114243,The Witches Of Eastwick,Forrest Ebert|25|6.2|21.30|08.30
+Judy Gulgowski|2003-09-15|2007-05-09|41746164039442954,Lucky Jim,Jim Bruen|42|8.2|19.22|41.26
+Gladys Bayer|2005-06-14|2012-03-28|21040234545528845,Arturos Island,Lonnie Rolfson|88|3.6|23.32|12.60
+Alberta Streich|2010-02-10|2014-03-18|21040234545528845,Arturos Island,Lonnie Rolfson|33|1.4|49.48|37.50
+Viola Rice|2002-01-18|2019-08-16|14618174300336985,A Fairy Tale Of New York,Clinton Brekke|96|8.6|13.29|28.97
+Monique Shanahan|2010-04-17|2019-11-29|94735682329838219,Thank You Jeeves,Shaun Langosh|37|9.7|48.51|31.19
+Rita Kshlerin|2013-06-02|2018-05-26|09557968142528637,The Remains Of The Day,Patty Lynch|25|9.3|12.34|30.78
+Estelle Mayer|2008-09-07|2021-12-23|89597172951978467,Ada Or Ardor,Ashley Bartoletti|80|9.9|31.02|01.75
+Carolyn Beatty|2002-02-13|2009-03-18|41746164039442954,Lucky Jim,Jim Bruen|37|2.2|06.68|36.54
+William O'Keefe|2001-12-28|2015-01-24|41746164039442954,Lucky Jim,Jim Bruen|30|8.5|34.83|28.75
+Shelley Moore|2002-10-12|2020-09-10|06312775977893428,A Dark-Adapted Eye,Kelvin Bradtke|66|1.2|22.00|09.90
+Abraham Roob|2021-02-14|2024-03-12|92463832103890984,The Famished Road,Raquel Schumm|79|10.0|48.03|12.85
+Jeffrey Mills|2003-04-27|2022-11-23|41746164039442954,Lucky Jim,Jim Bruen|14|3.7|42.77|47.88
+Sidney Schinner|2010-02-24|2024-02-10|64856750013489581,Gone With The Wind,Shawna Hermann|49|8.2|21.76|35.44
+Wendy Crooks|2011-02-15|2013-08-28|06146492675114243,The Witches Of Eastwick,Forrest Ebert|57|1.5|38.66|47.20
+Nicole Schoen|2002-04-25|2020-01-22|06146492675114243,The Witches Of Eastwick,Forrest Ebert|53|6.7|01.48|47.74
+Nettie Nolan|2004-07-26|2012-10-13|54901188788426983,Flauberts Parrot,Roderick Walker|93|3.4|40.18|26.67
+Tara Kassulke|2018-01-08|2023-08-16|89597172951978467,Ada Or Ardor,Ashley Bartoletti|97|8.5|00.35|35.52
+Saul Pfeffer|2022-11-01|2026-10-14|89597172951978467,Ada Or Ardor,Ashley Bartoletti|67|9.9|27.65|49.60
+Donnie Dare|2007-09-12|2022-08-03|92463832103890984,The Famished Road,Raquel Schumm|82|4.4|13.10|40.05
+Olga Hauck|2005-10-03|2008-10-02|21040234545528845,Arturos Island,Lonnie Rolfson|60|8.9|14.50|13.28
+Jesus Ritchie|2015-11-09|2024-03-07|09557968142528637,The Remains Of The Day,Patty Lynch|15|7.5|34.20|24.64
+Maria Pagac|2005-03-14|2011-03-23|92463832103890984,The Famished Road,Raquel Schumm|34|6.3|00.33|26.46
+Elias Thiel|2002-10-25|2024-11-23|94735682329838219,Thank You Jeeves,Shaun Langosh|13|3.3|06.60|33.07
+Wendy Skiles|2001-06-30|2017-08-20|47689756148217663,Vile Bodies,Meredith Donnelly-Spinka|43|5.7|19.13|13.24
+Ray Wuckert|2001-05-22|2022-05-09|54901188788426983,Flauberts Parrot,Roderick Walker|49|5.9|16.97|44.22
+Julia Watsica-Schuster|2009-01-10|2024-11-29|92463832103890984,The Famished Road,Raquel Schumm|67|9.7|35.84|06.21
+Nicolas Wilkinson|2010-09-04|2013-10-28|32903786650540609,Crash,Molly Kub|20|1.0|11.31|45.13
+Loretta Jast|2008-10-04|2021-07-25|06146492675114243,The Witches Of Eastwick,Forrest Ebert|31|2.1|19.99|41.81
+Ramona Stanton|2009-01-21|2021-02-24|14618174300336985,A Fairy Tale Of New York,Clinton Brekke|2|2.8|20.57|25.70
+Patty Lynch|2002-05-08|2004-09-18|47689756148217663,Vile Bodies,Meredith Donnelly-Spinka|41|7.4|24.87|01.63
+Rogelio Ondricka|2000-06-04|2025-08-05|21040234545528845,Arturos Island,Lonnie Rolfson|17|2.2|43.16|29.94
+Mike Muller|2011-01-14|2013-07-05|06146492675114243,The Witches Of Eastwick,Forrest Ebert|27|9.0|30.87|47.31
+Preston McCullough|2012-01-11|2019-10-22|59699246668473564,Love Story,Rosie Koch|28|7.5|43.78|04.91
+Hope Bernhard|2000-11-27|2012-12-15|54901188788426983,Flauberts Parrot,Roderick Walker|43|2.2|26.98|13.21
+Craig Balistreri|2021-05-28|2024-05-02|70631230524507073,The Man Who Loved Children,Cassandra Marks|3|4.1|34.35|26.53
+Lionel Stiedemann|2006-06-19|2022-04-02|32903786650540609,Crash,Molly Kub|67|8.2|27.08|06.15
+Jan Boehm|2008-06-02|2025-05-04|59699246668473564,Love Story,Rosie Koch|47|10.0|05.90|35.30
+Pearl Legros|2001-09-17|2022-11-29|41746164039442954,Lucky Jim,Jim Bruen|18|4.9|40.81|19.97
+Nancy Price|2019-11-29|2025-03-22|70631230524507073,The Man Who Loved Children,Cassandra Marks|44|8.3|47.96|43.58
+Levi Lindgren|2004-09-29|2008-03-22|06146492675114243,The Witches Of Eastwick,Forrest Ebert|19|4.5|08.62|38.00
+Christie Abernathy|2001-08-01|2012-12-06|32903786650540609,Crash,Molly Kub|65|7.4|13.41|26.23
+Marcella Powlowski|2014-03-06|2023-10-14|21040234545528845,Arturos Island,Lonnie Rolfson|5|2.9|28.67|10.83
+Robin McLaughlin-Davis|2012-01-28|2017-08-01|14618174300336985,A Fairy Tale Of New York,Clinton Brekke|15|7.0|11.83|42.44
+Paula Stamm|2011-12-17|2022-10-16|92463832103890984,The Famished Road,Raquel Schumm|33|5.7|47.74|36.76
+Dewey Zboncak|2009-03-13|2021-04-06|92463832103890984,The Famished Road,Raquel Schumm|64|6.9|20.85|46.56
+Rex Bernier|2016-04-19|2023-06-06|92463832103890984,The Famished Road,Raquel Schumm|99|8.6|44.39|20.23
+Carla Hammes|2004-06-22|2011-01-23|54901188788426983,Flauberts Parrot,Roderick Walker|31|9.0|47.23|14.50
+Eula Rosenbaum|2008-10-02|2017-03-25|89597172951978467,Ada Or Ardor,Ashley Bartoletti|100|2.0|36.15|15.59
+Raymond Ritchie|2009-07-09|2010-09-27|92463832103890984,The Famished Road,Raquel Schumm|41|4.8|16.63|08.01
+Jack Goyette|2002-02-07|2009-08-01|59699246668473564,Love Story,Rosie Koch|73|8.4|25.29|31.07
+Domingo Fritsch-Hyatt|2003-06-27|2018-09-04|89597172951978467,Ada Or Ardor,Ashley Bartoletti|56|0.2|38.21|30.39
+Victoria Rohan|2005-05-14|2010-09-23|41746164039442954,Lucky Jim,Jim Bruen|1|8.0|11.80|40.74
+Sam Abshire|2004-05-05|2012-02-29|92463832103890984,The Famished Road,Raquel Schumm|69|4.7|16.16|25.51
+Joy Ritchie|2013-01-05|2021-01-30|59699246668473564,Love Story,Rosie Koch|16|5.3|32.44|04.04
+Cecilia Macejkovic|2005-08-16|2006-04-20|70631230524507073,The Man Who Loved Children,Cassandra Marks|42|9.0|38.70|46.39
+Kelley Huels|2001-03-16|2020-11-27|92463832103890984,The Famished Road,Raquel Schumm|65|2.0|05.60|17.88
+Jan Ferry|2021-01-17|2021-08-02|14618174300336985,A Fairy Tale Of New York,Clinton Brekke|61|0.9|11.58|36.92
+Georgia Marks|2001-10-21|2017-02-10|06146492675114243,The Witches Of Eastwick,Forrest Ebert|87|4.3|48.66|38.70
+Craig Bashirian|2000-01-18|2022-10-16|94735682329838219,Thank You Jeeves,Shaun Langosh|91|4.6|36.34|29.33
+Gene Orn|2002-04-06|2005-04-09|64856750013489581,Gone With The Wind,Shawna Hermann|90|5.5|41.41|45.53
+Christine Larson|2013-02-16|2023-06-13|06146492675114243,The Witches Of Eastwick,Forrest Ebert|4|4.8|03.17|06.10
+Nancy Ledner|2017-03-20|2024-09-26|06312775977893428,A Dark-Adapted Eye,Kelvin Bradtke|53|9.4|26.18|08.80
+Janis Daugherty|2000-08-21|2001-11-22|09557968142528637,The Remains Of The Day,Patty Lynch|89|6.5|45.82|40.58
+Raymond Berge|2002-04-19|2020-05-20|06146492675114243,The Witches Of Eastwick,Forrest Ebert|80|8.9|41.60|25.61
+Kelly Tillman|2001-01-29|2019-09-16|64856750013489581,Gone With The Wind,Shawna Hermann|50|4.7|41.31|16.01
+Janet Sauer|2019-05-12|2026-01-15|32903786650540609,Crash,Molly Kub|4|2.7|11.75|07.32
+Alonzo Volkman-Powlowski|2010-02-12|2012-11-04|06146492675114243,The Witches Of Eastwick,Forrest Ebert|91|0.1|01.78|48.49
+Chester Jones|2000-12-22|2016-05-15|59699246668473564,Love Story,Rosie Koch|70|0.9|48.32|20.93
+Angelina Barton|2010-10-13|2011-01-30|06146492675114243,The Witches Of Eastwick,Forrest Ebert|75|5.9|43.31|38.86
+Garry Jakubowski|2015-05-13|2021-05-15|64856750013489581,Gone With The Wind,Shawna Hermann|99|3.3|36.26|49.13
+Brooke Crona|2005-01-10|2007-11-07|54901188788426983,Flauberts Parrot,Roderick Walker|89|2.6|04.68|20.81
+Salvador Zemlak-Bogan|2000-09-09|2024-05-28|14618174300336985,A Fairy Tale Of New York,Clinton Brekke|27|5.3|25.83|15.70
+Dennis McCullough|2010-09-13|2011-07-12|92463832103890984,The Famished Road,Raquel Schumm|66|8.2|00.24|40.65
+Harriet Cruickshank|2002-04-30|2009-06-12|41746164039442954,Lucky Jim,Jim Bruen|11|0.9|20.14|23.26
+Jeannie Bernhard|2006-02-15|2006-12-11|14618174300336985,A Fairy Tale Of New York,Clinton Brekke|42|7.7|21.49|18.57
+Valerie Dooley-Hermann|2000-09-27|2002-04-29|21040234545528845,Arturos Island,Lonnie Rolfson|68|4.9|01.96|14.87
+Al Franecki|2017-03-07|2026-05-01|32903786650540609,Crash,Molly Kub|70|7.0|35.19|45.84
+Al Franecki|2025-08-14|2026-08-27|94735682329838219,Thank You Jeeves,Shaun Langosh|60|7.3|25.58|45.02
+Tami Rogahn|2015-06-04|2017-12-13|41746164039442954,Lucky Jim,Jim Bruen|48|1.7|40.82|02.27
+Ramiro Kris|2017-12-13|2019-06-19|14618174300336985,A Fairy Tale Of New York,Clinton Brekke|75|3.9|07.69|33.64
+Dixie Welch|2000-08-14|2007-09-27|06312775977893428,A Dark-Adapted Eye,Kelvin Bradtke|95|3.6|04.48|49.28
+Shaun Langosh|2020-01-13|2021-03-26|70631230524507073,The Man Who Loved Children,Cassandra Marks|32|1.7|36.54|13.61
+Troy Dicki|2013-04-12|2018-03-15|54901188788426983,Flauberts Parrot,Roderick Walker|73|7.7|46.82|34.06
+Gregory Willms-Deckow|2001-01-20|2017-12-10|41746164039442954,Lucky Jim,Jim Bruen|41|9.1|10.92|19.94
+Marion McLaughlin|2021-12-04|2026-08-14|47689756148217663,Vile Bodies,Meredith Donnelly-Spinka|34|1.3|33.71|44.06
+Jessie Powlowski|2008-02-23|2019-01-27|32903786650540609,Crash,Molly Kub|12|4.3|12.34|26.90
+Monique Wiza|2001-10-20|2018-11-14|14618174300336985,A Fairy Tale Of New York,Clinton Brekke|76|2.2|49.52|25.81
+Sam Stracke|2013-08-30|2019-09-13|47689756148217663,Vile Bodies,Meredith Donnelly-Spinka|40|8.7|17.64|21.53
+Alma Jaskolski|2012-10-24|2024-09-04|47689756148217663,Vile Bodies,Meredith Donnelly-Spinka|72|0.3|27.24|03.51
+Mathew Kirlin|2022-05-01|2026-11-01|06312775977893428,A Dark-Adapted Eye,Kelvin Bradtke|23|1.0|22.47|48.03
+Isaac Spencer|2024-05-02|2026-07-15|54901188788426983,Flauberts Parrot,Roderick Walker|32|5.5|25.60|10.81
+Claude Farrell|2002-06-19|2025-05-02|70631230524507073,The Man Who Loved Children,Cassandra Marks|19|5.8|24.16|44.84
+Elvira Labadie-Blick|2000-03-09|2015-09-09|54901188788426983,Flauberts Parrot,Roderick Walker|28|0.7|33.88|00.05
+Pete Crona|2008-07-26|2023-04-09|94735682329838219,Thank You Jeeves,Shaun Langosh|11|5.0|09.33|25.99
+Robyn Stoltenberg|2012-10-26|2025-02-10|14618174300336985,A Fairy Tale Of New York,Clinton Brekke|55|6.5|35.82|01.99
+Lorene Lynch|2000-06-09|2001-02-25|89597172951978467,Ada Or Ardor,Ashley Bartoletti|68|9.1|40.16|19.52
+Henry Crist|2001-11-15|2005-10-16|54901188788426983,Flauberts Parrot,Roderick Walker|26|4.8|26.12|44.32
+Harold Boyer|2002-06-06|2004-12-24|21040234545528845,Arturos Island,Lonnie Rolfson|58|2.9|47.43|42.03
+Annie Balistreri|2013-10-23|2026-04-11|89597172951978467,Ada Or Ardor,Ashley Bartoletti|71|5.8|27.66|43.32
+Ashley Bartoletti|2010-07-08|2014-07-16|32903786650540609,Crash,Molly Kub|78|9.0|43.51|06.52
+Tina Heaney|2003-12-17|2016-03-20|32903786650540609,Crash,Molly Kub|80|2.9|23.15|36.48
+Blanche Bayer|2011-04-17|2016-11-10|94735682329838219,Thank You Jeeves,Shaun Langosh|78|0.3|22.59|22.66
+Pearl Schumm|2018-04-20|2025-06-30|94735682329838219,Thank You Jeeves,Shaun Langosh|46|3.9|39.88|13.31
+Rhonda Morar-Hansen|2002-01-03|2022-02-28|92463832103890984,The Famished Road,Raquel Schumm|38|9.3|10.13|33.27
+Todd Jerde|2001-07-06|2003-03-04|21040234545528845,Arturos Island,Lonnie Rolfson|98|1.7|06.47|23.67
+Ruben Bailey|2021-01-07|2021-06-29|09557968142528637,The Remains Of The Day,Patty Lynch|70|7.7|23.51|01.17
+Bernard Legros|2014-02-25|2025-10-06|64856750013489581,Gone With The Wind,Shawna Hermann|3|5.4|26.97|40.68
+Matt Langosh-Schaefer|2001-12-12|2026-04-30|21040234545528845,Arturos Island,Lonnie Rolfson|75|9.8|02.04|15.93
+Lionel Berge|2013-08-26|2021-06-22|59699246668473564,Love Story,Rosie Koch|96|8.1|30.61|33.30
+Brent Mayer|2005-04-29|2018-11-06|32903786650540609,Crash,Molly Kub|48|8.7|10.27|17.64
+Richard McDermott|2020-09-26|2024-10-24|06146492675114243,The Witches Of Eastwick,Forrest Ebert|50|2.3|33.44|07.78
+Estelle Mayer|2024-12-13|2025-05-22|32903786650540609,Crash,Molly Kub|79|3.6|37.56|22.83
+Delbert Rosenbaum|2019-08-11|2023-01-05|70631230524507073,The Man Who Loved Children,Cassandra Marks|73|8.9|37.40|09.92
+Cindy Halvorson|2007-09-09|2026-09-08|06146492675114243,The Witches Of Eastwick,Forrest Ebert|51|8.4|09.16|16.16
+Ana Hilpert|2014-02-02|2022-11-21|92463832103890984,The Famished Road,Raquel Schumm|49|0.5|48.45|39.43
+Eloise Bednar|2016-03-08|2016-09-09|94735682329838219,Thank You Jeeves,Shaun Langosh|61|0.8|07.98|28.66
+Robin Beahan|2017-09-08|2024-01-09|09557968142528637,The Remains Of The Day,Patty Lynch|36|5.3|42.95|20.97
+Connie Wolff|2001-01-14|2021-10-22|21040234545528845,Arturos Island,Lonnie Rolfson|49|8.7|39.93|26.37
+Jo Greenfelder|2018-01-27|2025-12-02|89597172951978467,Ada Or Ardor,Ashley Bartoletti|30|9.6|19.11|28.94
+Kendra Nitzsche|2023-05-27|2024-01-21|89597172951978467,Ada Or Ardor,Ashley Bartoletti|80|0.4|13.02|29.86
+Sylvia Maggio|2008-07-19|2023-07-09|06312775977893428,A Dark-Adapted Eye,Kelvin Bradtke|48|0.3|01.23|20.62
+Pete Crona|2002-05-02|2019-10-22|64856750013489581,Gone With The Wind,Shawna Hermann|1|7.2|33.29|33.28
+Darla Hills|2008-02-20|2020-05-29|32903786650540609,Crash,Molly Kub|33|6.2|28.24|29.41
+Mildred Bogan|2004-07-25|2023-07-12|06312775977893428,A Dark-Adapted Eye,Kelvin Bradtke|29|3.1|16.68|09.06
+Cameron Koch|2017-03-09|2021-11-26|32903786650540609,Crash,Molly Kub|11|8.2|24.55|44.57
+Kellie Streich|2000-07-27|2010-11-19|41746164039442954,Lucky Jim,Jim Bruen|16|1.0|33.29|01.51
+Raquel Crona|2016-05-16|2025-07-03|32903786650540609,Crash,Molly Kub|65|5.2|32.36|02.29
+Erma Stanton|2002-08-25|2019-04-17|94735682329838219,Thank You Jeeves,Shaun Langosh|31|7.2|40.70|11.51
+Douglas Jakubowski|2000-09-24|2013-11-03|59699246668473564,Love Story,Rosie Koch|93|1.8|09.57|41.53
+Susan Hansen|2014-02-14|2024-07-08|06312775977893428,A Dark-Adapted Eye,Kelvin Bradtke|82|6.6|36.64|47.45
+Bryant Mayer|2006-03-17|2018-06-26|06312775977893428,A Dark-Adapted Eye,Kelvin Bradtke|35|8.5|10.87|32.96
+Lana Kohler|2000-07-06|2017-08-02|59699246668473564,Love Story,Rosie Koch|100|9.5|09.70|13.02
+Marie Predovic|2002-09-18|2015-09-08|14618174300336985,A Fairy Tale Of New York,Clinton Brekke|81|0.8|46.31|33.92
+Ricky Bartell|2010-11-14|2022-10-18|09557968142528637,The Remains Of The Day,Patty Lynch|75|8.7|33.77|19.60
+Katie Reichel|2002-04-16|2010-09-28|41746164039442954,Lucky Jim,Jim Bruen|89|10.0|31.23|43.43
+Cedric Adams|2021-09-12|2022-05-24|09557968142528637,The Remains Of The Day,Patty Lynch|24|2.9|28.55|16.40
+Brandon McKenzie|2019-03-27|2023-10-15|59699246668473564,Love Story,Rosie Koch|75|7.9|12.08|00.85
+Rodney Okuneva|2008-01-07|2011-02-22|94735682329838219,Thank You Jeeves,Shaun Langosh|68|2.1|06.50|40.08
+Lydia Armstrong|2017-06-27|2018-08-24|09557968142528637,The Remains Of The Day,Patty Lynch|45|9.8|02.89|26.29
+Sammy Cruickshank-Emard|2003-02-12|2017-10-16|41746164039442954,Lucky Jim,Jim Bruen|89|3.1|10.00|20.18
+Ana Hilpert|2001-06-16|2018-11-06|59699246668473564,Love Story,Rosie Koch|75|4.6|27.35|41.26
+Terry Barrows|2012-02-12|2017-12-25|94735682329838219,Thank You Jeeves,Shaun Langosh|3|8.5|19.92|09.97
+Terrance Marquardt|2016-04-19|2023-03-02|41746164039442954,Lucky Jim,Jim Bruen|62|8.3|08.61|35.65
+Lamar Smith|2005-03-17|2009-12-13|54901188788426983,Flauberts Parrot,Roderick Walker|15|0.5|01.34|18.74
+Eloise Bednar|2000-02-30|2020-05-11|32903786650540609,Crash,Molly Kub|26|9.1|06.03|29.56
+Whitney Powlowski|2017-01-06|2017-11-29|59699246668473564,Love Story,Rosie Koch|71|9.7|23.10|44.98
+Lee Krajcik|2001-11-01|2002-09-29|59699246668473564,Love Story,Rosie Koch|56|4.2|19.65|41.39
+Tammy Tromp|2019-08-11|2022-10-13|14618174300336985,A Fairy Tale Of New York,Clinton Brekke|55|3.6|07.82|35.49
+Roderick Walker|2000-02-21|2020-03-23|70631230524507073,The Man Who Loved Children,Cassandra Marks|72|2.8|17.93|33.43
+Bertha Bernier|2004-07-14|2012-04-16|41746164039442954,Lucky Jim,Jim Bruen|71|0.3|07.44|08.42
+Owen Doyle|2010-05-09|2023-11-19|59699246668473564,Love Story,Rosie Koch|77|4.8|04.13|26.23
+Josefina Lockman|2008-12-28|2018-07-09|06146492675114243,The Witches Of Eastwick,Forrest Ebert|91|5.2|35.76|29.54
+Troy Dicki|2019-06-11|2023-02-22|47689756148217663,Vile Bodies,Meredith Donnelly-Spinka|91|0.4|02.58|02.01
+Wendy Kuhn-Jenkins|2008-12-17|2017-07-08|64856750013489581,Gone With The Wind,Shawna Hermann|36|4.7|36.12|11.06
+Cecilia Luettgen|2020-09-07|2023-03-15|06312775977893428,A Dark-Adapted Eye,Kelvin Bradtke|15|5.6|48.38|00.92
+Al Franecki|2006-02-24|2013-01-07|47689756148217663,Vile Bodies,Meredith Donnelly-Spinka|84|4.1|15.06|20.40
+Evelyn Ortiz|2013-01-10|2015-06-07|59699246668473564,Love Story,Rosie Koch|37|9.2|11.67|30.28
+Joanna Stroman|2000-07-18|2024-01-22|21040234545528845,Arturos Island,Lonnie Rolfson|56|4.7|01.15|16.10
+Damon Yost|2001-10-13|2007-12-01|06312775977893428,A Dark-Adapted Eye,Kelvin Bradtke|17|9.4|40.93|24.15

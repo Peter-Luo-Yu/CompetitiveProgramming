@@ -1,0 +1,8 @@
+cur: 1 next: 2 F-block: 0
+cur: 2 next: 4 F-block: 1
+cur: 4 next: 5 F-block: 0
+cur: 5 next: 7 F-block: 1
+cur: 7 next: 8 F-block: 0
+2
+2
+3

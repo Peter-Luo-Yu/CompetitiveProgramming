@@ -1,0 +1,10 @@
+start: -4
+YES
+start: 1
+NO
+start: -1
+YES
+start: -2
+NO
+start: -1
+YES

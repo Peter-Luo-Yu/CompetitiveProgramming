@@ -1,0 +1,179 @@
+Iris Dare|2005-08-07|2007-03-23|77451112104729237,The Restraint Of Beasts,Cecilia Macejkovic|70|0.9|38.01|40.29
+Bertha Bernier|2003-03-|2021-01-09|28889387469356113,Rogue Moon,Rita Pacocha|63|7.8|47.11|14.93
+Alice Aufderhar|2000-05-28|2013-12-18|14270503715802930,The Moviegoer,Christina O'Kon|49|2.1|28.53|04.34
+Carmen Ward|2007-04-|2016-01-02|30559681112456097,Penrod,Mae Goodwin|52|8.5|16.38|25.64
+Gene Schumm|2016-01-|2019-05-10|47415433395262893,Wise Children,Leticia Sauer|22|8.0|17.54|10.99
+Terrance Marquardt|2004-10-15|2005-06-18|97585760806291267,The Outsider,Gwendolyn Nicolas|17|5.9|37.69|44.38
+Abraham Roob|2008-07-|2015-10-10|28889387469356113,Rogue Moon,Rita Pacocha|48|3.9|35.07|40.89
+Jennie Hilpert|2000-04-21|2013-04-28|77451112104729237,The Restraint Of Beasts,Cecilia Macejkovic|16|8.8|11.39|21.75
+Rita Kshlerin|2004-04-|2010-02-08|77451112104729237,The Restraint Of Beasts,Cecilia Macejkovic|96|0.6|03.76|08.63
+Courtney Leffler|2004-11-|2011-11-07|81063435692166082,Living,Virgil Bergnaum-Harris|17|6.0|20.27|12.56
+Arturo Lowe|2009-04-|2016-01-08|28889387469356113,Rogue Moon,Rita Pacocha|41|3.5|06.79|15.82
+Nancy Ledner|2010-08-21|2012-06-13|14442964311262750,The Strange Case Of Dr Jekyll And Mr Hyde,Ismael Hackett|31|1.1|10.23|40.84
+Ashley Schoen|2010-02-17|2012-12-05|47415433395262893,Wise Children,Leticia Sauer|6|2.8|45.93|34.37
+Cassandra Marks|2003-05-22|2024-03-13|47415433395262893,Wise Children,Leticia Sauer|60|5.3|20.25|34.35
+Lynne Lakin|2010-02-|2026-08-15|49801626755851370,Don Quixote,Hannah Schmitt|20|9.0|08.27|27.99
+Neil Lockman|2003-06-10|2025-04-13|95137611031228120,Caprice,Linda Cartwright|52|7.6|12.78|02.81
+Shannon Littel|2015-08-27|2017-04-16|95664126675817732,Darkmans,Bernard Legros|96|1.4|36.15|18.08
+Roxanne Nitzsche|2001-02-08|2018-07-28|19511890069367362,Revolutionary Road,Myron Bergnaum|76|2.9|06.49|00.85
+Lorenzo Lowe|2015-07-|2017-03-06|30559681112456097,Penrod,Mae Goodwin|50|8.5|00.55|34.49
+Jennifer Runolfsson|2014-04-14|2026-12-08|81063435692166082,Living,Virgil Bergnaum-Harris|88|7.6|10.35|19.63
+Tracy Weissnat|2017-02-24|2021-03-27|97585760806291267,The Outsider,Gwendolyn Nicolas|9|6.3|05.27|37.47
+Doreen Braun|2003-04-|2020-02-21|30559681112456097,Penrod,Mae Goodwin|4|6.8|04.10|39.98
+Roger Murazik|2004-11-30|2010-02-12|45471682237645971,The Time Travelers Wife,Kenny Larkin|10|6.0|29.52|01.37
+Spencer Lowe|2010-05-17|2020-06-06|95137611031228120,Caprice,Linda Cartwright|18|0.1|16.17|20.54
+Christine Stamm|2008-07-21|2013-09-28|45471682237645971,The Time Travelers Wife,Kenny Larkin|38|4.3|25.52|47.05
+Lynda Hegmann|2010-10-12|2016-02-22|47415433395262893,Wise Children,Leticia Sauer|39|6.8|24.29|31.02
+Dallas King-Carter|2014-12-25|2020-11-08|97585760806291267,The Outsider,Gwendolyn Nicolas|92|9.4|12.98|09.80
+Marlon MacGyver|2007-07-14|2009-07-06|49585668921951585,The Silent Duchess,Bernice Hoeger|51|5.0|26.12|23.03
+Gretchen Moore|2002-02-10|2002-08-12|30559681112456097,Penrod,Mae Goodwin|10|6.7|40.30|22.66
+Marilyn Bode|2007-09-03|2016-02-05|49585668921951585,The Silent Duchess,Bernice Hoeger|68|3.2|22.73|10.23
+Levi Lindgren|2018-04-|2023-09-27|28889387469356113,Rogue Moon,Rita Pacocha|20|10.0|44.87|28.79
+Cora Parisian|2005-09-14|2021-08-04|49585668921951585,The Silent Duchess,Bernice Hoeger|6|3.5|01.49|09.80
+Patty Lynch|2013-08-|2016-11-25|77451112104729237,The Restraint Of Beasts,Cecilia Macejkovic|44|4.7|09.24|13.31
+Latoya Predovic|2003-12-21|2018-08-10|18439879349934080,Friday The Rabbi Slept Late,Gene Koch|13|7.9|08.59|46.63
+Spencer Lowe|2011-09-27|2024-12-18|19511890069367362,Revolutionary Road,Myron Bergnaum|12|7.0|26.00|13.16
+Marcus VonRueden|2001-08-|2014-11-18|95137611031228120,Caprice,Linda Cartwright|45|5.1|35.68|47.52
+Crystal Franey-Leffler|2010-09-01|2020-10-27|47415433395262893,Wise Children,Leticia Sauer|26|3.5|49.22|07.74
+Eula Haley|2005-07-|2016-11-03|45471682237645971,The Time Travelers Wife,Kenny Larkin|17|4.4|42.66|46.65
+Darla Gerlach|2006-10-22|2020-05-14|14270503715802930,The Moviegoer,Christina O'Kon|75|7.8|47.40|17.79
+Kelly Corkery|2023-07-|2024-11-30|18439879349934080,Friday The Rabbi Slept Late,Gene Koch|9|1.3|49.21|27.94
+Krystal Senger|2006-02-13|2010-03-24|30559681112456097,Penrod,Mae Goodwin|6|6.9|35.42|46.94
+Sean Hauck|2014-07-02|2018-11-28|95664126675817732,Darkmans,Bernard Legros|11|3.7|48.37|24.22
+Brittany Ferry|2000-01-|2012-07-08|45471682237645971,The Time Travelers Wife,Kenny Larkin|2|7.1|32.71|44.55
+Neal Kulas|2015-07-|2016-01-02|14270503715802930,The Moviegoer,Christina O'Kon|37|8.1|40.39|07.28
+Tanya Schiller|2004-04-|2018-07-08|45471682237645971,The Time Travelers Wife,Kenny Larkin|94|0.4|32.91|32.98
+Charles Dach|2016-01-21|2022-04-02|77451112104729237,The Restraint Of Beasts,Cecilia Macejkovic|7|3.5|13.58|41.36
+Saul Pfeffer|2005-01-13|2010-11-29|18439879349934080,Friday The Rabbi Slept Late,Gene Koch|10|0.7|04.13|23.65
+Velma Lubowitz|2005-10-15|2025-04-02|14442964311262750,The Strange Case Of Dr Jekyll And Mr Hyde,Ismael Hackett|80|5.6|49.64|40.45
+Colin Tremblay|2005-05-22|2016-02-01|14442964311262750,The Strange Case Of Dr Jekyll And Mr Hyde,Ismael Hackett|38|2.5|08.34|34.29
+Mike Carroll|2019-04-|2020-01-24|19511890069367362,Revolutionary Road,Myron Bergnaum|12|6.3|12.63|36.08
+Myrtle Goodwin|2011-04-10|2013-06-05|81063435692166082,Living,Virgil Bergnaum-Harris|42|7.4|48.32|45.21
+Terri Hoeger|2026-03-01|2026-12-25|18439879349934080,Friday The Rabbi Slept Late,Gene Koch|31|8.6|43.94|16.65
+Elena Christiansen|2000-06-29|2021-08-14|97585760806291267,The Outsider,Gwendolyn Nicolas|79|1.1|35.95|05.55
+Josefina Lockman|2015-02-10|2021-07-30|47415433395262893,Wise Children,Leticia Sauer|73|9.7|30.87|43.89
+Santiago Erdman|2008-09-16|2018-08-11|95664126675817732,Darkmans,Bernard Legros|49|8.9|34.94|19.30
+Gerald Gulgowski|2017-12-|2022-12-22|30559681112456097,Penrod,Mae Goodwin|52|0.2|22.10|29.12
+Christopher Parker|2011-08-19|2015-03-09|49585668921951585,The Silent Duchess,Bernice Hoeger|42|6.3|08.03|12.97
+Monica Homenick|2002-03-|2015-01-04|49585668921951585,The Silent Duchess,Bernice Hoeger|65|5.8|44.85|48.35
+Melba Crooks|2003-11-09|2010-09-05|49801626755851370,Don Quixote,Hannah Schmitt|71|2.3|23.70|13.18
+Dominic Koch|2006-08-|2009-10-18|30559681112456097,Penrod,Mae Goodwin|30|6.0|13.01|22.84
+Nora Schneider|2003-12-23|2014-09-06|18439879349934080,Friday The Rabbi Slept Late,Gene Koch|78|8.1|01.40|15.24
+Valerie Dooley-Hermann|2005-03-10|2025-04-07|30559681112456097,Penrod,Mae Goodwin|30|6.0|00.07|48.67
+Lisa Keeling|2008-08-|2020-11-01|97585760806291267,The Outsider,Gwendolyn Nicolas|21|0.8|45.32|47.09
+Vickie White|2013-09-|2013-12-13|81063435692166082,Living,Virgil Bergnaum-Harris|5|7.1|13.06|32.04
+Ramon Stamm|2009-06-|2023-10-05|81063435692166082,Living,Virgil Bergnaum-Harris|28|0.4|24.31|10.50
+Alton Kemmer|2007-06-|2020-12-28|49585668921951585,The Silent Duchess,Bernice Hoeger|38|3.7|40.72|44.24
+Pauline Kuvalis|2004-03-|2011-01-30|95664126675817732,Darkmans,Bernard Legros|43|9.9|02.16|06.43
+Ann Johnston|2005-05-26|2019-04-07|30559681112456097,Penrod,Mae Goodwin|95|6.7|37.74|20.61
+Bethany Jacobs|2006-12-18|2007-06-09|14442964311262750,The Strange Case Of Dr Jekyll And Mr Hyde,Ismael Hackett|6|1.8|19.27|08.49
+Ramona Bauch|2003-02-29|2005-10-16|97585760806291267,The Outsider,Gwendolyn Nicolas|83|9.5|28.79|41.40
+Rene Ritchie|2015-01-21|2023-10-20|47415433395262893,Wise Children,Leticia Sauer|61|4.5|39.96|42.44
+Marsha Reynolds|2011-04-|2016-06-12|18439879349934080,Friday The Rabbi Slept Late,Gene Koch|45|3.6|06.45|48.96
+Robin Beahan|2008-06-07|2009-10-22|47415433395262893,Wise Children,Leticia Sauer|26|3.7|49.33|30.07
+Roxanne Carroll|2016-07-06|2025-12-30|30559681112456097,Penrod,Mae Goodwin|73|4.5|35.55|08.16
+Irvin Morissette|2013-07-|2024-05-02|14270503715802930,The Moviegoer,Christina O'Kon|47|1.0|15.56|48.53
+Gordon Moen|2002-04-|2020-09-21|47415433395262893,Wise Children,Leticia Sauer|57|8.4|35.06|07.05
+Loretta Shields|2012-06-24|2022-01-10|28889387469356113,Rogue Moon,Rita Pacocha|70|2.9|21.55|24.90
+Emma Larson|2017-10-|2021-11-01|14270503715802930,The Moviegoer,Christina O'Kon|86|6.7|46.88|39.09
+George Wunsch|2014-12-|2023-01-07|49585668921951585,The Silent Duchess,Bernice Hoeger|50|8.9|34.38|24.37
+Jesus Ritchie|2003-06-02|2008-02-08|18439879349934080,Friday The Rabbi Slept Late,Gene Koch|15|7.4|17.18|28.84
+Phil Bruen|2010-06-22|2025-08-06|45471682237645971,The Time Travelers Wife,Kenny Larkin|61|1.8|09.76|42.82
+Blanche Goldner|2001-06-06|2020-07-27|14270503715802930,The Moviegoer,Christina O'Kon|61|5.4|00.08|02.24
+Edmond Labadie|2002-05-08|2012-03-11|95664126675817732,Darkmans,Bernard Legros|59|8.5|00.70|11.98
+Dana Heathcote|2000-11-09|2024-11-11|81063435692166082,Living,Virgil Bergnaum-Harris|37|4.3|25.84|16.73
+Stephen Huel|2024-01-|2025-07-27|45471682237645971,The Time Travelers Wife,Kenny Larkin|33|7.0|17.94|38.80
+Chester Kunze|2012-08-02|2024-03-10|19511890069367362,Revolutionary Road,Myron Bergnaum|4|9.2|25.35|10.20
+Doreen Schimmel|2019-11-07|2026-07-21|14442964311262750,The Strange Case Of Dr Jekyll And Mr Hyde,Ismael Hackett|70|6.9|29.05|27.38
+Brendan Pfeffer|2019-09-|2020-09-13|19511890069367362,Revolutionary Road,Myron Bergnaum|70|9.1|32.39|22.52
+Kenny Beahan|2003-07-10|2006-12-05|19511890069367362,Revolutionary Road,Myron Bergnaum|31|1.8|06.71|44.47
+Nicole Fisher|2019-02-14|2026-05-02|49585668921951585,The Silent Duchess,Bernice Hoeger|3|0.7|35.29|15.95
+Jo Denesik|2016-06-11|2026-09-19|97585760806291267,The Outsider,Gwendolyn Nicolas|9|1.0|34.77|08.99
+Roxanne Stark|2001-06-|2025-10-18|28889387469356113,Rogue Moon,Rita Pacocha|93|3.7|03.01|17.46
+Darin Cormier|2007-04-10|2026-06-26|95664126675817732,Darkmans,Bernard Legros|4|8.8|14.85|47.59
+Dexter Feil|2004-04-15|2007-01-02|95664126675817732,Darkmans,Bernard Legros|46|9.1|20.68|43.33
+Helen Willms|2004-04-10|2024-04-25|28889387469356113,Rogue Moon,Rita Pacocha|25|5.3|37.80|04.57
+Emanuel Rodriguez|2016-03-16|2022-05-14|30559681112456097,Penrod,Mae Goodwin|56|2.4|00.34|28.31
+Ira Blick|2010-06-30|2017-06-26|45471682237645971,The Time Travelers Wife,Kenny Larkin|63|4.0|48.33|04.21
+Maria Nicolas|2003-01-|2025-04-02|49585668921951585,The Silent Duchess,Bernice Hoeger|81|6.6|43.41|03.33
+Richard Klein|2013-02-04|2014-11-29|14270503715802930,The Moviegoer,Christina O'Kon|5|8.0|27.93|23.19
+Juana Heathcote|2002-03-02|2017-03-24|49585668921951585,The Silent Duchess,Bernice Hoeger|67|4.2|04.59|34.35
+Jody Leuschke|2004-07-17|2005-05-06|18439879349934080,Friday The Rabbi Slept Late,Gene Koch|8|1.6|28.37|40.13
+Iris Dicki|2020-09-|2024-05-18|95137611031228120,Caprice,Linda Cartwright|27|6.5|25.45|16.28
+Carmen Ward|2004-09-|2016-07-04|77451112104729237,The Restraint Of Beasts,Cecilia Macejkovic|92|7.6|30.72|40.99
+Christina Corkery|2014-05-|2026-07-23|95137611031228120,Caprice,Linda Cartwright|77|4.5|41.29|23.36
+Wm Thompson|2003-04-04|2012-02-28|14442964311262750,The Strange Case Of Dr Jekyll And Mr Hyde,Ismael Hackett|71|3.3|39.33|40.21
+Ted Kreiger|2000-02-22|2007-09-05|30559681112456097,Penrod,Mae Goodwin|63|4.6|46.30|24.76
+Dale Swaniawski|2009-09-06|2011-01-02|18439879349934080,Friday The Rabbi Slept Late,Gene Koch|38|5.9|49.25|14.81
+Jerome Maggio|2005-08-|2015-04-23|14442964311262750,The Strange Case Of Dr Jekyll And Mr Hyde,Ismael Hackett|10|7.0|22.31|17.14
+Dominick Beer|2002-02-21|2015-06-30|95137611031228120,Caprice,Linda Cartwright|60|9.8|16.87|11.45
+Christy Anderson|2005-07-|2010-03-06|19511890069367362,Revolutionary Road,Myron Bergnaum|68|6.6|13.34|42.19
+Tomas Wuckert|2022-03-|2026-04-02|47415433395262893,Wise Children,Leticia Sauer|47|1.8|36.76|26.76
+Robyn Fahey|2002-04-24|2009-05-09|28889387469356113,Rogue Moon,Rita Pacocha|73|1.2|41.16|12.38
+Meredith Borer|2005-11-|2008-10-29|14270503715802930,The Moviegoer,Christina O'Kon|45|8.7|30.64|06.21
+Janis Konopelski|2007-05-18|2016-01-30|77451112104729237,The Restraint Of Beasts,Cecilia Macejkovic|25|5.6|45.77|35.40
+Jorge Hayes-Kuhn|2007-10-05|2022-04-17|14442964311262750,The Strange Case Of Dr Jekyll And Mr Hyde,Ismael Hackett|50|6.0|40.60|38.25
+Steve McGlynn|2017-03-17|2018-10-28|30559681112456097,Penrod,Mae Goodwin|89|8.1|35.17|30.48
+Ruth Bergstrom|2012-08-|2025-09-21|81063435692166082,Living,Virgil Bergnaum-Harris|32|9.8|09.51|05.09
+Erick Padberg|2005-09-09|2010-09-22|28889387469356113,Rogue Moon,Rita Pacocha|57|7.7|12.26|24.76
+Shelia Stehr|2004-04-|2012-01-03|19511890069367362,Revolutionary Road,Myron Bergnaum|92|3.5|45.26|23.07
+Evan Olson|2015-11-03|2021-08-18|81063435692166082,Living,Virgil Bergnaum-Harris|8|6.1|27.98|49.24
+Jodi Heidenreich-Witting|2001-07-22|2004-10-03|18439879349934080,Friday The Rabbi Slept Late,Gene Koch|37|4.6|19.04|37.11
+Earnest O'Keefe|2004-10-05|2015-08-17|14270503715802930,The Moviegoer,Christina O'Kon|8|4.1|14.83|11.57
+Claire Fisher|2003-06-|2019-01-01|18439879349934080,Friday The Rabbi Slept Late,Gene Koch|67|8.5|28.54|20.87
+Walter Bergstrom|2003-02-|2022-01-29|45471682237645971,The Time Travelers Wife,Kenny Larkin|96|0.8|41.36|44.55
+Leona McDermott|2009-03-|2019-12-23|95137611031228120,Caprice,Linda Cartwright|22|8.9|03.56|23.88
+Fannie O'Conner|2019-03-23|2019-10-13|18439879349934080,Friday The Rabbi Slept Late,Gene Koch|98|6.0|04.20|09.51
+Duane Pfeffer|2012-02-13|2016-07-03|77451112104729237,The Restraint Of Beasts,Cecilia Macejkovic|13|0.4|14.87|05.39
+Jake Carroll|2000-01-|2017-03-15|45471682237645971,The Time Travelers Wife,Kenny Larkin|19|1.5|42.86|40.65
+Brooke Rath|2005-02-06|2006-02-22|14442964311262750,The Strange Case Of Dr Jekyll And Mr Hyde,Ismael Hackett|69|0.8|02.00|28.74
+Evelyn Veum|2001-10-12|2021-01-30|49585668921951585,The Silent Duchess,Bernice Hoeger|92|5.8|13.03|38.63
+Gladys Johns|2002-03-03|2020-11-12|95137611031228120,Caprice,Linda Cartwright|35|6.5|47.77|07.20
+Nicolas Schumm|2005-02-|2011-03-25|77451112104729237,The Restraint Of Beasts,Cecilia Macejkovic|11|3.9|20.23|37.61
+Domingo Brakus|2001-02-24|2018-07-22|81063435692166082,Living,Virgil Bergnaum-Harris|36|7.6|33.39|42.38
+Ernesto Lehner|2003-12-07|2022-10-06|95664126675817732,Darkmans,Bernard Legros|57|1.5|40.27|21.37
+Desiree Fay|2000-08-07|2021-06-08|95137611031228120,Caprice,Linda Cartwright|94|1.8|42.95|09.49
+Frankie Hahn|2007-09-18|2025-05-27|14442964311262750,The Strange Case Of Dr Jekyll And Mr Hyde,Ismael Hackett|82|3.2|31.83|18.65
+Cora Parisian|2000-07-|2022-10-21|47415433395262893,Wise Children,Leticia Sauer|80|5.3|49.33|10.79
+Roberto Cremin-McGlynn|2013-11-11|2024-06-28|30559681112456097,Penrod,Mae Goodwin|86|3.5|11.24|16.59
+Edmund Mayert|2022-02-18|2023-05-08|49801626755851370,Don Quixote,Hannah Schmitt|48|0.4|22.66|15.58
+Ted Kreiger|2004-09-05|2026-03-22|49585668921951585,The Silent Duchess,Bernice Hoeger|40|5.7|30.10|36.96
+Christina Grady|2012-11-|2026-10-17|19511890069367362,Revolutionary Road,Myron Bergnaum|2|3.0|24.79|08.48
+Percy Mann|2000-09-|2008-01-21|18439879349934080,Friday The Rabbi Slept Late,Gene Koch|1|5.3|11.55|00.42
+Brooke Rath|2003-02-|2005-12-03|19511890069367362,Revolutionary Road,Myron Bergnaum|46|7.0|24.94|48.89
+Bennie Vandervort|2000-09-19|2013-05-30|77451112104729237,The Restraint Of Beasts,Cecilia Macejkovic|79|4.7|12.60|15.09
+Troy Boehm|2008-09-|2026-10-30|14270503715802930,The Moviegoer,Christina O'Kon|41|8.3|35.44|47.54
+Cecil Franey|2020-10-15|2024-05-27|97585760806291267,The Outsider,Gwendolyn Nicolas|4|1.5|19.75|45.91
+Emma Schiller|2015-02-15|2019-02-15|28889387469356113,Rogue Moon,Rita Pacocha|51|5.3|28.99|38.49
+Irving Leannon|2013-10-30|2026-02-29|47415433395262893,Wise Children,Leticia Sauer|13|8.3|23.25|04.82
+Tiffany Hartmann|2004-06-21|2009-07-29|95664126675817732,Darkmans,Bernard Legros|81|6.7|26.84|21.98
+Al Aufderhar|2011-01-04|2014-04-22|97585760806291267,The Outsider,Gwendolyn Nicolas|90|8.2|25.03|37.91
+Jaime Labadie|2011-06-|2025-01-01|18439879349934080,Friday The Rabbi Slept Late,Gene Koch|96|1.9|42.91|36.45
+Danielle Thiel|2003-08-15|2014-11-22|77451112104729237,The Restraint Of Beasts,Cecilia Macejkovic|5|2.2|04.46|32.45
+Ken Jenkins|2008-05-|2014-01-06|28889387469356113,Rogue Moon,Rita Pacocha|92|3.8|39.83|08.52
+Becky Strosin|2007-04-18|2023-05-04|30559681112456097,Penrod,Mae Goodwin|38|3.8|32.20|49.04
+Sylvia Maggio|2001-08-07|2022-09-30|49801626755851370,Don Quixote,Hannah Schmitt|49|3.2|20.50|42.71
+Carole Kiehn|2022-06-|2025-09-07|45471682237645971,The Time Travelers Wife,Kenny Larkin|80|2.5|36.66|32.68
+Phil Bruen|2006-04-16|2011-10-30|47415433395262893,Wise Children,Leticia Sauer|5|3.6|34.48|35.92
+Wm Green|2008-05-02|2022-10-04|14270503715802930,The Moviegoer,Christina O'Kon|83|9.1|31.75|06.39
+Bradford Conroy|2020-03-26|2020-11-27|97585760806291267,The Outsider,Gwendolyn Nicolas|47|3.2|34.16|11.19
+Preston Moore|2004-03-|2005-09-25|95664126675817732,Darkmans,Bernard Legros|54|2.1|40.60|41.53
+Gary Langworth|2017-10-24|2025-06-29|45471682237645971,The Time Travelers Wife,Kenny Larkin|71|8.7|11.62|05.72
+Vera Kunze|2004-06-|2013-10-27|45471682237645971,The Time Travelers Wife,Kenny Larkin|59|1.7|06.08|49.94
+Alejandro Medhurst|2002-04-|2012-11-12|30559681112456097,Penrod,Mae Goodwin|34|6.0|28.86|23.62
+Beth Kshlerin|2008-01-|2025-04-17|77451112104729237,The Restraint Of Beasts,Cecilia Macejkovic|53|7.2|31.46|29.84
+Garrett Franecki|2017-09-29|2023-01-12|28889387469356113,Rogue Moon,Rita Pacocha|22|9.7|34.25|20.15
+Jeffrey Mills|2010-01-|2013-02-30|49585668921951585,The Silent Duchess,Bernice Hoeger|52|4.1|27.90|44.51
+Donnie Jacobs|2007-12-|2017-04-21|95137611031228120,Caprice,Linda Cartwright|2|1.3|10.29|10.93
+Felipe Balistreri|2001-04-06|2012-04-06|97585760806291267,The Outsider,Gwendolyn Nicolas|2|2.6|10.43|31.87
+Dianna Bednar|2000-08-06|2008-09-09|49585668921951585,The Silent Duchess,Bernice Hoeger|70|8.3|30.71|41.82
+Guadalupe Homenick|2006-03-|2017-06-24|49585668921951585,The Silent Duchess,Bernice Hoeger|50|1.9|44.63|33.86
+Caroline Hessel|2006-07-|2022-08-20|30559681112456097,Penrod,Mae Goodwin|30|5.4|49.28|27.63
+Kevin Gottlieb|2005-03-04|2015-07-14|49801626755851370,Don Quixote,Hannah Schmitt|31|8.8|22.40|19.15
+Carmen Corwin|2009-12-|2021-12-19|77451112104729237,The Restraint Of Beasts,Cecilia Macejkovic|76|3.3|29.75|23.40
+Tammy Tromp|2022-12-03|2022-12-19|18439879349934080,Friday The Rabbi Slept Late,Gene Koch|46|5.2|45.39|24.42
+Melinda Becker|2002-10-14|2016-02-24|47415433395262893,Wise Children,Leticia Sauer|87|2.9|36.26|19.09
+Dwight Nienow|2004-10-13|2026-04-26|19511890069367362,Revolutionary Road,Myron Bergnaum|33|0.9|10.87|16.96
+Allison Muller|2017-09-11|2020-12-02|95137611031228120,Caprice,Linda Cartwright|99|9.8|21.41|39.81
+Tommie Schamberger|2013-03-|2014-04-23|81063435692166082,Living,Virgil Bergnaum-Harris|75|2.1|45.88|28.72
+Ida Parisian|2013-12-|2019-06-23|81063435692166082,Living,Virgil Bergnaum-Harris|34|0.7|09.77|19.03

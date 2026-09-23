@@ -1,0 +1,2 @@
+
+        if (!stkL.empty()) {

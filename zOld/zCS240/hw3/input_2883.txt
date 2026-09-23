@@ -1,0 +1,153 @@
+Johnnie Mayert|2005-11-02|2009-04-12|20581470334059649,Remembrance Of Things Past,Tyrone Jerde|48|5.0|21.47|03.31
+Ronald Rau|2009-05-10|2021-03-17|62421282628412973,Middlesex,Adrian Stokes|65|9.4|20.76|38.60
+Kimberly Dach|2015-06-06|2022-07-06|20581470334059649,Remembrance Of Things Past,Tyrone Jerde|79|5.9|46.89|33.00
+Jody Leuschke|2013-04-27|2014-06-02|89155426243298816,The Towers Of Trebizond,Viola Keebler|75|3.4|14.77|23.22
+Meredith Ferry|2010-08-04|2019-04-17|33431366513849789,East Of Eden,Christine Stamm|37|6.8|26.76|13.80
+Daniel Conroy|2017-01-04|2020-11-25|60141552018086903,Girlfriend In A Coma,George McCullough|99|2.4|24.44|46.63
+Jared Smitham|2004-05-20|2025-11-21|12525457384497942,The Madman Of Bergerac,Fannie Abernathy|81|2.1|45.72|03.55
+Abel Conn|2025-02-10|2025-08-06|60141552018086903,Girlfriend In A Coma,George McCullough|91|1.9|09.77|05.19
+Karl Stroman|2015-09-18|2020-05-01|17504678097059218,Get Shorty,Leo Yost|39|6.1|35.59|47.12
+Blanche Goldner|2017-12-24|2018-04-14|12525457384497942,The Madman Of Bergerac,Fannie Abernathy|6|1.7|14.86|49.49
+Eric Cruickshank|2024-02-14|2024-05-13|07792593115751282,Molesworth,Allan Schaefer|24|5.2|16.73|39.23
+Gregory Willms-Deckow|2012-03-16|2024-03-25|11694896163074602,The Glass Key,Tim Cruickshank|0|6.4|44.41|46.25
+Mary Batz|2003-10-11|2004-10-21|05096912814151615,Epitaph For A Spy,Roxanne Monahan-Stark|80|7.6|30.11|07.54
+Fred Bailey|2013-11-15|2014-11-04|62421282628412973,Middlesex,Adrian Stokes|70|9.1|40.06|44.05
+Robyn Franecki|2003-04-03|2021-06-20|17504678097059218,Get Shorty,Leo Yost|60|3.9|26.14|09.54
+Faith Keebler|2001-04-06|2006-07-24|62421282628412973,Middlesex,Adrian Stokes|20|0.7|26.52|49.32
+Nathan Kuphal|2004-12-11|2007-01-30|07792593115751282,Molesworth,Allan Schaefer|49|8.3|40.82|00.33
+Kelly Stokes|2002-11-02|2022-11-16|12525457384497942,The Madman Of Bergerac,Fannie Abernathy|36|5.9|20.53|21.88
+Shaun Jerde|2019-01-26|2021-06-03|33431366513849789,East Of Eden,Christine Stamm|23|9.6|17.80|02.41
+Wanda Gusikowski|2000-06-28|2016-08-26|07792593115751282,Molesworth,Allan Schaefer|48|2.3|48.95|17.76
+Jeffrey Beier|2009-09-21|2013-01-04|12525457384497942,The Madman Of Bergerac,Fannie Abernathy|47|5.3|29.89|49.38
+Bernard Smith|2001-08-25|2018-10-22|89155426243298816,The Towers Of Trebizond,Viola Keebler|72|0.4|33.25|07.23
+Jeffery Hegmann|2015-12-14|2026-10-24|07792593115751282,Molesworth,Allan Schaefer|44|0.8|30.30|12.08
+Vicky Doyle-Wisoky|2011-06-08|2024-11-05|05096912814151615,Epitaph For A Spy,Roxanne Monahan-Stark|58|8.8|00.94|35.87
+Cornelius Mitchell|2006-10-26|2021-10-09|89155426243298816,The Towers Of Trebizond,Viola Keebler|75|8.8|15.50|35.54
+Lionel Stiedemann|2012-08-21|2021-07-27|89155426243298816,The Towers Of Trebizond,Viola Keebler|41|0.6|39.42|12.24
+Henry Medhurst|2003-09-24|2019-04-07|60141552018086903,Girlfriend In A Coma,George McCullough|26|8.0|17.37|14.79
+Gary Kunze|2024-09-29|2026-07-03|60141552018086903,Girlfriend In A Coma,George McCullough|31|9.0|36.00|03.18
+Roxanne Carroll|2009-06-27|2026-09-16|17504678097059218,Get Shorty,Leo Yost|38|1.3|15.07|35.15
+Kellie Braun|2012-04-16|2022-02-28|64542177333571291,Tom Jones,Rosemarie Casper|4|1.0|07.18|21.57
+Desiree Fay|2002-07-11|2008-05-02|62421282628412973,Middlesex,Adrian Stokes|15|5.3|11.96|23.21
+Angie Spinka|2007-01-25|2023-08-25|67455957925342257,The Luck Of Barry Lyndon,Connie Wolff|58|2.3|27.89|06.96
+Judith Nolan|2003-10-25|2020-10-09|69043670991366333,The Information,Bradford Conroy|14|9.2|30.17|21.08
+Sally Schowalter|2019-11-25|2025-09-28|11694896163074602,The Glass Key,Tim Cruickshank|1|0.9|15.77|16.37
+Meredith Sawayn|2024-02-06|2024-04-01|12525457384497942,The Madman Of Bergerac,Fannie Abernathy|66|1.1|42.29|05.02
+Bill Abshire|2001-02-29|2018-03-26|60141552018086903,Girlfriend In A Coma,George McCullough|59|5.6|05.92|38.27
+Brandon McKenzie|2011-06-07|2017-04-21|05096912814151615,Epitaph For A Spy,Roxanne Monahan-Stark|25|2.5|08.45|20.93
+Nicolas Schumm|2016-02-12|2018-11-11|17504678097059218,Get Shorty,Leo Yost|5|5.1|26.44|34.07
+Wm Green|2008-02-15|2021-01-08|33431366513849789,East Of Eden,Christine Stamm|67|7.8|36.08|10.49
+Claudia Fahey|2005-09-05|2017-09-01|17504678097059218,Get Shorty,Leo Yost|16|1.1|39.95|21.25
+Christopher Medhurst|2003-11-26|2020-11-17|33431366513849789,East Of Eden,Christine Stamm|5|8.4|10.51|13.24
+Virginia Dooley|2012-04-29|2024-01-23|64542177333571291,Tom Jones,Rosemarie Casper|26|9.2|36.55|16.75
+Patricia Ferry|2000-03-24|2012-11-27|11694896163074602,The Glass Key,Tim Cruickshank|35|4.3|29.99|06.79
+Debra McGlynn|2004-10-16|2005-02-04|69043670991366333,The Information,Bradford Conroy|44|2.8|12.63|04.77
+Faith Heidenreich|2002-10-06|2017-06-30|07792593115751282,Molesworth,Allan Schaefer|99|6.1|41.73|30.80
+Arnold Durgan|2009-09-27|2024-02-12|17504678097059218,Get Shorty,Leo Yost|51|6.0|34.01|03.81
+Earnest Franecki|2016-10-09|2024-07-27|60141552018086903,Girlfriend In A Coma,George McCullough|32|4.2|38.08|31.87
+Leo Yost|2007-02-15|2019-01-26|89155426243298816,The Towers Of Trebizond,Viola Keebler|40|2.6|01.73|20.17
+Nicole Rolfson|2018-10-18|2023-08-24|89155426243298816,The Towers Of Trebizond,Viola Keebler|48|3.4|33.40|32.39
+Roberto Schultz|2015-05-21|2022-05-27|69043670991366333,The Information,Bradford Conroy|24|3.3|10.67|26.09
+Ana Herman|2001-07-20|2016-03-21|20581470334059649,Remembrance Of Things Past,Tyrone Jerde|54|8.6|16.58|44.63
+Isaac Friesen|2018-11-16|2019-01-27|69043670991366333,The Information,Bradford Conroy|94|8.8|01.60|31.25
+Jan Lebsack|2009-04-21|2016-12-04|67455957925342257,The Luck Of Barry Lyndon,Connie Wolff|77|0.2|17.16|15.60
+Nelson Brown|2000-06-06|2003-08-04|69043670991366333,The Information,Bradford Conroy|99|1.3|45.36|29.34
+Neal Dooley|2001-02-22|2007-06-11|07792593115751282,Molesworth,Allan Schaefer|23|3.4|36.49|23.16
+Vickie White|2022-04-12|2024-07-23|50446068412976281,Weaveworld,Erika Conn|54|8.1|30.22|48.46
+Tonya Mayert|2015-11-30|2016-07-03|89155426243298816,The Towers Of Trebizond,Viola Keebler|23|3.4|18.54|27.51
+Claude Greenfelder|2002-01-18|2006-08-17|60141552018086903,Girlfriend In A Coma,George McCullough|13|9.3|15.72|26.70
+Courtney Walsh|2009-05-03|2009-10-26|67455957925342257,The Luck Of Barry Lyndon,Connie Wolff|62|4.8|42.88|42.08
+Lillie Bergstrom|2013-03-30|2016-10-09|11694896163074602,The Glass Key,Tim Cruickshank|5|8.4|31.63|30.36
+Judith Lindgren|2000-07-08|2022-08-23|50446068412976281,Weaveworld,Erika Conn|3|5.3|34.32|49.69
+Stephen Huel|2011-06-02|2026-08-18|50446068412976281,Weaveworld,Erika Conn|97|7.2|40.10|19.37
+Candace Schuster|2005-09-25|2023-11-26|50446068412976281,Weaveworld,Erika Conn|4|7.0|22.86|41.47
+Steven Leuschke|2024-06-14|2026-11-21|33431366513849789,East Of Eden,Christine Stamm|76|2.9|08.72|29.59
+Harriet Cruickshank|2002-06-27|2010-10-21|05096912814151615,Epitaph For A Spy,Roxanne Monahan-Stark|94|9.9|24.58|17.20
+Martha Kunze|2020-11-10|2025-01-24|50446068412976281,Weaveworld,Erika Conn|76|9.8|39.63|31.06
+Shawna Hermann|2014-01-11|2026-12-21|12525457384497942,The Madman Of Bergerac,Fannie Abernathy|1|4.8|38.65|37.59
+Nicolas Nienow|2022-07-22|2024-03-17|22672802353173701,The Insult,Walter Vandervort|71|5.6|24.93|13.87
+Charles Dach|2011-10-04|2016-01-27|60141552018086903,Girlfriend In A Coma,George McCullough|31|3.1|32.56|39.21
+Angela Paucek|2005-03-13|2017-01-03|22672802353173701,The Insult,Walter Vandervort|4|2.7|01.78|32.47
+Raul Considine|2009-12-24|2015-11-12|20581470334059649,Remembrance Of Things Past,Tyrone Jerde|2|4.9|27.03|35.12
+Darrin Casper|2000-02-04|2014-12-14|67455957925342257,The Luck Of Barry Lyndon,Connie Wolff|7|1.5|05.20|40.12
+Jody Adams|2011-01-24|2026-06-09|20581470334059649,Remembrance Of Things Past,Tyrone Jerde|56|8.3|20.75|48.72
+Stewart O'Keefe|2002-11-13|2005-09-27|33431366513849789,East Of Eden,Christine Stamm|24|3.6|35.63|12.96
+Shannon Boyer|2021-09-15|2026-09-08|89155426243298816,The Towers Of Trebizond,Viola Keebler|98|2.2|21.92|44.05
+Cedric Adams|2015-09-02|2017-11-19|17504678097059218,Get Shorty,Leo Yost|13|2.5|46.57|22.98
+Angela McKenzie|2009-05-20|2019-11-13|07792593115751282,Molesworth,Allan Schaefer|56|3.9|44.61|25.47
+Terry Kiehn|2020-11-02|2025-03-26|12525457384497942,The Madman Of Bergerac,Fannie Abernathy|66|7.5|46.23|43.20
+Henry Conroy|2000-10-10|2023-11-18|20581470334059649,Remembrance Of Things Past,Tyrone Jerde|84|9.1|25.90|08.48
+Elias Schowalter|2010-09-27|2017-06-13|67455957925342257,The Luck Of Barry Lyndon,Connie Wolff|10|2.2|25.55|15.39
+Belinda Huels|2013-05-12|2018-07-15|64542177333571291,Tom Jones,Rosemarie Casper|81|1.8|26.26|17.50
+Lloyd Dooley|2008-11-04|2020-10-02|11694896163074602,The Glass Key,Tim Cruickshank|34|1.2|23.71|42.71
+Geneva VonRueden|2006-08-12|2009-11-04|20581470334059649,Remembrance Of Things Past,Tyrone Jerde|57|0.7|26.69|40.46
+Dolores Johnston|2014-09-16|2018-05-20|67455957925342257,The Luck Of Barry Lyndon,Connie Wolff|11|8.4|21.46|43.57
+Shawna Parker|2002-06-27|2025-07-11|60141552018086903,Girlfriend In A Coma,George McCullough|37|3.9|48.72|22.36
+Beulah Batz|2010-08-25|2014-11-09|64542177333571291,Tom Jones,Rosemarie Casper|11|3.0|25.93|38.58
+Lana Kohler|2002-07-14|2008-12-01|62421282628412973,Middlesex,Adrian Stokes|53|9.8|05.58|01.76
+Stephen Lubowitz|2010-05-23|2012-05-12|12525457384497942,The Madman Of Bergerac,Fannie Abernathy|18|7.3|46.33|22.99
+Tracy Harvey|2000-12-20|2001-07-09|67455957925342257,The Luck Of Barry Lyndon,Connie Wolff|80|3.5|03.16|07.18
+Debra Larkin|2007-08-26|2013-05-29|12525457384497942,The Madman Of Bergerac,Fannie Abernathy|42|7.6|40.08|45.72
+Marie Harris|2017-05-10|2022-01-05|20581470334059649,Remembrance Of Things Past,Tyrone Jerde|52|0.5|41.57|31.83
+Todd Bechtelar|2004-09-25|2006-08-06|62421282628412973,Middlesex,Adrian Stokes|29|6.3|49.42|01.72
+Spencer Boyle|2009-01-09|2012-01-29|33431366513849789,East Of Eden,Christine Stamm|45|0.5|09.68|33.81
+Wm Turcotte-Mills|2011-04-05|2020-02-23|50446068412976281,Weaveworld,Erika Conn|60|4.4|28.21|30.38
+Arlene Maggio|2001-06-06|2015-05-30|07792593115751282,Molesworth,Allan Schaefer|19|4.9|19.73|42.19
+Dolores Johnston|2003-09-28|2010-11-07|22672802353173701,The Insult,Walter Vandervort|27|7.2|20.29|17.87
+Nathan Kuphal|2024-05-03|2025-12-05|69043670991366333,The Information,Bradford Conroy|46|2.8|12.74|11.84
+Alexander Borer|2016-08-22|2019-12-21|22672802353173701,The Insult,Walter Vandervort|95|6.9|23.54|26.11
+Ellen Lueilwitz|2006-02-04|2009-12-20|64542177333571291,Tom Jones,Rosemarie Casper|39|8.6|05.12|14.41
+Susie O'Keefe|2017-01-09|2018-06-08|05096912814151615,Epitaph For A Spy,Roxanne Monahan-Stark|12|9.8|19.17|20.79
+Rosalie Hermiston|2003-12-17|2012-09-27|20581470334059649,Remembrance Of Things Past,Tyrone Jerde|75|0.2|08.64|30.15
+Lynne Kirlin|2004-06-07|2021-03-09|22672802353173701,The Insult,Walter Vandervort|52|7.5|20.40|04.41
+Isaac Christiansen|2008-04-18|2013-02-17|11694896163074602,The Glass Key,Tim Cruickshank|99|0.4|06.77|44.27
+Robyn Fahey|2003-07-21|2015-05-16|07792593115751282,Molesworth,Allan Schaefer|89|5.7|32.31|27.14
+Christie Wyman|2002-12-05|2008-02-19|50446068412976281,Weaveworld,Erika Conn|83|8.6|33.99|04.61
+Claudia Bartoletti|2005-12-04|2009-05-06|69043670991366333,The Information,Bradford Conroy|58|2.2|02.05|23.20
+Sarah Zemlak|2002-05-25|2005-11-18|12525457384497942,The Madman Of Bergerac,Fannie Abernathy|90|6.2|14.12|08.09
+Billie Jakubowski|2017-09-09|2021-05-23|50446068412976281,Weaveworld,Erika Conn|97|2.0|25.99|18.41
+Elena Walker|2024-12-20|2026-06-17|50446068412976281,Weaveworld,Erika Conn|89|5.5|10.70|08.25
+Brooke Crona|2018-02-21|2024-07-24|67455957925342257,The Luck Of Barry Lyndon,Connie Wolff|78|6.2|37.99|47.16
+Gloria Gorczany|2003-07-04|2020-01-01|12525457384497942,The Madman Of Bergerac,Fannie Abernathy|58|4.5|14.91|29.99
+Bennie Predovic|2016-07-24|2019-07-27|11694896163074602,The Glass Key,Tim Cruickshank|75|3.8|05.13|26.38
+Cory Smitham|2007-11-21|2016-01-03|62421282628412973,Middlesex,Adrian Stokes|95|5.0|25.46|15.67
+Jeremiah White|2008-02-04|2010-02-28|07792593115751282,Molesworth,Allan Schaefer|97|1.9|47.35|25.80
+Wanda Borer|2002-10-23|2012-08-06|22672802353173701,The Insult,Walter Vandervort|17|1.2|17.60|23.58
+Wendell Donnelly|2002-11-23|2018-03-26|62421282628412973,Middlesex,Adrian Stokes|12|6.3|12.24|10.19
+Jared Schultz|2002-05-06|2024-01-13|05096912814151615,Epitaph For A Spy,Roxanne Monahan-Stark|8|5.5|39.70|41.49
+Lindsey Kutch|2007-05-01|2021-04-08|60141552018086903,Girlfriend In A Coma,George McCullough|60|5.4|23.11|07.12
+Loretta Beatty|2006-05-26|2010-04-16|05096912814151615,Epitaph For A Spy,Roxanne Monahan-Stark|19|9.8|45.33|03.46
+Ron Hills|2002-12-22|2012-11-24|60141552018086903,Girlfriend In A Coma,George McCullough|96|8.6|44.38|07.53
+Joseph Moore|2016-05-09|2019-11-28|67455957925342257,The Luck Of Barry Lyndon,Connie Wolff|23|6.9|47.61|17.78
+Charlie Jenkins|2008-06-29|2021-06-14|20581470334059649,Remembrance Of Things Past,Tyrone Jerde|5|8.5|28.08|26.18
+Lorenzo Tremblay|2009-03-09|2023-10-26|05096912814151615,Epitaph For A Spy,Roxanne Monahan-Stark|40|4.3|00.73|20.59
+Percy Kub|2006-09-28|2022-03-01|60141552018086903,Girlfriend In A Coma,George McCullough|85|9.8|46.84|37.67
+Michael Davis|2005-03-21|2006-07-27|17504678097059218,Get Shorty,Leo Yost|2|2.6|47.76|20.81
+Frank Dach|2006-09-27|2022-04-07|89155426243298816,The Towers Of Trebizond,Viola Keebler|56|9.4|41.70|20.76
+Kimberly Dach|2021-03-17|2022-07-22|69043670991366333,The Information,Bradford Conroy|10|8.0|06.06|26.77
+Vanessa Bergstrom|2020-01-11|2024-05-07|22672802353173701,The Insult,Walter Vandervort|72|7.7|03.97|49.87
+Kellie Kemmer|2014-09-01|2025-02-29|20581470334059649,Remembrance Of Things Past,Tyrone Jerde|60|4.3|02.43|38.74
+Luis Gorczany|2024-05-16|2025-09-23|12525457384497942,The Madman Of Bergerac,Fannie Abernathy|91|6.4|46.99|22.56
+Louis Schuppe|2013-11-11|2020-02-11|89155426243298816,The Towers Of Trebizond,Viola Keebler|66|6.9|16.43|47.26
+Eula Rosenbaum|2017-12-30|2018-10-17|64542177333571291,Tom Jones,Rosemarie Casper|54|5.5|08.24|30.14
+Dolores Johnston|2001-03-10|2011-07-03|17504678097059218,Get Shorty,Leo Yost|85|3.0|45.38|00.07
+Ellen Jast|2013-03-26|2019-10-25|07792593115751282,Molesworth,Allan Schaefer|1|6.2|01.39|29.70
+Elizabeth Robel|2003-07-21|2008-04-25|11694896163074602,The Glass Key,Tim Cruickshank|42|9.6|34.23|46.42
+Wendy West|2010-07-10|2026-09-06|67455957925342257,The Luck Of Barry Lyndon,Connie Wolff|46|1.2|11.84|14.28
+Tyrone Kirlin-Zemlak|2007-09-13|2009-09-15|64542177333571291,Tom Jones,Rosemarie Casper|55|1.1|06.73|36.86
+Catherine Langworth-Gulgowski|2000-02-08|2016-11-24|05096912814151615,Epitaph For A Spy,Roxanne Monahan-Stark|38|4.8|16.63|05.02
+Ollie Johns|2019-09-09|2022-01-02|50446068412976281,Weaveworld,Erika Conn|35|3.1|15.23|40.31
+Arlene Fahey|2000-10-21|2004-02-30|64542177333571291,Tom Jones,Rosemarie Casper|24|8.6|18.79|39.22
+Verna Kertzmann-Howe|2000-11-03|2026-09-08|07792593115751282,Molesworth,Allan Schaefer|77|1.9|42.49|30.97
+Jacqueline Reinger|2012-03-23|2014-09-14|67455957925342257,The Luck Of Barry Lyndon,Connie Wolff|47|4.0|46.54|46.77
+Rosalie Blanda|2007-10-09|2011-07-15|62421282628412973,Middlesex,Adrian Stokes|89|4.5|04.12|14.21
+Hannah Schmitt|2024-02-26|2024-10-13|62421282628412973,Middlesex,Adrian Stokes|96|4.8|43.57|21.01
+Rene Hansen|2006-02-06|2006-12-15|33431366513849789,East Of Eden,Christine Stamm|72|5.1|20.22|08.67
+Randy Lakin|2018-04-11|2025-09-02|67455957925342257,The Luck Of Barry Lyndon,Connie Wolff|48|2.1|45.98|27.50
+Winston Reilly|2014-06-11|2025-01-22|20581470334059649,Remembrance Of Things Past,Tyrone Jerde|66|4.4|47.99|49.38
+Sandy Hyatt|2003-02-06|2019-03-02|11694896163074602,The Glass Key,Tim Cruickshank|77|7.4|00.71|32.07
+Josefina Lockman|2017-01-14|2020-04-02|50446068412976281,Weaveworld,Erika Conn|13|4.4|14.04|16.26
+Jeffrey Beier|2000-06-17|2014-07-06|69043670991366333,The Information,Bradford Conroy|45|0.0|14.31|19.80
+Henry Crist|2001-09-12|2008-01-16|22672802353173701,The Insult,Walter Vandervort|33|8.5|10.98|00.31
+Ginger Lang|2012-02-11|2015-02-06|22672802353173701,The Insult,Walter Vandervort|36|0.5|15.81|48.14
+Sandy Hyatt|2006-08-03|2023-03-14|33431366513849789,East Of Eden,Christine Stamm|97|2.4|08.98|38.29

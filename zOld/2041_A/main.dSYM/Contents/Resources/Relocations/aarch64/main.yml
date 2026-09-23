@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Applications/Programming/2041_A/main'
+relocations:     []
+...

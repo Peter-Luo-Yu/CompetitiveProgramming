@@ -1,0 +1,6 @@
+12
+Bessie 1200000
+Elsie 1199988
+Gretta 1199983
+Mildred 1199991
+Paulina 1200009

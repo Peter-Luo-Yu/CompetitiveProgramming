@@ -1,0 +1,16 @@
+Max: 9
+Odd: 3 5 
+Even: 
+9
+Max: 3
+Odd: 
+Even: 2 
+5
+Max: 2
+Odd: 1 1 
+Even: 2 
+5
+Max: 9
+Odd: 3 5 
+Even: 2 4 
+15

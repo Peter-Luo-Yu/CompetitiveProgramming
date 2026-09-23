@@ -1,0 +1,4 @@
+2
+CTLM 1 1
+MinesMarket -1 -1
+MinesMarket CTLM

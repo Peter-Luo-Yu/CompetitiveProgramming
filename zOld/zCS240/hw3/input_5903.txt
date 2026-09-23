@@ -1,0 +1,196 @@
+Marvin McKenzie|2010-01-13|2017-05-07|04804630548254187,The Three Paradoxes,Ana Hilpert|18|2.3|05.13|11.49
+Robin Beahan|2014-12-07|2026-01-29|04320637038530541,Dead Souls,Raymond Berge|78|2.5|21.93|02.61
+Julie Rogahn|2007-05-01|2013-12-27|66159938044208616,Riddley Walker,Judy Sauer|95|1.7|47.83|42.81
+Bennie Predovic|2018-03-25|2023-06-18|37271914177793867,The Scarlet Letter,Darrel VonRueden|61|2.7|18.50|25.54
+Phillip Schuppe|2023-04-28|2024-03-18|12747632143035014,The Towers Of Trebizond,Edward Weissnat|28|2.7|37.83|37.92
+Lena Williamson|2000-05-09|2009-02-21|66159938044208616,Riddley Walker,Judy Sauer|4|2.8|22.61|11.03
+Tyrone Kirlin-Zemlak|2000-04-08|2019-09-05|49671145929781292,Any Human Heart,Deborah Kessler|76|3.0|42.83|30.08
+Lorena Adams|2005-09-03|2015-11-23|49671145929781292,Any Human Heart,Deborah Kessler|67|7.2|33.75|37.15
+Douglas McDermott|2017-04-20|2020-12-25|69397423594704297,The Pledge,Lana Haag|84|3.4|49.99|38.26
+Garrett Franecki|2000-05-03|2006-06-10|12747632143035014,The Towers Of Trebizond,Edward Weissnat|83|7.0|03.14|34.76
+Cameron Lang|2003-05-08|2005-05-19|69397423594704297,The Pledge,Lana Haag|56|7.8|00.36|13.05
+Leona Koepp|2006-10-02|2008-12-07|12747632143035014,The Towers Of Trebizond,Edward Weissnat|57|7.8|35.68|48.86
+Krista Pfannerstill|2008-04-18|2008-09-22|26901491391712777,The King Of Torts,Alyssa Schinner|64|9.3|27.57|15.89
+Bill Schuster|2000-12-17|2012-07-14|66159938044208616,Riddley Walker,Judy Sauer|4|3.4|06.95|26.62
+Isaac Christiansen|2005-05-07|2007-06-25|37271914177793867,The Scarlet Letter,Darrel VonRueden|8|1.1|45.02|21.19
+Fannie Abernathy|2006-02-16|2019-10-12|03886108895053390,A Study In Scarlet,Felipe Hirthe|11|6.2|25.23|22.86
+Clifford Boehm|2001-11-04|2023-01-20|26901491391712777,The King Of Torts,Alyssa Schinner|40|3.4|34.21|35.00
+Dallas Cronin|2020-02-15|2026-06-11|04804630548254187,The Three Paradoxes,Ana Hilpert|59|4.9|27.33|23.97
+Lynne Lakin|2007-01-15|2010-05-29|98057201005324722,Just William,Vincent Windler|88|3.6|44.32|28.47
+Angela Paucek|2003-08-08|2010-05-17|12747632143035014,The Towers Of Trebizond,Edward Weissnat|1|3.6|45.21|44.52
+Sandra Blanda|2000-07-01|2023-04-01|20196586015043106,My Name Is Red,George McCullough|79|0.8|18.61|14.71
+Ray Wuckert|2001-03-15|2014-04-08|20196586015043106,My Name Is Red,George McCullough|3|0.4|41.32|39.64
+Lee Torphy|2005-01-22|2017-04-22|37271914177793867,The Scarlet Letter,Darrel VonRueden|22|7.4|48.35|22.73
+Ramiro Kerluke|2004-04-06|2005-03-16|66159938044208616,Riddley Walker,Judy Sauer|14|1.1|46.94|18.84
+Walter Vandervort|2017-02-11|2024-08-19|99086795281946024,The King Of Torts,Levi Collier-Veum|63|5.9|39.97|22.27
+Lowell Larson|2016-11-05|2020-07-27|12747632143035014,The Towers Of Trebizond,Edward Weissnat|76|2.3|06.23|35.56
+Ethel Morar|2021-02-09|2025-09-09|98057201005324722,Just William,Vincent Windler|58|1.1|20.36|14.66
+Loretta Boehm|2001-12-19|2019-11-19|49671145929781292,Any Human Heart,Deborah Kessler|6|6.1|10.12|03.62
+Belinda Leuschke|2013-02-29|2014-12-08|04320637038530541,Dead Souls,Raymond Berge|38|6.6|36.06|15.59
+Wm Reinger|2012-04-23|2020-07-09|49671145929781292,Any Human Heart,Deborah Kessler|2|2.0|39.93|19.17
+Bertha Mitchell|2001-08-17|2007-02-02|32847546496201986,Daniel Deronda,Terrell Konopelski|10|1.4|32.14|20.70
+Victor Hilpert|2000-08-06|2013-05-01|26901491391712777,The King Of Torts,Alyssa Schinner|26|5.6|17.38|49.51
+Belinda Leuschke|2005-07-15|2014-02-25|37271914177793867,The Scarlet Letter,Darrel VonRueden|88|6.6|20.87|04.98
+Iris Dare|2014-10-14|2019-08-22|04804630548254187,The Three Paradoxes,Ana Hilpert|10|3.6|32.53|27.97
+Doris O'Hara|2008-01-08|2016-07-19|20196586015043106,My Name Is Red,George McCullough|71|8.5|36.95|07.79
+Cecilia Kris|2000-09-04|2024-09-25|49671145929781292,Any Human Heart,Deborah Kessler|80|6.8|35.08|30.79
+Bethany Gusikowski|2002-08-04|2019-06-15|04804630548254187,The Three Paradoxes,Ana Hilpert|37|9.6|07.58|30.38
+Carolyn Hammes|2000-02-29|2019-02-20|80256574801361387,The Little World Of Don Camillo,Gerald Gulgowski|96|8.6|30.53|14.19
+Kristy Oberbrunner|2014-09-30|2024-02-13|04804630548254187,The Three Paradoxes,Ana Hilpert|43|9.4|03.70|20.87
+Billie Hansen|2005-04-06|2017-10-22|20196586015043106,My Name Is Red,George McCullough|16|7.8|15.83|36.34
+Angel Goldner|2007-10-11|2023-09-13|04320637038530541,Dead Souls,Raymond Berge|72|6.3|25.54|11.83
+Lee Torphy|2014-06-10|2019-04-26|66159938044208616,Riddley Walker,Judy Sauer|11|6.3|08.27|21.89
+Johnny Lesch|2005-07-24|2014-03-23|04320637038530541,Dead Souls,Raymond Berge|70|9.3|30.85|48.82
+Whitney Daugherty|2002-04-17|2014-08-01|04320637038530541,Dead Souls,Raymond Berge|37|2.4|21.06|42.98
+Stephen Huel|2007-07-13|2016-07-22|26901491391712777,The King Of Torts,Alyssa Schinner|84|6.6|20.65|42.87
+Gilberto Littel|2009-10-26|2026-01-12|69397423594704297,The Pledge,Lana Haag|38|0.9|15.03|12.23
+Roberto Cremin-McGlynn|2016-08-04|2019-09-15|04804630548254187,The Three Paradoxes,Ana Hilpert|18|7.5|36.81|08.39
+Al Kirlin|2008-06-22|2022-11-30|04320637038530541,Dead Souls,Raymond Berge|46|6.2|26.52|00.93
+Lena Baumbach|2020-07-17|2026-10-23|04320637038530541,Dead Souls,Raymond Berge|41|6.8|40.45|19.12
+Thomas Rutherford|2000-12-06|2001-06-17|03886108895053390,A Study In Scarlet,Felipe Hirthe|57|7.7|13.54|25.70
+Terry Rowe|2013-11-18|2022-09-05|04320637038530541,Dead Souls,Raymond Berge|1|3.4|47.75|15.60
+Viola Rice|2000-07-05|2012-03-29|04320637038530541,Dead Souls,Raymond Berge|32|8.6|16.22|33.08
+Kenny Beahan|2011-05-30|2017-05-08|66159938044208616,Riddley Walker,Judy Sauer|16|6.5|07.83|36.78
+Janis Daugherty|2000-09-11|2025-07-06|04804630548254187,The Three Paradoxes,Ana Hilpert|66|3.8|33.63|18.68
+Jessie Smitham|2003-04-11|2020-09-02|32847546496201986,Daniel Deronda,Terrell Konopelski|6|4.7|15.18|17.37
+Marshall Williamson|2006-06-30|2013-04-11|66159938044208616,Riddley Walker,Judy Sauer|69|8.4|17.22|25.67
+Diana Wolff|2022-02-04|2022-06-24|49671145929781292,Any Human Heart,Deborah Kessler|21|7.9|30.75|23.88
+Bruce Schiller|2010-06-05|2025-02-16|20196586015043106,My Name Is Red,George McCullough|51|3.4|37.00|17.80
+Phil Tromp|2021-11-23|2023-03-05|99086795281946024,The King Of Torts,Levi Collier-Veum|63|1.8|14.10|01.68
+Marilyn Bode|2009-09-08|2026-07-07|26901491391712777,The King Of Torts,Alyssa Schinner|82|1.1|10.94|49.13
+Clint Tremblay|2013-01-24|2023-12-29|03886108895053390,A Study In Scarlet,Felipe Hirthe|61|4.3|12.33|21.80
+Ira Koelpin|2012-03-24|2014-06-22|04804630548254187,The Three Paradoxes,Ana Hilpert|29|4.5|44.28|09.52
+Elizabeth Robel|2003-09-27|2020-11-17|37271914177793867,The Scarlet Letter,Darrel VonRueden|83|5.0|03.91|35.41
+Carole Sipes|2023-08-10|2023-09-22|98057201005324722,Just William,Vincent Windler|56|8.0|12.72|26.19
+Bradford Hilpert|2002-01-04|2024-10-28|04804630548254187,The Three Paradoxes,Ana Hilpert|41|4.5|47.88|25.95
+Glen Bergnaum|2000-09-04|2015-02-19|26901491391712777,The King Of Torts,Alyssa Schinner|68|3.2|28.34|13.26
+Adam Marquardt|2001-01-10|2014-05-25|74867364577125592,Harry Potter And The Philosophers Stone,Mario Lindgren|81|9.9|48.32|04.27
+Tim Cruickshank|2006-08-29|2022-03-15|66159938044208616,Riddley Walker,Judy Sauer|9|6.4|42.87|21.85
+Irvin Morissette|2022-06-18|2022-09-12|04804630548254187,The Three Paradoxes,Ana Hilpert|73|3.3|40.32|07.94
+Jared Schultz|2002-10-10|2003-04-10|12747632143035014,The Towers Of Trebizond,Edward Weissnat|81|6.1|42.04|39.22
+Barbara Hickle|2017-06-19|2019-03-03|98057201005324722,Just William,Vincent Windler|42|8.2|01.67|41.66
+Dexter Feil|2013-11-24|2017-02-29|74867364577125592,Harry Potter And The Philosophers Stone,Mario Lindgren|36|4.9|07.92|08.79
+Kristopher Gusikowski|2006-12-14|2021-11-19|98057201005324722,Just William,Vincent Windler|9|9.3|01.03|08.67
+Julius Feest|2013-05-14|2025-09-03|04320637038530541,Dead Souls,Raymond Berge|87|0.5|49.27|01.61
+Steven Schiller|2001-07-23|2024-04-28|99086795281946024,The King Of Torts,Levi Collier-Veum|3|7.4|47.76|05.21
+Levi Lindgren|2011-04-10|2021-02-08|69397423594704297,The Pledge,Lana Haag|88|8.5|23.02|29.70
+Brett Hintz|2002-10-01|2003-09-01|20196586015043106,My Name Is Red,George McCullough|33|3.4|02.20|11.48
+Christopher Medhurst|2006-07-20|2008-06-18|99086795281946024,The King Of Torts,Levi Collier-Veum|88|6.8|45.11|05.64
+Max Runolfsson|2014-08-28|2023-04-25|66159938044208616,Riddley Walker,Judy Sauer|16|7.6|29.85|42.76
+Jared Schultz|2001-01-04|2023-04-25|12747632143035014,The Towers Of Trebizond,Edward Weissnat|94|4.1|06.27|14.15
+Bob Howell|2004-10-25|2010-08-02|12747632143035014,The Towers Of Trebizond,Edward Weissnat|21|0.6|14.12|19.90
+Rex Daugherty|2021-04-30|2025-05-22|32847546496201986,Daniel Deronda,Terrell Konopelski|88|9.0|31.18|24.60
+Rita Kshlerin|2009-05-16|2016-12-26|37271914177793867,The Scarlet Letter,Darrel VonRueden|89|3.7|39.59|25.87
+Candace Schuster|2002-08-04|2013-07-22|74867364577125592,Harry Potter And The Philosophers Stone,Mario Lindgren|11|8.3|19.47|40.39
+Cecil Gusikowski|2015-10-17|2017-10-23|49671145929781292,Any Human Heart,Deborah Kessler|47|8.0|12.84|48.26
+Lionel Stiedemann|2011-04-12|2021-10-14|99086795281946024,The King Of Torts,Levi Collier-Veum|90|1.8|05.53|33.60
+Robin McLaughlin-Davis|2019-04-20|2019-05-07|20196586015043106,My Name Is Red,George McCullough|37|7.0|36.95|15.08
+Krystal Schamberger|2018-10-26|2021-11-03|20196586015043106,My Name Is Red,George McCullough|57|3.9|20.50|05.89
+Velma Ward|2004-06-17|2024-05-05|37271914177793867,The Scarlet Letter,Darrel VonRueden|55|8.7|19.24|02.09
+Alice Stehr|2018-02-21|2021-07-07|26901491391712777,The King Of Torts,Alyssa Schinner|64|9.1|17.47|02.32
+Jeannette Luettgen|2000-10-10|2023-05-30|99086795281946024,The King Of Torts,Levi Collier-Veum|44|4.8|38.91|18.21
+Juanita Cruickshank|2010-01-15|2010-03-08|49671145929781292,Any Human Heart,Deborah Kessler|47|5.3|38.67|27.13
+Kurt Tillman|2004-08-22|2024-10-13|69397423594704297,The Pledge,Lana Haag|26|2.7|32.74|17.34
+Nicole Fisher|2017-08-19|2019-07-25|32847546496201986,Daniel Deronda,Terrell Konopelski|58|5.1|03.69|23.01
+Misty Kunze-Cassin|2001-09-19|2012-07-05|37271914177793867,The Scarlet Letter,Darrel VonRueden|57|8.8|35.15|49.43
+Kurt Kerluke|2009-08-04|2015-11-09|04804630548254187,The Three Paradoxes,Ana Hilpert|74|2.7|01.51|11.43
+Valerie Dooley-Hermann|2016-03-08|2024-11-07|12747632143035014,The Towers Of Trebizond,Edward Weissnat|22|4.5|24.57|36.58
+Crystal Wyman|2012-05-29|2021-05-15|98057201005324722,Just William,Vincent Windler|32|4.7|46.31|36.14
+Crystal Boyer-Johns|2000-03-20|2015-03-30|26901491391712777,The King Of Torts,Alyssa Schinner|42|6.7|02.58|49.85
+Luther Skiles|2016-12-06|2024-04-02|66159938044208616,Riddley Walker,Judy Sauer|60|5.1|01.81|41.40
+Jeannette Luettgen|2000-10-11|2010-10-30|26901491391712777,The King Of Torts,Alyssa Schinner|99|3.2|09.22|22.46
+Stacy Barton|2002-04-03|2011-07-22|20196586015043106,My Name Is Red,George McCullough|69|2.7|39.13|01.75
+Peggy Ankunding|2002-06-29|2010-08-08|66159938044208616,Riddley Walker,Judy Sauer|26|1.6|01.75|28.50
+Tammy Tromp|2002-11-05|2008-10-27|66159938044208616,Riddley Walker,Judy Sauer|44|4.5|20.86|38.50
+Julie Rogahn|2022-09-14|2024-01-29|74867364577125592,Harry Potter And The Philosophers Stone,Mario Lindgren|83|2.0|08.70|45.59
+Harry Lind|2015-02-15|2023-03-01|26901491391712777,The King Of Torts,Alyssa Schinner|24|2.6|18.10|05.36
+Ramon Stamm|2007-10-30|2024-01-21|03886108895053390,A Study In Scarlet,Felipe Hirthe|54|9.0|19.07|14.21
+Mattie Kovacek|2006-08-03|2008-02-16|04804630548254187,The Three Paradoxes,Ana Hilpert|39|8.3|18.99|26.05
+Daisy McCullough|2006-01-03|2016-08-26|12747632143035014,The Towers Of Trebizond,Edward Weissnat|11|0.3|25.28|18.59
+Pat Cronin|2005-02-02|2021-02-29|66159938044208616,Riddley Walker,Judy Sauer|60|6.4|42.72|14.36
+Brittany Aufderhar|2011-03-29|2023-01-03|37271914177793867,The Scarlet Letter,Darrel VonRueden|8|5.0|12.80|05.50
+Connie Feeney|2024-12-27|2025-02-03|37271914177793867,The Scarlet Letter,Darrel VonRueden|90|7.6|33.19|17.63
+Penny O'Conner|2005-05-10|2018-02-05|98057201005324722,Just William,Vincent Windler|38|4.5|00.66|31.96
+Saul Erdman|2010-01-11|2016-01-04|32847546496201986,Daniel Deronda,Terrell Konopelski|46|8.5|15.02|18.98
+Pedro Kilback-Hegmann|2000-12-17|2013-01-20|80256574801361387,The Little World Of Don Camillo,Gerald Gulgowski|42|8.4|43.06|11.03
+Maryann Okuneva|2014-05-12|2023-03-14|12747632143035014,The Towers Of Trebizond,Edward Weissnat|63|4.3|20.60|30.17
+Sam Shanahan|2001-09-22|2013-04-30|03886108895053390,A Study In Scarlet,Felipe Hirthe|43|2.1|12.77|44.81
+Roderick Walker|2003-05-17|2008-05-05|04804630548254187,The Three Paradoxes,Ana Hilpert|84|5.0|49.26|27.58
+Gilberto Monahan|2008-12-22|2013-07-30|74867364577125592,Harry Potter And The Philosophers Stone,Mario Lindgren|78|0.9|39.70|07.67
+Rudy Farrell|2007-11-11|2025-12-01|37271914177793867,The Scarlet Letter,Darrel VonRueden|95|2.8|16.33|45.62
+Shelly Jenkins|2006-06-06|2013-11-06|66159938044208616,Riddley Walker,Judy Sauer|25|7.9|02.53|42.88
+Marguerite Stark|2022-10-03|2022-10-28|26901491391712777,The King Of Torts,Alyssa Schinner|53|8.1|14.40|42.01
+Tasha Crist-Abernathy|2009-02-21|2015-03-24|26901491391712777,The King Of Torts,Alyssa Schinner|90|1.9|25.85|33.69
+Angie Spinka|2001-02-07|2021-09-26|99086795281946024,The King Of Torts,Levi Collier-Veum|58|7.5|38.25|04.30
+Randolph Steuber|2000-03-05|2004-05-21|80256574801361387,The Little World Of Don Camillo,Gerald Gulgowski|38|5.3|49.30|40.75
+Claude Farrell|2012-09-23|2023-10-10|37271914177793867,The Scarlet Letter,Darrel VonRueden|98|1.6|45.08|12.69
+Emanuel Rodriguez|2005-11-20|2017-12-11|26901491391712777,The King Of Torts,Alyssa Schinner|95|9.1|00.24|48.24
+Alfred Zieme|2010-01-27|2026-12-16|20196586015043106,My Name Is Red,George McCullough|90|8.6|01.18|00.55
+Juanita Jones|2020-06-06|2023-09-22|32847546496201986,Daniel Deronda,Terrell Konopelski|4|3.1|27.56|21.95
+Merle Johnston|2002-07-28|2007-07-17|74867364577125592,Harry Potter And The Philosophers Stone,Mario Lindgren|59|6.9|49.05|04.91
+Tyler King|2006-03-10|2022-09-17|98057201005324722,Just William,Vincent Windler|91|9.9|06.79|14.02
+Lynette Dach|2017-11-20|2020-10-22|26901491391712777,The King Of Torts,Alyssa Schinner|89|4.4|29.28|22.85
+Rochelle Murray|2004-05-20|2021-12-25|04804630548254187,The Three Paradoxes,Ana Hilpert|92|7.8|29.71|00.09
+Bernard Legros|2003-03-26|2006-05-26|20196586015043106,My Name Is Red,George McCullough|12|7.7|28.71|40.17
+Lana Veum|2010-03-14|2011-04-18|66159938044208616,Riddley Walker,Judy Sauer|33|1.1|42.26|35.47
+Horace Maggio|2007-03-13|2011-06-05|20196586015043106,My Name Is Red,George McCullough|98|1.3|49.35|34.06
+Lionel Koepp|2002-08-19|2007-05-02|26901491391712777,The King Of Torts,Alyssa Schinner|3|3.3|33.14|08.99
+Rose Pollich|2003-01-14|2013-02-09|04320637038530541,Dead Souls,Raymond Berge|20|9.0|27.30|26.34
+Jeanne Paucek|2006-05-19|2007-08-21|26901491391712777,The King Of Torts,Alyssa Schinner|68|5.7|07.84|14.37
+Darrin Oberbrunner|2002-04-26|2024-11-23|12747632143035014,The Towers Of Trebizond,Edward Weissnat|34|1.0|48.98|12.50
+Jorge Hyatt|2008-03-07|2008-08-05|32847546496201986,Daniel Deronda,Terrell Konopelski|12|1.1|21.05|33.56
+Clint Crist|2008-11-07|2025-08-15|37271914177793867,The Scarlet Letter,Darrel VonRueden|12|3.8|02.17|30.51
+Gary Kunze|2006-02-21|2018-01-03|04804630548254187,The Three Paradoxes,Ana Hilpert|95|7.1|37.03|46.17
+Melba Bergnaum|2002-02-19|2010-01-20|66159938044208616,Riddley Walker,Judy Sauer|40|5.9|49.93|08.33
+Willis Senger|2016-10-21|2025-04-16|69397423594704297,The Pledge,Lana Haag|61|6.2|43.11|07.40
+Marlon MacGyver|2013-10-25|2025-01-10|32847546496201986,Daniel Deronda,Terrell Konopelski|22|4.7|09.94|28.35
+Terrance Hand|2018-06-13|2019-09-04|37271914177793867,The Scarlet Letter,Darrel VonRueden|89|6.5|03.25|21.06
+Robyn Fahey|2001-07-18|2020-06-27|04804630548254187,The Three Paradoxes,Ana Hilpert|94|5.6|12.99|07.39
+Jeffrey Beier|2002-09-16|2012-03-08|80256574801361387,The Little World Of Don Camillo,Gerald Gulgowski|78|2.1|28.13|27.50
+Charles Dach|2008-05-03|2011-07-08|20196586015043106,My Name Is Red,George McCullough|20|7.9|15.00|18.35
+Raul Morissette|2005-06-05|2014-12-17|26901491391712777,The King Of Torts,Alyssa Schinner|94|9.1|40.51|49.01
+Marc Jones|2009-08-14|2016-09-18|99086795281946024,The King Of Torts,Levi Collier-Veum|92|4.9|25.45|37.03
+Randal Kutch|2020-02-30|2020-06-20|32847546496201986,Daniel Deronda,Terrell Konopelski|7|3.8|29.10|15.15
+Eula Rosenbaum|2000-06-10|2005-06-15|37271914177793867,The Scarlet Letter,Darrel VonRueden|83|1.4|30.40|10.28
+Jay Lakin|2008-10-28|2024-09-18|74867364577125592,Harry Potter And The Philosophers Stone,Mario Lindgren|42|7.2|03.78|13.62
+Delores Sanford|2001-07-01|2009-07-11|04804630548254187,The Three Paradoxes,Ana Hilpert|31|4.4|46.31|33.27
+Allison Schumm|2009-12-11|2022-12-24|98057201005324722,Just William,Vincent Windler|22|0.1|37.02|12.57
+Arlene Fahey|2016-09-07|2018-03-24|03886108895053390,A Study In Scarlet,Felipe Hirthe|45|8.3|08.52|08.95
+Nellie Predovic|2001-04-02|2006-09-23|74867364577125592,Harry Potter And The Philosophers Stone,Mario Lindgren|65|0.3|39.78|28.95
+Gary Kunze|2001-11-06|2006-11-19|12747632143035014,The Towers Of Trebizond,Edward Weissnat|79|1.7|28.93|08.55
+Allan Doyle|2004-03-28|2014-08-15|03886108895053390,A Study In Scarlet,Felipe Hirthe|15|7.8|06.59|07.34
+Paulette Brakus-Botsford|2003-09-18|2018-06-17|99086795281946024,The King Of Torts,Levi Collier-Veum|22|7.0|15.50|49.07
+Doreen Kuhlman|2018-05-30|2023-08-16|37271914177793867,The Scarlet Letter,Darrel VonRueden|91|2.4|40.65|21.15
+Lana Beatty|2002-12-21|2013-08-22|37271914177793867,The Scarlet Letter,Darrel VonRueden|52|7.6|26.75|48.32
+Gerard Orn|2017-02-21|2021-06-27|69397423594704297,The Pledge,Lana Haag|90|0.8|37.31|29.09
+Kristy Oberbrunner|2001-04-18|2002-04-11|98057201005324722,Just William,Vincent Windler|32|6.7|32.25|24.27
+Blake Murray|2010-06-26|2025-12-26|32847546496201986,Daniel Deronda,Terrell Konopelski|63|1.1|20.27|39.55
+Israel Gleason|2000-10-30|2004-10-21|66159938044208616,Riddley Walker,Judy Sauer|68|1.4|40.07|36.39
+Caroline Hessel|2001-01-13|2003-11-17|80256574801361387,The Little World Of Don Camillo,Gerald Gulgowski|31|3.1|01.48|06.25
+Linda Cartwright|2004-10-27|2011-11-11|37271914177793867,The Scarlet Letter,Darrel VonRueden|50|8.8|05.39|03.69
+Christy Anderson|2004-03-01|2005-10-03|32847546496201986,Daniel Deronda,Terrell Konopelski|58|6.3|01.96|31.21
+Bernice Watsica|2004-05-17|2021-01-17|04320637038530541,Dead Souls,Raymond Berge|98|6.7|37.77|01.77
+Joann Cormier|2017-05-01|2025-09-22|66159938044208616,Riddley Walker,Judy Sauer|90|4.6|24.53|01.28
+Kenny Larkin|2011-07-22|2017-07-06|12747632143035014,The Towers Of Trebizond,Edward Weissnat|3|4.1|37.17|49.01
+Lester Renner|2017-07-23|2021-05-21|69397423594704297,The Pledge,Lana Haag|76|3.3|16.66|44.75
+Elias Thiel|2002-10-25|2022-09-02|37271914177793867,The Scarlet Letter,Darrel VonRueden|82|2.0|09.30|04.17
+David Zulauf|2002-09-26|2025-10-27|98057201005324722,Just William,Vincent Windler|64|4.5|35.25|08.69
+Rufus Bednar|2002-05-05|2016-06-24|98057201005324722,Just William,Vincent Windler|59|8.9|15.55|37.18
+Jan Koelpin|2002-02-20|2025-10-24|49671145929781292,Any Human Heart,Deborah Kessler|91|10.0|42.62|32.93
+Naomi O'Conner|2011-09-24|2021-04-26|66159938044208616,Riddley Walker,Judy Sauer|67|1.2|21.00|27.87
+Leslie Barrows|2002-03-26|2015-05-18|49671145929781292,Any Human Heart,Deborah Kessler|45|0.1|18.37|17.81
+Sonya Turner|2008-08-16|2024-12-01|80256574801361387,The Little World Of Don Camillo,Gerald Gulgowski|94|0.0|16.69|11.20
+Muriel Torp|2010-04-15|2024-02-13|12747632143035014,The Towers Of Trebizond,Edward Weissnat|22|7.0|38.64|04.31
+Sally Schowalter|2013-06-18|2023-05-08|98057201005324722,Just William,Vincent Windler|2|6.6|29.69|36.51
+Terrell Homenick|2004-12-27|2022-04-09|04804630548254187,The Three Paradoxes,Ana Hilpert|16|3.9|07.53|17.99
+Leon Mertz|2008-02-21|2010-10-05|20196586015043106,My Name Is Red,George McCullough|29|9.7|20.03|33.47
+Jack Wilkinson|2009-06-20|2025-04-20|74867364577125592,Harry Potter And The Philosophers Stone,Mario Lindgren|78|4.6|21.25|28.47
+Sabrina Lang|2001-01-09|2010-07-21|12747632143035014,The Towers Of Trebizond,Edward Weissnat|13|2.2|36.57|28.09
+Owen Prosacco|2004-06-27|2023-06-29|98057201005324722,Just William,Vincent Windler|89|8.2|28.73|09.88
+Tom Feil|2011-10-25|2026-07-07|49671145929781292,Any Human Heart,Deborah Kessler|24|1.6|01.65|39.90
+Alyssa Klocko|2004-07-09|2019-06-06|74867364577125592,Harry Potter And The Philosophers Stone,Mario Lindgren|5|2.1|29.13|41.52
+Leo Donnelly|2000-10-20|2006-12-16|26901491391712777,The King Of Torts,Alyssa Schinner|83|6.3|33.74|03.40
+Doreen Braun|2010-11-04|2014-02-07|66159938044208616,Riddley Walker,Judy Sauer|4|5.9|07.92|37.26
+Kathleen Purdy|2004-12-30|2015-10-11|12747632143035014,The Towers Of Trebizond,Edward Weissnat|55|8.8|49.19|01.69
+Kristine Olson|2003-09-12|2023-05-29|37271914177793867,The Scarlet Letter,Darrel VonRueden|14|3.9|45.63|20.27
+Otis Keeling|2002-02-20|2008-06-04|32847546496201986,Daniel Deronda,Terrell Konopelski|89|2.5|31.32|32.01

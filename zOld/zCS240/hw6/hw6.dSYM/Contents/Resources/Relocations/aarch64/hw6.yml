@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Applications/Programming/zCS240/hw6/hw6'
+relocations:     []
+...

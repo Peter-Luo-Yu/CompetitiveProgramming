@@ -1,0 +1,104 @@
+Jeannie Kunze|2015-01-08|2017-04-17|10686806973383886,The Big Sleep,Bertha Bernier|31|9.2|44.16|10.81
+Raquel Schumm|2015-08-13|2021-11-22|06665051935102600,The Four Just Men,Miriam Buckridge-Cummings|95|4.2|22.39|33.11
+Janet Ferry|2011-07-22|2017-01-15|86697172655369276,Vendetta,Shelley Bergstrom|56|9.0|29.35|25.42
+Deanna Stokes|2018-12-06|2020-05-05|63804408622099268,Piccadilly Jim,Bonnie Goodwin|92|8.3|27.40|03.79
+Nichole Watsica|2012-11-13|2015-09-25|10686806973383886,The Big Sleep,Bertha Bernier|54|4.3|22.49|06.73
+Howard Jakubowski|2000-01-11|2010-07-20|05730844596372544,Jane Eyre,Doyle Wolf|7|1.0|28.22|19.79
+Lowell Kshlerin|2013-12-27|2023-09-26|63804408622099268,Piccadilly Jim,Bonnie Goodwin|15|0.8|21.55|10.17
+Isaac Hudson-Luettgen|2003-10-12|2011-03-09|10686806973383886,The Big Sleep,Bertha Bernier|61|4.1|28.04|45.21
+Brent Mayer|2013-10-03|2026-10-01|36641261211467647,Nights At The Circus,Rachael Kunze|80|2.7|39.98|08.09
+Elsie Beahan-Johnson|2012-03-11|2017-10-23|85260047665971834,Decline And Fall,Corey Gorczany|16|3.3|45.33|32.22
+Daniel Schuster-Daniel|2023-11-08|2025-05-04|85260047665971834,Decline And Fall,Corey Gorczany|21|5.9|07.75|04.18
+Bernard Flatley|2022-05-18|2024-05-10|23416462793067320,The Midwich Cuckoos,Amber Ward-Blick|66|1.8|12.90|00.81
+Nicole Rolfson|2001-11-22|2002-11-05|10686806973383886,The Big Sleep,Bertha Bernier|6|8.0|40.86|46.28
+Stephanie Gulgowski|2007-06-08|2021-01-23|06665051935102600,The Four Just Men,Miriam Buckridge-Cummings|69|1.2|10.33|33.15
+Armando Langworth|2008-01-22|2017-12-11|06665051935102600,The Four Just Men,Miriam Buckridge-Cummings|70|0.6|41.46|31.66
+Anita Nader|2014-05-16|2015-12-30|38814091895029403,Lhistoire De Gil Blas De Santillane (Gil Blas) Alain-René Lesage,Arlene Fahey|50|9.3|12.11|26.31
+Pam Cummings|2007-07-06|2020-11-09|70289658318632892,Changing Places,Dianna Wunsch|43|9.0|12.55|41.11
+Blake Wilderman|2022-03-13|2023-08-09|86697172655369276,Vendetta,Shelley Bergstrom|34|5.1|09.62|08.73
+Michael Rice|2013-09-01|2020-09-13|31583138781888968,Vilette,Francis Collier|71|3.2|21.15|48.65
+Daniel Grady|2007-01-12|2011-10-29|86697172655369276,Vendetta,Shelley Bergstrom|6|4.0|17.85|01.58
+Terrell Konopelski|2016-11-05|2021-02-28|38814091895029403,Lhistoire De Gil Blas De Santillane (Gil Blas) Alain-René Lesage,Arlene Fahey|58|9.2|15.54|12.66
+Tom Hauck|2004-05-16|2005-03-12|23416462793067320,The Midwich Cuckoos,Amber Ward-Blick|4|2.8|48.24|45.81
+Jeannie Gottlieb|2003-12-20|2011-08-13|38814091895029403,Lhistoire De Gil Blas De Santillane (Gil Blas) Alain-René Lesage,Arlene Fahey|79|4.5|33.43|45.23
+Cassandra Marks|2017-04-22|2026-10-11|63804408622099268,Piccadilly Jim,Bonnie Goodwin|63|1.4|15.49|32.33
+Camille Price|2015-07-30|2021-08-12|86697172655369276,Vendetta,Shelley Bergstrom|9|9.4|19.15|13.70
+Arturo Schmitt|2004-04-19|2008-07-20|00226093781319365,A Prayer For Owen Meany,Constance Boyer|38|8.7|00.73|37.21
+Tanya Schiller|2014-06-01|2024-10-01|85260047665971834,Decline And Fall,Corey Gorczany|22|9.5|34.06|40.64
+Minnie Stamm|2016-06-13|2024-01-06|00226093781319365,A Prayer For Owen Meany,Constance Boyer|85|4.6|06.35|16.63
+Eva Zboncak|2009-06-04|2010-02-08|00226093781319365,A Prayer For Owen Meany,Constance Boyer|63|0.2|38.37|13.77
+Camille Price|2007-01-10|2007-06-16|06665051935102600,The Four Just Men,Miriam Buckridge-Cummings|98|7.0|25.16|36.63
+Bennie Vandervort|2007-01-01|2019-02-02|00226093781319365,A Prayer For Owen Meany,Constance Boyer|46|9.3|15.97|21.68
+Frankie Hahn|2009-12-12|2010-04-22|47405747914224567,To Kill A Mockingbird,Ernesto Maggio|5|4.0|40.65|39.15
+Rita Kshlerin|2014-12-26|2026-12-20|31583138781888968,Vilette,Francis Collier|32|5.5|14.09|39.04
+Mack Nader|2000-11-30|2013-12-15|47405747914224567,To Kill A Mockingbird,Ernesto Maggio|34|7.5|47.43|08.70
+Tiffany Hartmann|2006-03-23|2015-09-07|38814091895029403,Lhistoire De Gil Blas De Santillane (Gil Blas) Alain-René Lesage,Arlene Fahey|60|5.6|36.65|26.23
+Debra Larkin|2006-05-02|2025-09-05|31583138781888968,Vilette,Francis Collier|17|9.7|41.85|23.74
+Wanda Gusikowski|2013-12-24|2025-10-14|06665051935102600,The Four Just Men,Miriam Buckridge-Cummings|50|7.2|38.47|29.21
+Luther Paucek|2020-04-26|2025-08-07|47405747914224567,To Kill A Mockingbird,Ernesto Maggio|33|1.1|29.83|17.69
+Kelley O'Keefe|2009-08-19|2012-11-08|36641261211467647,Nights At The Circus,Rachael Kunze|80|6.5|27.64|49.04
+Cecilia Luettgen|2011-01-30|2026-10-22|05730844596372544,Jane Eyre,Doyle Wolf|20|8.5|48.99|17.19
+Jackie Nitzsche|2018-03-30|2019-02-22|06665051935102600,The Four Just Men,Miriam Buckridge-Cummings|13|7.5|04.16|10.64
+Louis Schuppe|2002-03-18|2011-07-23|31583138781888968,Vilette,Francis Collier|98|6.0|01.21|02.18
+Mathew Kirlin|2003-09-23|2024-01-18|63804408622099268,Piccadilly Jim,Bonnie Goodwin|95|9.0|10.73|07.94
+Carol Klocko|2001-07-07|2013-08-02|38814091895029403,Lhistoire De Gil Blas De Santillane (Gil Blas) Alain-René Lesage,Arlene Fahey|23|5.1|39.04|38.22
+Eric Cruickshank|2005-04-29|2024-01-26|03395061544522382,Adam Bede,Wilson Rodriguez|72|6.2|27.25|01.66
+Jonathon Gerhold|2017-07-15|2021-08-11|36641261211467647,Nights At The Circus,Rachael Kunze|72|7.3|22.85|19.41
+Alison Senger-Davis|2010-09-29|2013-08-26|31583138781888968,Vilette,Francis Collier|9|3.1|05.81|27.77
+Alberta Streich|2005-01-12|2012-02-07|47405747914224567,To Kill A Mockingbird,Ernesto Maggio|54|6.6|10.52|07.94
+Catherine Langworth-Gulgowski|2003-01-16|2010-12-29|38814091895029403,Lhistoire De Gil Blas De Santillane (Gil Blas) Alain-René Lesage,Arlene Fahey|7|3.5|38.71|36.87
+Pam Cummings|2016-02-13|2019-08-12|86697172655369276,Vendetta,Shelley Bergstrom|97|8.3|21.15|30.04
+Marshall Williamson|2004-10-17|2017-05-01|14214372411284086,The Polygots,Jodi Heidenreich-Witting|60|6.1|21.92|30.74
+Felipe Hirthe|2005-08-20|2014-11-03|00226093781319365,A Prayer For Owen Meany,Constance Boyer|33|6.8|26.08|29.34
+Roberto Cremin-McGlynn|2011-10-01|2022-12-15|86697172655369276,Vendetta,Shelley Bergstrom|47|7.1|48.10|16.14
+Enrique Toy|2000-02-09|2003-09-02|00226093781319365,A Prayer For Owen Meany,Constance Boyer|35|2.7|35.30|07.32
+Heather Hilpert|2005-05-26|2007-11-29|47405747914224567,To Kill A Mockingbird,Ernesto Maggio|89|2.2|40.36|32.56
+Sonja Block|2014-02-26|2024-11-10|05730844596372544,Jane Eyre,Doyle Wolf|67|3.4|19.49|14.85
+Emanuel Harvey|2013-02-28|2014-12-10|03395061544522382,Adam Bede,Wilson Rodriguez|55|8.5|09.88|18.78
+Blake Becker|2004-03-16|2012-02-06|05730844596372544,Jane Eyre,Doyle Wolf|77|5.7|37.91|29.88
+Jacob Pfannerstill|2003-11-13|2020-04-06|70289658318632892,Changing Places,Dianna Wunsch|47|0.7|16.00|30.45
+Jeff Corkery|2006-09-25|2018-02-13|00226093781319365,A Prayer For Owen Meany,Constance Boyer|65|3.4|22.66|03.73
+Kelvin Bradtke|2019-05-10|2022-02-12|03395061544522382,Adam Bede,Wilson Rodriguez|31|2.4|40.19|32.57
+Clinton Wiegand-Moore|2002-03-02|2019-02-26|06665051935102600,The Four Just Men,Miriam Buckridge-Cummings|26|7.1|14.93|44.07
+Roxanne Dare|2000-07-29|2007-05-08|86697172655369276,Vendetta,Shelley Bergstrom|35|1.8|03.31|45.42
+Isaac Christiansen|2016-08-03|2021-01-21|14214372411284086,The Polygots,Jodi Heidenreich-Witting|3|1.9|03.66|21.86
+Jessica Walker|2006-03-05|2014-07-01|63804408622099268,Piccadilly Jim,Bonnie Goodwin|49|6.4|13.25|10.21
+Max Runolfsson|2005-09-28|2009-04-20|06665051935102600,The Four Just Men,Miriam Buckridge-Cummings|88|2.0|10.56|29.31
+Roberto Schultz|2000-02-29|2016-01-27|23416462793067320,The Midwich Cuckoos,Amber Ward-Blick|10|5.0|36.45|49.33
+Cassandra Feil|2014-12-17|2023-05-01|31583138781888968,Vilette,Francis Collier|78|5.1|15.64|42.23
+Roxanne Nitzsche|2001-08-07|2014-05-20|14214372411284086,The Polygots,Jodi Heidenreich-Witting|61|2.3|32.79|47.08
+Elias Lakin|2010-06-30|2013-10-19|00226093781319365,A Prayer For Owen Meany,Constance Boyer|55|2.7|44.20|43.36
+Tomas Walter|2000-09-26|2013-01-11|70289658318632892,Changing Places,Dianna Wunsch|27|8.5|12.85|39.69
+Matt King|2023-02-07|2026-06-08|63804408622099268,Piccadilly Jim,Bonnie Goodwin|74|7.5|27.40|41.17
+Iris Wisoky|2008-09-25|2020-04-06|63804408622099268,Piccadilly Jim,Bonnie Goodwin|93|5.2|32.59|31.73
+Laurence Abernathy|2017-10-14|2020-09-18|47405747914224567,To Kill A Mockingbird,Ernesto Maggio|72|3.8|47.00|28.74
+Gerardo Sanford-Little|2022-06-30|2026-02-08|47405747914224567,To Kill A Mockingbird,Ernesto Maggio|41|5.7|01.23|07.30
+Joe Olson|2007-06-09|2019-09-23|14214372411284086,The Polygots,Jodi Heidenreich-Witting|36|4.8|22.42|22.45
+Brandy Lind|2006-04-09|2016-02-19|31583138781888968,Vilette,Francis Collier|35|4.2|15.13|39.68
+Blanche Bayer|2021-09-23|2022-02-28|63804408622099268,Piccadilly Jim,Bonnie Goodwin|59|3.0|01.42|48.99
+Calvin Blanda|2020-06-27|2022-08-08|14214372411284086,The Polygots,Jodi Heidenreich-Witting|96|4.6|47.63|17.24
+Rita Pacocha|2012-12-20|2015-04-10|86697172655369276,Vendetta,Shelley Bergstrom|79|2.7|14.39|07.58
+Cameron Jakubowski|2008-03-26|2020-11-12|06665051935102600,The Four Just Men,Miriam Buckridge-Cummings|44|0.7|07.02|40.86
+Enrique Glover|2012-09-19|2025-12-06|10686806973383886,The Big Sleep,Bertha Bernier|26|4.7|04.71|31.05
+Bradford Conroy|2024-02-12|2026-11-17|86697172655369276,Vendetta,Shelley Bergstrom|28|0.3|32.92|16.95
+Shaun Jerde|2006-01-06|2018-03-02|85260047665971834,Decline And Fall,Corey Gorczany|54|0.2|34.65|38.26
+Randal Haag|2011-09-10|2022-03-12|86697172655369276,Vendetta,Shelley Bergstrom|58|1.3|18.86|29.25
+Monica Barrows|2008-11-09|2022-10-23|23416462793067320,The Midwich Cuckoos,Amber Ward-Blick|74|0.1|18.42|20.66
+Leslie Barrows|2001-09-29|2017-07-13|05730844596372544,Jane Eyre,Doyle Wolf|72|9.5|13.26|28.23
+Suzanne Shields|2006-09-17|2025-03-08|31583138781888968,Vilette,Francis Collier|8|7.4|20.61|25.52
+Kimberly Dach|2016-06-05|2023-02-13|31583138781888968,Vilette,Francis Collier|27|5.8|29.16|23.74
+Julia Schamberger|2015-09-10|2016-11-21|63804408622099268,Piccadilly Jim,Bonnie Goodwin|43|8.5|05.44|42.98
+Jackie Koepp|2002-06-01|2005-07-04|06665051935102600,The Four Just Men,Miriam Buckridge-Cummings|11|3.6|20.72|14.47
+Bernice Watsica|2011-06-23|2017-12-19|70289658318632892,Changing Places,Dianna Wunsch|89|8.4|04.56|41.47
+Linda McClure-Dicki|2018-12-17|2026-02-27|38814091895029403,Lhistoire De Gil Blas De Santillane (Gil Blas) Alain-René Lesage,Arlene Fahey|77|9.5|31.94|11.59
+Rosemarie Casper|2004-04-01|2017-07-22|05730844596372544,Jane Eyre,Doyle Wolf|21|5.9|34.08|42.63
+Doyle Becker-Johnson|2012-02-06|2022-03-15|14214372411284086,The Polygots,Jodi Heidenreich-Witting|98|3.9|06.23|33.67
+Tami Windler|2003-04-18|2015-04-01|36641261211467647,Nights At The Circus,Rachael Kunze|71|0.4|21.37|44.12
+Emily Toy-Huel|2006-03-22|2018-08-24|85260047665971834,Decline And Fall,Corey Gorczany|75|1.0|19.60|36.22
+Adrienne Brown|2004-03-28|2023-11-06|70289658318632892,Changing Places,Dianna Wunsch|5|5.3|43.05|36.10
+Juan Price|2002-02-08|2017-05-19|85260047665971834,Decline And Fall,Corey Gorczany|0|1.3|36.98|11.64
+Brandon McKenzie|2016-08-02|2019-04-30|23416462793067320,The Midwich Cuckoos,Amber Ward-Blick|98|5.3|25.30|01.46
+Jim Larkin|2015-12-27|2016-07-09|23416462793067320,The Midwich Cuckoos,Amber Ward-Blick|90|4.2|24.06|35.20
+Charles Rowe|2008-05-21|2023-03-05|36641261211467647,Nights At The Circus,Rachael Kunze|11|2.8|48.64|02.67
+Terry Barrows|2007-06-25|2015-08-17|03395061544522382,Adam Bede,Wilson Rodriguez|19|5.2|38.87|11.95
+Dianna Wunsch|2013-07-30|2020-04-17|14214372411284086,The Polygots,Jodi Heidenreich-Witting|4|0.6|21.98|14.16

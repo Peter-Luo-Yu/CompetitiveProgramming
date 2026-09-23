@@ -1,0 +1,153 @@
+Rose Wolf|2025-06-29|2026-12-22|97906755648089565,The Blue Flower,Rudolph Reinger|32|5.4|05.01|48.02
+Daisy Lueilwitz|2020-08-25|2022-01-07|03669680999162141,Stranger In A Strange Land,Douglas McDermott|38|9.0|49.23|45.18
+Spencer Lowe|2007-08-30|2026-09-14|35785358656853762,Peace In War,Frank Ankunding|26|8.0|27.64|08.82
+Jackie Marquardt|2010-09-15|2023-07-13|46726413130268439,A Room With A View,Bernice Hoeger|81|7.5|27.04|21.24
+Roberto Schmeler|2015-07-14|2021-10-12|62434797537141637,Cover Her Face,Terry Corwin|40|1.6|31.03|48.28
+Dana Heathcote|2008-09-03|2017-03-29|10597118172343501,Misery,Lynn Howell|77|2.4|45.77|08.06
+Brooke Rath|2000-06-12|2026-11-06|03669680999162141,Stranger In A Strange Land,Douglas McDermott|93|1.7|48.85|10.27
+Arturo Schmitt|2003-04-20|2011-07-27|62434797537141637,Cover Her Face,Terry Corwin|58|9.7|27.94|37.92
+Judith Lindgren|2011-01-13|2013-05-06|35785358656853762,Peace In War,Frank Ankunding|72|5.7|02.56|18.90
+Rudolph Reinger|2008-06-11|2012-12-23|80417348966164091,Any Human Heart,Ray Wuckert|31|3.2|03.10|46.47
+Jacqueline Barton|2006-11-08|2009-01-02|35785358656853762,Peace In War,Frank Ankunding|75|0.3|14.64|08.50
+Gwendolyn Abbott|2021-08-03|2025-03-01|95308657674478863,The Face Of Another,Thomas Rutherford|27|4.5|09.89|45.05
+Dixie Cartwright|2001-07-03|2024-07-17|18873537466580359,The Prime Of Miss Jean Brodie,Gwen Farrell|6|2.2|16.60|48.32
+Chad Koss-Turcotte|2000-10-26|2016-02-29|92485746387936919,How Green Was My Valley,Holly Medhurst|92|0.7|30.21|22.45
+Gertrude Pagac|2003-08-18|2009-12-22|58439412867993709,Middlesex,Mae Goodwin|48|4.5|45.11|23.36
+Saul Pfeffer|2003-02-22|2022-11-02|27871392379768143,The Left Hand Of Darkness,Luther Paucek|5|0.4|20.39|37.15
+Dianna Wunsch|2015-06-18|2022-03-23|18873537466580359,The Prime Of Miss Jean Brodie,Gwen Farrell|98|9.4|20.02|39.92
+Kelley O'Keefe|2000-02-23|2003-12-12|07065417270440353,Judgment In Stone,Erma Weber|15|3.5|34.61|48.55
+Cesar Wyman|2005-12-17|2018-09-03|62434797537141637,Cover Her Face,Terry Corwin|89|0.4|41.17|48.61
+Russell Feil|2011-02-24|2025-10-03|03669680999162141,Stranger In A Strange Land,Douglas McDermott|31|5.0|12.11|26.49
+Caroline Hessel|2016-10-28|2017-05-20|07065417270440353,Judgment In Stone,Erma Weber|25|5.2|43.36|11.37
+Mack Nader|2006-05-19|2012-01-15|58439412867993709,Middlesex,Mae Goodwin|13|6.2|18.10|11.63
+Daisy Lueilwitz|2007-08-15|2025-10-20|97906755648089565,The Blue Flower,Rudolph Reinger|69|9.7|47.00|41.71
+Jack Hegmann|2011-11-26|2024-03-19|58439412867993709,Middlesex,Mae Goodwin|21|8.5|09.14|24.07
+Geneva Emard|2009-05-20|2016-04-07|27871392379768143,The Left Hand Of Darkness,Luther Paucek|91|6.3|27.07|02.70
+Amy Sawayn|2016-06-20|2020-09-02|97906755648089565,The Blue Flower,Rudolph Reinger|17|1.4|12.08|15.24
+Jeanne Shields|2007-03-21|2011-10-02|08569804390572349,The Discworld Series,Sam Balistreri-Huel|58|1.5|28.39|09.03
+Jackie Marquardt|2014-01-05|2022-09-09|27871392379768143,The Left Hand Of Darkness,Luther Paucek|59|5.6|02.37|29.92
+Jeannie Kunze|2007-09-15|2014-05-11|03669680999162141,Stranger In A Strange Land,Douglas McDermott|32|1.1|32.03|42.35
+Elias Thiel|2010-02-17|2010-09-25|27871392379768143,The Left Hand Of Darkness,Luther Paucek|17|5.2|32.68|03.70
+Agnes Stanton|2007-11-03|2017-02-06|58439412867993709,Middlesex,Mae Goodwin|29|1.6|01.43|12.42
+Mack Feeney|2005-11-19|2008-01-17|03669680999162141,Stranger In A Strange Land,Douglas McDermott|69|7.6|47.25|22.22
+Neal Haag|2007-11-23|2010-11-28|18873537466580359,The Prime Of Miss Jean Brodie,Gwen Farrell|4|4.1|38.36|18.57
+Doreen Schimmel|2002-11-18|2003-04-21|35785358656853762,Peace In War,Frank Ankunding|66|0.9|17.86|49.00
+Christine Schultz|2000-09-13|2010-01-01|07065417270440353,Judgment In Stone,Erma Weber|87|3.1|05.12|35.75
+Kristina Mayert|2002-09-22|2024-04-05|08569804390572349,The Discworld Series,Sam Balistreri-Huel|32|3.8|19.47|43.05
+Marty Nikolaus-Pollich|2019-09-03|2022-12-18|58439412867993709,Middlesex,Mae Goodwin|84|7.1|20.24|07.59
+Jacquelyn Rohan|2008-02-22|2026-02-03|10597118172343501,Misery,Lynn Howell|14|8.7|45.02|26.17
+Bernadette Swaniawski|2011-07-22|2016-07-05|58439412867993709,Middlesex,Mae Goodwin|29|6.4|06.78|23.05
+Faye Powlowski|2007-04-05|2013-04-23|35785358656853762,Peace In War,Frank Ankunding|29|3.5|07.75|20.78
+Pete Orn|2016-09-11|2019-07-22|46726413130268439,A Room With A View,Bernice Hoeger|78|4.4|21.00|31.54
+Ted Kuhic|2000-12-03|2022-12-29|58439412867993709,Middlesex,Mae Goodwin|44|3.2|25.50|06.37
+Eleanor Bergnaum-Luettgen|2001-01-14|2023-12-06|58439412867993709,Middlesex,Mae Goodwin|30|8.7|14.34|06.18
+Alma Kulas|2006-05-01|2021-11-10|27871392379768143,The Left Hand Of Darkness,Luther Paucek|54|4.2|16.10|01.97
+Calvin Parisian|2011-11-01|2018-02-13|67670682305241798,Melmoth The Wanderer,Neil Lockman|0|1.5|01.29|41.71
+Erick Padberg|2000-06-20|2018-04-14|35785358656853762,Peace In War,Frank Ankunding|40|7.0|45.07|17.81
+Gordon Anderson|2014-07-04|2015-07-19|18873537466580359,The Prime Of Miss Jean Brodie,Gwen Farrell|49|2.2|32.12|01.25
+Sara Aufderhar|2000-05-16|2009-08-06|97906755648089565,The Blue Flower,Rudolph Reinger|84|6.0|36.48|12.90
+Nelson Brown|2005-03-02|2009-06-02|92485746387936919,How Green Was My Valley,Holly Medhurst|6|3.2|17.13|08.36
+Brad Murazik|2009-06-17|2022-10-22|92485746387936919,How Green Was My Valley,Holly Medhurst|83|0.5|47.33|32.50
+Erick Bogan|2007-06-26|2019-04-28|03669680999162141,Stranger In A Strange Land,Douglas McDermott|67|3.4|47.34|23.97
+Ray Bednar|2008-01-08|2013-04-09|62434797537141637,Cover Her Face,Terry Corwin|47|0.7|32.48|08.33
+Brooke Kohler|2006-05-17|2012-06-09|08569804390572349,The Discworld Series,Sam Balistreri-Huel|48|1.6|25.78|17.56
+Erick Padberg|2007-09-20|2010-02-08|80417348966164091,Any Human Heart,Ray Wuckert|35|5.2|39.77|35.08
+Steve McGlynn|2015-08-04|2020-03-24|27871392379768143,The Left Hand Of Darkness,Luther Paucek|12|9.1|09.96|23.53
+Gilberto Monahan|2005-06-21|2010-03-13|07065417270440353,Judgment In Stone,Erma Weber|5|5.2|38.09|47.76
+Martha Kunze|2017-06-04|2019-02-07|58439412867993709,Middlesex,Mae Goodwin|35|2.8|48.55|02.18
+Dianna Bednar|2007-02-06|2024-11-09|35785358656853762,Peace In War,Frank Ankunding|58|9.5|11.14|45.93
+Jackie Marquardt|2012-05-14|2020-06-04|08569804390572349,The Discworld Series,Sam Balistreri-Huel|53|2.2|24.01|21.70
+Dean Lindgren|2007-06-03|2009-11-20|46726413130268439,A Room With A View,Bernice Hoeger|62|9.5|33.67|37.24
+Woodrow Feeney|2020-08-17|2026-06-20|46726413130268439,A Room With A View,Bernice Hoeger|27|0.6|47.49|41.05
+Orville Williamson|2023-01-22|2026-12-29|03669680999162141,Stranger In A Strange Land,Douglas McDermott|43|3.1|25.94|21.12
+Brendan Pfeffer|2001-11-13|2010-11-16|62434797537141637,Cover Her Face,Terry Corwin|1|6.3|36.03|47.14
+Minnie Kunde|2012-03-25|2022-08-16|92485746387936919,How Green Was My Valley,Holly Medhurst|21|4.6|18.10|37.28
+Tami Windler|2013-03-11|2017-06-03|95308657674478863,The Face Of Another,Thomas Rutherford|68|1.6|01.96|47.45
+Alberto Fadel|2003-01-30|2005-06-11|80417348966164091,Any Human Heart,Ray Wuckert|86|0.5|17.88|00.83
+Wm Green|2003-01-12|2023-07-18|18873537466580359,The Prime Of Miss Jean Brodie,Gwen Farrell|35|2.7|18.68|12.97
+Bill Abshire|2007-07-05|2024-09-25|80417348966164091,Any Human Heart,Ray Wuckert|55|2.3|46.06|21.01
+Leigh Willms|2000-07-05|2019-02-29|07065417270440353,Judgment In Stone,Erma Weber|93|5.2|34.35|26.30
+Kelvin Predovic|2006-06-21|2018-01-26|10597118172343501,Misery,Lynn Howell|90|3.3|37.90|29.41
+Devin Stoltenberg|2011-05-25|2022-02-28|92485746387936919,How Green Was My Valley,Holly Medhurst|54|9.3|42.93|11.81
+Carole Kiehn|2005-11-10|2018-06-27|80417348966164091,Any Human Heart,Ray Wuckert|28|1.3|20.26|11.77
+Darren Ritchie|2003-04-29|2019-06-16|80417348966164091,Any Human Heart,Ray Wuckert|88|8.4|22.35|48.92
+Charlotte Kohler-Conn|2001-03-05|2010-01-11|10597118172343501,Misery,Lynn Howell|57|4.4|31.15|40.36
+Roberto Schmeler|2003-03-25|2026-05-22|07065417270440353,Judgment In Stone,Erma Weber|59|8.2|30.79|23.96
+Lindsay Effertz|2006-07-25|2018-06-01|10597118172343501,Misery,Lynn Howell|70|6.3|11.99|12.09
+Leo Donnelly|2011-10-30|2012-05-17|95308657674478863,The Face Of Another,Thomas Rutherford|24|7.5|17.67|45.38
+Velma Williamson|2000-08-29|2026-07-05|62434797537141637,Cover Her Face,Terry Corwin|95|5.9|21.87|13.45
+Jan Ferry|2012-12-10|2018-04-17|92485746387936919,How Green Was My Valley,Holly Medhurst|43|1.5|26.12|19.08
+Gerald Gulgowski|2003-05-05|2023-01-01|08569804390572349,The Discworld Series,Sam Balistreri-Huel|59|8.0|03.95|49.47
+Jim Larkin|2009-06-08|2013-12-07|07065417270440353,Judgment In Stone,Erma Weber|89|8.6|21.39|45.00
+Joanne Collins|2006-04-09|2024-12-08|10597118172343501,Misery,Lynn Howell|95|9.9|41.56|04.64
+Lee Torphy|2023-03-18|2025-02-18|92485746387936919,How Green Was My Valley,Holly Medhurst|57|1.3|25.00|42.14
+Isaac Christiansen|2001-08-26|2023-05-12|97906755648089565,The Blue Flower,Rudolph Reinger|54|7.3|10.01|21.78
+Eileen Labadie|2003-03-25|2004-04-30|58439412867993709,Middlesex,Mae Goodwin|93|9.7|28.09|21.28
+Steve Langosh|2008-01-30|2016-02-16|95308657674478863,The Face Of Another,Thomas Rutherford|17|3.8|47.43|08.52
+Deborah Abbott|2007-11-08|2013-04-14|10597118172343501,Misery,Lynn Howell|15|1.3|32.67|31.78
+Sara Aufderhar|2003-03-29|2025-01-14|08569804390572349,The Discworld Series,Sam Balistreri-Huel|83|9.7|11.69|19.40
+Laurie Mayer-Okuneva|2010-06-27|2022-08-29|92485746387936919,How Green Was My Valley,Holly Medhurst|80|6.7|39.93|34.19
+Tonya Rowe|2010-12-13|2014-09-13|07065417270440353,Judgment In Stone,Erma Weber|45|6.2|08.33|39.94
+Connie Bahringer|2005-03-15|2018-07-16|92485746387936919,How Green Was My Valley,Holly Medhurst|61|8.8|19.62|42.58
+Jerome Kuphal|2006-11-05|2023-10-12|95308657674478863,The Face Of Another,Thomas Rutherford|12|7.4|11.15|08.15
+Shaun Langosh|2000-01-25|2014-01-12|07065417270440353,Judgment In Stone,Erma Weber|77|1.8|05.04|46.21
+Robin Tromp|2005-02-02|2015-07-30|46726413130268439,A Room With A View,Bernice Hoeger|43|3.3|43.43|43.53
+Leonard Smitham|2021-05-30|2021-10-01|46726413130268439,A Room With A View,Bernice Hoeger|40|0.8|01.37|21.02
+Lowell Bruen|2009-01-11|2018-07-30|97906755648089565,The Blue Flower,Rudolph Reinger|83|2.1|07.35|24.97
+Tasha Blick|2000-08-14|2003-12-20|58439412867993709,Middlesex,Mae Goodwin|73|7.2|22.52|35.56
+Lowell Kunze|2014-05-09|2022-07-04|03669680999162141,Stranger In A Strange Land,Douglas McDermott|84|8.6|41.25|49.49
+Virgil Bergnaum-Harris|2012-05-08|2023-10-27|10597118172343501,Misery,Lynn Howell|58|4.2|09.72|28.81
+Naomi Pfannerstill|2009-02-27|2023-03-22|03669680999162141,Stranger In A Strange Land,Douglas McDermott|87|4.6|13.62|44.38
+Earl Balistreri|2004-02-27|2022-03-10|35785358656853762,Peace In War,Frank Ankunding|49|5.9|24.19|41.11
+Carole Sipes|2024-01-16|2025-07-02|10597118172343501,Misery,Lynn Howell|98|2.5|05.04|09.49
+Lynn Kerluke|2012-02-28|2019-01-25|62434797537141637,Cover Her Face,Terry Corwin|70|6.4|29.77|42.92
+Christopher Auer|2003-07-29|2007-01-05|10597118172343501,Misery,Lynn Howell|48|0.5|04.41|37.80
+Sonya Hilll|2005-11-24|2022-09-20|03669680999162141,Stranger In A Strange Land,Douglas McDermott|88|7.4|24.93|13.93
+Kristen Denesik|2015-03-19|2015-05-08|67670682305241798,Melmoth The Wanderer,Neil Lockman|6|1.6|04.81|13.36
+Arnold Nader|2016-08-14|2017-04-23|03669680999162141,Stranger In A Strange Land,Douglas McDermott|6|9.4|38.53|41.13
+Anne Kihn|2003-09-10|2023-02-18|35785358656853762,Peace In War,Frank Ankunding|70|9.7|13.74|46.98
+Hannah Schmitt|2009-11-17|2019-08-30|35785358656853762,Peace In War,Frank Ankunding|55|4.3|04.33|33.02
+Courtney Nolan|2016-07-03|2025-04-25|10597118172343501,Misery,Lynn Howell|38|8.3|38.89|30.28
+Sidney Schinner|2000-10-22|2010-02-15|03669680999162141,Stranger In A Strange Land,Douglas McDermott|74|8.8|28.56|11.48
+Eleanor Wilderman|2012-05-28|2020-03-19|03669680999162141,Stranger In A Strange Land,Douglas McDermott|49|0.1|38.80|12.56
+Virginia Dooley|2002-12-15|2011-10-21|07065417270440353,Judgment In Stone,Erma Weber|20|1.7|21.35|21.59
+Joann Cartwright|2021-05-07|2022-11-18|97906755648089565,The Blue Flower,Rudolph Reinger|81|1.5|11.29|18.82
+Margie Olson|2014-06-24|2017-04-19|97906755648089565,The Blue Flower,Rudolph Reinger|36|2.2|08.15|34.68
+Erma Weber|2016-04-07|2023-10-12|95308657674478863,The Face Of Another,Thomas Rutherford|39|9.3|30.01|41.45
+Samuel Swift|2003-08-24|2006-06-27|62434797537141637,Cover Her Face,Terry Corwin|18|9.6|23.34|27.26
+Cora Wiza|2023-05-15|2023-07-24|27871392379768143,The Left Hand Of Darkness,Luther Paucek|42|1.7|24.47|49.62
+Naomi Schuppe|2011-06-28|2022-09-19|27871392379768143,The Left Hand Of Darkness,Luther Paucek|90|2.7|34.61|01.55
+Crystal Franey-Leffler|2015-06-27|2022-03-16|95308657674478863,The Face Of Another,Thomas Rutherford|96|5.2|27.34|37.13
+Kari Kutch|2004-08-06|2012-08-24|80417348966164091,Any Human Heart,Ray Wuckert|99|1.7|38.13|22.16
+Annie Aufderhar|2001-05-09|2011-08-22|27871392379768143,The Left Hand Of Darkness,Luther Paucek|81|6.6|41.28|01.19
+Mack Nader|2006-03-15|2023-04-24|97906755648089565,The Blue Flower,Rudolph Reinger|42|2.3|24.40|39.34
+Hannah Schmitt|2001-06-12|2013-10-25|95308657674478863,The Face Of Another,Thomas Rutherford|47|4.8|35.70|03.71
+Jonathan Kris|2003-01-11|2014-01-02|95308657674478863,The Face Of Another,Thomas Rutherford|35|7.1|40.98|06.19
+Maria Nicolas|2011-03-06|2018-07-09|07065417270440353,Judgment In Stone,Erma Weber|66|1.0|23.11|03.58
+Christy Rodriguez|2015-12-14|2026-08-30|03669680999162141,Stranger In A Strange Land,Douglas McDermott|34|6.7|19.79|23.98
+Randal Kutch|2008-05-23|2017-02-11|46726413130268439,A Room With A View,Bernice Hoeger|45|4.2|04.66|09.09
+Hilda Harris-Windler|2003-09-24|2004-09-24|67670682305241798,Melmoth The Wanderer,Neil Lockman|44|2.4|19.94|15.94
+Diana Crooks|2004-09-12|2006-08-05|67670682305241798,Melmoth The Wanderer,Neil Lockman|15|5.4|45.98|40.83
+Erin O'Connell|2014-04-18|2023-08-12|46726413130268439,A Room With A View,Bernice Hoeger|83|8.2|06.54|07.22
+Bennie Predovic|2026-02-04|2026-08-03|92485746387936919,How Green Was My Valley,Holly Medhurst|12|0.2|29.10|31.98
+Ana Herman|2011-05-08|2026-03-27|97906755648089565,The Blue Flower,Rudolph Reinger|39|4.4|38.78|31.72
+Janis Daugherty|2012-03-20|2026-10-25|58439412867993709,Middlesex,Mae Goodwin|77|8.3|42.78|49.83
+Reginald Hintz|2009-03-19|2016-07-18|46726413130268439,A Room With A View,Bernice Hoeger|25|7.6|28.23|44.04
+Ryan Kulas-Gutmann|2010-05-04|2018-07-10|92485746387936919,How Green Was My Valley,Holly Medhurst|94|0.0|10.20|13.93
+Gregory Willms-Deckow|2004-04-06|2006-01-24|97906755648089565,The Blue Flower,Rudolph Reinger|8|1.1|23.24|39.34
+Michael Schoen|2015-08-17|2024-12-27|80417348966164091,Any Human Heart,Ray Wuckert|49|2.2|14.44|04.42
+Alberta Streich|2008-12-26|2020-07-24|07065417270440353,Judgment In Stone,Erma Weber|70|6.3|48.81|25.81
+Kurt Bartell-Grant|2010-03-18|2016-04-22|08569804390572349,The Discworld Series,Sam Balistreri-Huel|63|1.8|38.39|05.99
+Jake Kertzmann|2001-05-09|2019-08-11|97906755648089565,The Blue Flower,Rudolph Reinger|65|1.0|47.60|22.83
+Shawna Lueilwitz|2006-03-13|2017-12-28|27871392379768143,The Left Hand Of Darkness,Luther Paucek|46|8.8|26.42|18.82
+Mindy Graham|2004-10-10|2010-06-27|97906755648089565,The Blue Flower,Rudolph Reinger|100|5.4|16.85|44.01
+Delbert Rosenbaum|2007-10-09|2013-07-11|46726413130268439,A Room With A View,Bernice Hoeger|67|6.7|44.92|27.80
+Herman Armstrong|2002-09-06|2007-06-17|95308657674478863,The Face Of Another,Thomas Rutherford|61|9.0|26.78|18.70
+Linda Cartwright|2005-05-28|2022-08-07|35785358656853762,Peace In War,Frank Ankunding|36|1.6|34.88|10.87
+Lowell Bruen|2023-11-22|2025-07-17|97906755648089565,The Blue Flower,Rudolph Reinger|39|0.1|23.14|06.74
+Susan Hansen|2009-04-12|2021-06-21|27871392379768143,The Left Hand Of Darkness,Luther Paucek|9|6.6|38.58|08.09
+Randolph Lubowitz|2015-08-01|2020-12-21|27871392379768143,The Left Hand Of Darkness,Luther Paucek|25|5.5|07.83|41.02
+Fred Schimmel|2003-06-17|2017-06-17|18873537466580359,The Prime Of Miss Jean Brodie,Gwen Farrell|36|3.7|24.36|41.70
+Rex Daugherty|2023-11-14|2024-01-20|08569804390572349,The Discworld Series,Sam Balistreri-Huel|95|7.8|41.22|42.03
+Laurence Stehr|2007-03-10|2009-11-02|10597118172343501,Misery,Lynn Howell|2|2.5|04.62|05.10
+Melissa Swaniawski|2001-01-22|2022-07-29|03669680999162141,Stranger In A Strange Land,Douglas McDermott|7|8.5|21.58|17.71

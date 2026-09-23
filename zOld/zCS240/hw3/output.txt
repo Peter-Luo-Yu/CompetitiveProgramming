@@ -1,0 +1,14 @@
+-1an History for Jane Smith:
+
+Loan 1:
+2023-11-14 to 2023-12-05
+Book: 31197002345678332 | The Hobbit | J.R.R. Tolkien
+Days Loaned: 21.00
+Rating: 8.00
+Late Fees Paid: 2.50
+
+Overall Summary: 
+Total Loans: 1
+Total Days Loaned: 21.00
+Total Late Fees Paid: 2.50
+Most Commonly Borrowed Author: J.R.R. Tolkien

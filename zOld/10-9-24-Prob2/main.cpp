@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
+
+    int M, N;
+    cin >> M;
+    cin >> N;
+
+    if (M * N % 2 == 0){
+        cout << (M*N/2) << endl;
+    }
+    else{
+        cout << (M*N/2) << endl;
+    }
+    
+    
+    
+    
+    return 0;
+}

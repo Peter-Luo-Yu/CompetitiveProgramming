@@ -1,0 +1,15 @@
+4 10
+Rex Tyrannosauridae
+Triceratops Ceratopsidae
+Velociraptor Dromaeosauridae
+Utahraptor Dromaeosauridae
+1 Rex 4
+1 Triceratops 2
+2 Rex
+1 Velociraptor 10
+3 Dromaeosauridae
+1 Utahraptor 3
+3 Dromaeosauridae
+1 Triceratops 5
+1 Triceratops 8
+2 Triceratops

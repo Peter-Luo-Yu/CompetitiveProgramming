@@ -1,0 +1,129 @@
+Carrie Beer|2003-06-27|2021-05-16|43096085835832654,A Connecticut Yankee In King Arthurs Court,Joey Marks|18|1.6|02.31|18.62
+Julia Watsica-Schuster|2011-01-17|2021-10-01|21520674834745285,The Mysteries Of Udolpho,Taylor Satterfield|63|6.9|15.93|41.69,
+Ramon Stamm|2022-01-22|2025-07-10|16115744560097906,Persuasion,Domingo Brakus|64|4.7|16.90|39.96
+Lamar Smith|2014-01-07|2025-11-21|96097740147676619,Squire Haggards Journal,Carolyn Hammes|26|1.7|43.78|13.10
+Jessie Powlowski|2006-06-24|2009-03-25|96097740147676619,Squire Haggards Journal,Carolyn Hammes|9|6.2|38.67|43.94
+Lula Lueilwitz|2005-07-17|2007-11-01|07460242399157376,The Famished Road,Gwen Farrell|18|1.9|49.70|09.40
+Lucy Blanda|2013-09-12|2022-10-02|16115744560097906,Persuasion,Domingo Brakus|57|2.6|36.31|44.88
+Tara Kassulke|2005-03-12|2007-10-29|84792700891433087,The Egoist,Jerome Ruecker|79|4.7|16.84|49.93
+Wanda Gusikowski|2017-06-09|2020-09-26|84792700891433087,The Egoist,Jerome Ruecker|74|5.8|36.85|09.72
+Sam Abshire|2005-05-06|2020-05-03|03589170311699932,Darwins Radio,Diana Wolff|41|0.5|10.43|03.46,
+Cecilia Luettgen|2000-07-06|2014-10-24|31265357150433580,Joseph Andrews,Annette Predovic|7|3.2|17.04|23.63
+Freddie Berge|2005-10-04|2016-05-23|18622300866670003,Room Temperature,Jessie Purdy|57|8.7|10.16|43.61
+Fernando Carroll-Deckow|2006-06-26|2022-03-02|89433197494685579,The Great Gats,Hector Beatty|92|0.4|19.52|41.54
+Darrin Casper|2000-06-03|2001-08-16|04733083562700551,Affinity,Julian Nicolas-Halvorson|43|3.4|20.96|49.29
+Christie Abernathy|2003-03-27|2013-07-24|03589170311699932,Darwins Radio,Diana Wolff|42|0.5|02.63|01.34,
+Ruben Bailey|2020-08-10|2021-05-04|03589170311699932,Darwins Radio,Diana Wolff|88|5.0|20.25|15.56
+Donnie Dare|2005-10-02|2022-06-28|31265357150433580,Joseph Andrews,Annette Predovic|69|7.6|18.45|46.98
+Tonya Bergstrom|2005-03-06|2026-10-19|07460242399157376,The Famished Road,Gwen Farrell|58|2.8|20.00|30.03
+Rachael Kunze|2004-10-30|2022-05-26|89433197494685579,The Great Gats,Hector Beatty|73|6.3|30.09|41.82
+Roberto Cremin-McGlynn|2016-01-30|2022-04-26|84792700891433087,The Egoist,Jerome Ruecker|25|8.1|33.62|21.21,
+Jacqueline Reinger|2007-10-03|2022-06-06|31265357150433580,Joseph Andrews,Annette Predovic|16|9.1|41.68|30.57
+Loretta Jast|2004-06-08|2018-04-01|31265357150433580,Joseph Andrews,Annette Predovic|11|10.0|24.11|11.76
+Anita Nader|2007-04-29|2021-02-09|31265357150433580,Joseph Andrews,Annette Predovic|78|9.9|31.25|02.59
+Oscar Graham|2004-02-24|2015-06-17|16115744560097906,Persuasion,Domingo Brakus|57|3.4|16.43|40.17,
+Cedric Adams|2001-09-28|2016-11-08|89433197494685579,The Great Gats,Hector Beatty|58|7.8|08.81|01.01
+Randal Reynolds|2003-11-07|2014-08-15|16115744560097906,Persuasion,Domingo Brakus|99|5.9|36.10|40.04
+Hugo Jacobi|2002-04-15|2003-09-12|51599887142002191,Poetic Justice,Stanley Kautzer|73|0.2|26.31|46.71
+Carolyn Hammes|2022-01-11|2025-01-03|84792700891433087,The Egoist,Jerome Ruecker|88|0.8|40.15|13.22
+Dennis McCullough|2003-09-18|2017-07-22|51599887142002191,Poetic Justice,Stanley Kautzer|37|1.4|02.00|02.97,
+Shawna Parker|2012-10-27|2023-09-07|43096085835832654,A Connecticut Yankee In King Arthurs Court,Joey Marks|22|8.6|03.10|29.78
+Audrey Rice|2010-11-13|2020-09-25|03589170311699932,Darwins Radio,Diana Wolff|14|0.2|41.96|11.69
+Marsha Dietrich|2012-01-26|2026-11-15|51599887142002191,Poetic Justice,Stanley Kautzer|35|3.0|21.97|45.66,
+Kelley Huels|2003-10-30|2020-05-09|04733083562700551,Affinity,Julian Nicolas-Halvorson|49|7.0|45.90|45.62
+Melvin Jones|2007-10-04|2022-02-21|51599887142002191,Poetic Justice,Stanley Kautzer|4|6.3|03.38|11.23
+Phil Rath|2012-03-01|2016-09-13|04733083562700551,Affinity,Julian Nicolas-Halvorson|93|6.4|48.04|34.50
+Doreen Schimmel|2001-06-03|2003-09-24|18622300866670003,Room Temperature,Jessie Purdy|68|6.9|12.50|02.69
+Calvin Blanda|2022-12-17|2025-11-23|31265357150433580,Joseph Andrews,Annette Predovic|84|4.9|26.47|14.05
+Kenneth Botsford|2002-09-04|2024-03-06|07460242399157376,The Famished Road,Gwen Farrell|47|2.4|33.04|17.55
+Lydia Pouros|2019-10-17|2023-02-19|29178476963593586,Piccadilly Jim,Gary Hyatt-Wehner|59|0.7|23.77|43.97
+Marion Ziemann|2003-08-22|2018-08-11|18622300866670003,Room Temperature,Jessie Purdy|44|3.1|29.79|18.56,
+Wm Reinger|2009-07-04|2023-08-06|43096085835832654,A Connecticut Yankee In King Arthurs Court,Joey Marks|77|6.3|06.58|24.79
+Sheila Jenkins|2011-11-05|2012-08-17|31265357150433580,Joseph Andrews,Annette Predovic|76|8.7|06.78|48.28
+Shaun Kub|2002-03-07|2023-09-26|31265357150433580,Joseph Andrews,Annette Predovic|85|9.4|00.64|47.47
+Guy Kertzmann|2006-07-15|2006-08-09|43096085835832654,A Connecticut Yankee In King Arthurs Court,Joey Marks|90|4.1|33.17|29.61
+Anna Lueilwitz|2005-02-27|2008-01-20|07460242399157376,The Famished Road,Gwen Farrell|5|5.4|29.24|11.10
+Kent Herman|2006-05-11|2013-10-28|21520674834745285,The Mysteries Of Udolpho,Taylor Satterfield|69|3.4|48.09|41.82
+Nichole Watsica|2002-09-19|2018-11-12|31265357150433580,Joseph Andrews,Annette Predovic|44|9.7|20.43|20.05
+Karl Schoen|2006-08-02|2010-01-19|89433197494685579,The Great Gats,Hector Beatty|85|8.0|27.21|40.01,
+Dianna Schultz|2009-04-29|2019-06-23|18622300866670003,Room Temperature,Jessie Purdy|67|6.2|00.14|27.60
+Christie Abernathy|2004-03-17|2026-01-25|03589170311699932,Darwins Radio,Diana Wolff|82|6.7|28.75|38.80,
+Terrell Konopelski|2003-06-04|2003-10-03|16115744560097906,Persuasion,Domingo Brakus|37|9.4|12.58|03.33
+Teresa Ruecker|2011-05-13|2018-10-22|03589170311699932,Darwins Radio,Diana Wolff|59|2.1|35.20|06.19
+Regina Zulauf|2001-03-19|2014-12-19|84792700891433087,The Egoist,Jerome Ruecker|9|2.8|25.90|14.81
+Ashley Bartoletti|2016-01-02|2023-11-07|29178476963593586,Piccadilly Jim,Gary Hyatt-Wehner|94|6.6|05.51|39.51
+Herman Zboncak|2008-10-28|2025-03-22|18622300866670003,Room Temperature,Jessie Purdy|76|3.0|43.65|05.64
+Leah Hodkiewicz|2005-05-08|2005-10-11|43981009778736398,Jacques The Fatalist And His Master,Daisy Lueilwitz|95|6.9|10.02|43.04
+Candice Rippin-Klein|2007-05-05|2020-03-08|31265357150433580,Joseph Andrews,Annette Predovic|56|6.9|44.40|03.24
+Leticia Sauer|2018-03-24|2020-02-09|71842045135172263,Sanctuary,Wendy Kuhn-Jenkins|18|3.6|29.62|08.20
+Garrett Franecki|2007-11-01|2014-06-18|03589170311699932,Darwins Radio,Diana Wolff|59|10.0|08.58|22.11
+Cecil Franey|2009-08-19|2017-10-14|18622300866670003,Room Temperature,Jessie Purdy|69|4.7|17.90|06.92
+Jeffery Hegmann|2004-12-06|2009-04-03|89433197494685579,The Great Gats,Hector Beatty|15|3.3|14.66|19.05
+Pablo Boyer|2024-06-10|2026-08-30|43981009778736398,Jacques The Fatalist And His Master,Daisy Lueilwitz|96|7.3|43.04|07.39
+Todd Bechtelar|2004-12-10|2019-08-03|31265357150433580,Joseph Andrews,Annette Predovic|60|1.1|14.92|06.41
+Oliver Morar|2005-12-19|2023-08-07|43096085835832654,A Connecticut Yankee In King Arthurs Court,Joey Marks|39|3.4|45.71|37.93
+Erica Batz|2008-02-05|2009-02-23|96097740147676619,Squire Haggards Journal,Carolyn Hammes|6|0.5|25.70|18.48
+Taylor D'Amore|2000-10-28|2019-10-18|71842045135172263,Sanctuary,Wendy Kuhn-Jenkins|72|8.5|47.83|49.50
+Holly Rowe|2000-03-17|2009-02-05|71842045135172263,Sanctuary,Wendy Kuhn-Jenkins|100|3.3|12.60|15.57
+Shannon Boyer|2002-01-19|2021-07-11|03589170311699932,Darwins Radio,Diana Wolff|3|2.0|03.90|38.21
+Jeff Corkery|2013-05-04|2014-08-01|43981009778736398,Jacques The Fatalist And His Master,Daisy Lueilwitz|77|9.0|33.35|17.42
+Charlie Kuphal|2014-09-17|2023-07-24|84792700891433087,The Egoist,Jerome Ruecker|74|1.6|00.27|16.14
+Brandy Tremblay|2005-12-19|2018-10-15|16115744560097906,Persuasion,Domingo Brakus|24|1.5|39.26|13.60
+Herman Williamson|2002-07-15|2026-02-17|16115744560097906,Persuasion,Domingo Brakus|0|0.6|43.63|34.06
+Tiffany Hartmann|2007-07-05|2010-01-10|43981009778736398,Jacques The Fatalist And His Master,Daisy Lueilwitz|52|8.6|22.80|39.74,
+Arnold Beer|2009-02-06|2025-09-08|31265357150433580,Joseph Andrews,Annette Predovic|29|6.9|37.73|49.55
+Dean Lemke|2000-06-07|2011-06-18|84792700891433087,The Egoist,Jerome Ruecker|72|1.8|24.50|20.09
+Tonya Bergstrom|2012-10-06|2020-11-14|71842045135172263,Sanctuary,Wendy Kuhn-Jenkins|77|6.4|43.04|39.74
+Terri Heidenreich|2022-04-11|2026-11-11|21520674834745285,The Mysteries Of Udolpho,Taylor Satterfield|44|5.6|14.15|18.62,
+Joann Cartwright|2019-07-17|2026-04-25|04733083562700551,Affinity,Julian Nicolas-Halvorson|37|0.6|41.37|14.36
+Israel Gleason|2012-04-05|2024-07-21|21520674834745285,The Mysteries Of Udolpho,Taylor Satterfield|84|6.0|39.70|16.91
+Velma Lubowitz|2006-01-29|2016-04-06|84792700891433087,The Egoist,Jerome Ruecker|28|2.8|49.56|01.14
+Vernon Medhurst|2014-09-18|2023-02-19|21520674834745285,The Mysteries Of Udolpho,Taylor Satterfield|30|5.5|37.66|19.93,
+Enrique Glover|2002-03-05|2005-10-29|43981009778736398,Jacques The Fatalist And His Master,Daisy Lueilwitz|5|4.6|21.33|11.48
+Bessie Davis|2006-01-29|2009-12-05|29178476963593586,Piccadilly Jim,Gary Hyatt-Wehner|12|7.1|07.48|07.07,
+Jerome Maggio|2007-10-13|2014-01-10|21520674834745285,The Mysteries Of Udolpho,Taylor Satterfield|14|6.8|30.69|01.05,
+Tara Kassulke|2004-08-17|2022-04-18|18622300866670003,Room Temperature,Jessie Purdy|90|9.7|07.98|11.99
+Virginia Dooley|2011-10-10|2014-11-01|43096085835832654,A Connecticut Yankee In King Arthurs Court,Joey Marks|59|9.2|21.57|30.88
+Carmen Corwin|2015-05-03|2015-06-16|04733083562700551,Affinity,Julian Nicolas-Halvorson|50|4.5|09.46|36.68
+Edmond Labadie|2014-06-17|2025-01-07|96097740147676619,Squire Haggards Journal,Carolyn Hammes|81|6.6|21.54|23.19,
+Tom Leffler|2000-01-30|2016-03-24|43981009778736398,Jacques The Fatalist And His Master,Daisy Lueilwitz|39|5.5|09.81|49.28
+Jessie Marvin|2000-03-01|2016-06-07|89433197494685579,The Great Gats,Hector Beatty|25|2.6|25.88|06.20
+Don Fahey|2009-06-06|2026-11-01|29178476963593586,Piccadilly Jim,Gary Hyatt-Wehner|45|5.2|41.90|36.06
+Clinton Brekke|2012-04-24|2016-03-14|43096085835832654,A Connecticut Yankee In King Arthurs Court,Joey Marks|7|5.5|04.04|18.06
+Audrey Rohan|2010-05-01|2015-02-04|51599887142002191,Poetic Justice,Stanley Kautzer|82|7.8|45.84|13.73,
+Duane Luettgen|2002-11-01|2008-10-26|04733083562700551,Affinity,Julian Nicolas-Halvorson|45|6.0|45.02|08.99
+Lloyd Dooley|2003-07-13|2016-04-04|07460242399157376,The Famished Road,Gwen Farrell|21|9.9|18.44|13.66
+Edmund Mayert|2003-04-21|2005-05-08|43096085835832654,A Connecticut Yankee In King Arthurs Court,Joey Marks|72|5.9|12.76|10.41
+Moses Gorczany|2007-09-01|2008-07-12|31265357150433580,Joseph Andrews,Annette Predovic|48|1.5|28.06|08.02
+Dixie Welch|2009-04-29|2020-10-19|96097740147676619,Squire Haggards Journal,Carolyn Hammes|18|6.0|34.91|33.17
+Stephanie Rau|2022-05-07|2023-01-13|71842045135172263,Sanctuary,Wendy Kuhn-Jenkins|17|5.9|23.34|34.71
+Devin Herzog|2011-03-21|2021-02-18|84792700891433087,The Egoist,Jerome Ruecker|38|9.2|28.15|13.66,
+Randall Rodriguez|2001-07-09|2008-09-10|21520674834745285,The Mysteries Of Udolpho,Taylor Satterfield|94|8.5|16.05|05.78
+Dana Heathcote|2008-09-18|2016-05-14|89433197494685579,The Great Gats,Hector Beatty|86|6.1|17.88|20.47
+Frederick Connelly|2001-06-17|2002-11-13|07460242399157376,The Famished Road,Gwen Farrell|91|9.7|09.33|31.62
+Al Franecki|2009-11-29|2010-08-20|96097740147676619,Squire Haggards Journal,Carolyn Hammes|96|9.9|11.03|05.28
+Peggy O'Conner|2003-06-18|2009-11-01|96097740147676619,Squire Haggards Journal,Carolyn Hammes|83|0.4|18.92|33.04
+Virginia Dooley|2009-06-21|2023-09-14|16115744560097906,Persuasion,Domingo Brakus|31|1.9|28.98|00.27,
+Kari Kutch|2007-11-04|2010-02-09|31265357150433580,Joseph Andrews,Annette Predovic|41|4.7|38.35|07.99
+Mildred Mann|2001-01-04|2015-09-22|16115744560097906,Persuasion,Domingo Brakus|35|2.1|03.17|08.04
+Shawn McClure|2002-02-06|2008-04-25|03589170311699932,Darwins Radio,Diana Wolff|24|5.5|19.39|44.45
+Jorge Toy|2003-11-06|2004-06-18|43981009778736398,Jacques The Fatalist And His Master,Daisy Lueilwitz|63|2.0|24.92|03.46
+Dallas King-Carter|2009-12-19|2025-10-14|04733083562700551,Affinity,Julian Nicolas-Halvorson|17|5.1|21.76|23.26
+Damon Yost|2005-11-28|2010-07-19|43981009778736398,Jacques The Fatalist And His Master,Daisy Lueilwitz|5|0.0|03.98|11.28
+Luis Gorczany|2009-06-19|2012-03-06|18622300866670003,Room Temperature,Jessie Purdy|11|0.8|47.17|36.33
+Harriet Quitzon|2001-09-29|2011-06-28|84792700891433087,The Egoist,Jerome Ruecker|34|6.6|25.98|15.88
+Lula Lueilwitz|2019-06-05|2026-02-21|43981009778736398,Jacques The Fatalist And His Master,Daisy Lueilwitz|67|0.2|38.08|24.99
+Grant Jaskolski|2005-02-19|2014-05-07|43981009778736398,Jacques The Fatalist And His Master,Daisy Lueilwitz|73|9.3|33.48|25.35
+Jackie Marquardt|2009-04-08|2019-10-26|04733083562700551,Affinity,Julian Nicolas-Halvorson|30|2.9|29.42|08.34
+Glen Rolfson|2013-02-27|2016-04-23|16115744560097906,Persuasion,Domingo Brakus|75|1.6|21.81|08.48
+Sylvia Mitchell|2003-07-30|2008-06-26|21520674834745285,The Mysteries Of Udolpho,Taylor Satterfield|99|5.9|06.16|37.84
+Lloyd Macejkovic|2017-07-12|2017-09-05|84792700891433087,The Egoist,Jerome Ruecker|57|5.8|02.97|03.43
+Earl Balistreri|2016-12-20|2026-12-28|16115744560097906,Persuasion,Domingo Brakus|63|4.6|28.01|13.20
+Cameron Waelchi|2000-06-25|2023-12-06|29178476963593586,Piccadilly Jim,Gary Hyatt-Wehner|50|4.7|07.59|16.95
+Sabrina Zulauf|2001-07-03|2004-11-02|43096085835832654,A Connecticut Yankee In King Arthurs Court,Joey Marks|53|3.7|11.44|25.65
+Carole Sipes|2001-06-23|2008-10-27|71842045135172263,Sanctuary,Wendy Kuhn-Jenkins|30|2.5|48.98|40.62,
+Anthony Frami|2005-12-08|2022-01-06|21520674834745285,The Mysteries Of Udolpho,Taylor Satterfield|56|4.1|43.68|45.45
+Meredith Feil|2003-07-11|2023-12-14|43981009778736398,Jacques The Fatalist And His Master,Daisy Lueilwitz|82|0.7|27.96|35.54
+Erin O'Connell|2023-10-20|2026-08-23|43096085835832654,A Connecticut Yankee In King Arthurs Court,Joey Marks|6|1.1|24.26|18.89,
+Stephen Lubowitz|2002-11-14|2017-07-22|84792700891433087,The Egoist,Jerome Ruecker|85|6.5|36.22|42.26
+Elisa Predovic|2000-06-02|2018-08-04|04733083562700551,Affinity,Julian Nicolas-Halvorson|70|1.6|42.99|11.63

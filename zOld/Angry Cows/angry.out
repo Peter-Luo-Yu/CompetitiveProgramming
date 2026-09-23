@@ -1,0 +1,13 @@
+3 4 5 6 8 13 
+left: 
+right: 4 5 6 8 13 
+left: 3 
+right: 5 6 8 13 
+left: 3 4 
+right: 6 8 13 
+left: 3 4 5 
+right: 8 13 
+left: 3 4 5 6 
+right: 13 
+left: 3 4 5 6 8 
+right: 

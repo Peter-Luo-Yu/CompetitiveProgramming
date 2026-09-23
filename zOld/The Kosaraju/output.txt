@@ -1,0 +1,21 @@
+i: 0 | 1 
+i: 1 | 2 
+i: 2 | 0 3 
+i: 3 | 4 
+i: 4 | 3 
+i: 0 | 2 
+i: 1 | 0 
+i: 2 | 1 
+i: 3 | 2 4 
+i: 4 | 3 
+pushing: 4
+pushing: 3
+pushing: 2
+pushing: 1
+pushing: 0
+val: 0
+val: 1
+val: 2
+val: 3
+val: 4
+0 0 0 3 3 

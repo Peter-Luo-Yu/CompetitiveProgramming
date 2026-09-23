@@ -1,0 +1,124 @@
+Hannah Hammes|2017-02-21|2023-10-28|95491770733263324,The Immoralist,George Wunsch|94|9.2|23.43|46.11
+Bethany Jacobs|2005-02-08|2023-05-26|95491770733263324,The Immoralist,George Wunsch|88|8.8|24.22|31.13
+Helen Nienow|2023-05-06|2026-04-17|07169883272978432,The Mighty Walzer Howard,Darrel VonRueden|70|7.7|26.07|33.13
+Elsie Beahan-Johnson|2003-01-08|2014-10-21|50446304532084029,The Glass Bead Game,Jeffery Larson|9|4.1|05.92|32.82
+Harriet Quitzon|2001-05-19|2010-09-29|22232742496879957,The Road,Delores Sanford|60|1.6|05.05|12.26
+Ana Hilpert|2015-12-27|2020-08-17|07169883272978432,The Mighty Walzer Howard,Darrel VonRueden|98|9.2|46.23|00.26
+Sally Schowalter|2002-03-24|2020-04-12|85117154080267376,Affinity,Jackie Christiansen|88|4.6|46.94|43.99
+Emma Heller|2022-06-25|2024-03-24|22232742496879957,The Road,Delores Sanford|37|2.8|02.19|17.77
+Brooke Crona|2005-07-24|2007-01-08|06679346280432852,The Death Of Virgil,Lela Herzog|26|6.8|48.85|40.96
+Tom Thompson|2000-09-26|2007-09-15|06679346280432852,The Death Of Virgil,Lela Herzog|3|4.6|21.87|48.31
+Tracy Harvey|2016-06-27|2022-07-08|50446304532084029,The Glass Bead Game,Jeffery Larson|80|4.3|35.56|17.81
+Blake Becker|2004-12-05|2018-03-18|50446304532084029,The Glass Bead Game,Jeffery Larson|66|4.9|02.00|33.25
+Lena Torp|2005-05-12|2005-10-04|19022461351266223,The Hearing Trumpet,Jeannette Luettgen|77|4.0|02.60|01.12
+Yolanda Ortiz|2011-11-17|2019-10-15|22232742496879957,The Road,Delores Sanford|24|9.5|38.36|04.58
+Emanuel Sipes|2004-07-14|2014-08-14|19022461351266223,The Hearing Trumpet,Jeannette Luettgen|87|2.2|03.46|12.28
+Lynda Hoppe|2026-05-11|2026-09-07|85117154080267376,Affinity,Jackie Christiansen|56|5.2|05.78|23.49
+Kelvin Johns|2002-06-10|2010-08-06|79724418864164301,The Castle,Donald Ullrich|26|7.4|20.59|21.15
+Anita Nader|2006-10-02|2013-05-09|85117154080267376,Affinity,Jackie Christiansen|39|2.8|10.26|21.27
+Minnie Hessel|2006-06-07|2022-10-30|19022461351266223,The Hearing Trumpet,Jeannette Luettgen|50|9.8|45.67|10.31
+Gene Quigley|2011-03-24|2022-07-09|50446304532084029,The Glass Bead Game,Jeffery Larson|77|2.3|38.88|16.24
+Chester Olson|2004-12-12|2024-07-24|79724418864164301,The Castle,Donald Ullrich|81|6.0|13.62|32.02
+Jessica Morissette|2019-07-02|2024-08-16|50446304532084029,The Glass Bead Game,Jeffery Larson|59|9.5|37.00|36.12
+Emma Deckow|2001-06-04|2026-06-12|85117154080267376,Affinity,Jackie Christiansen|49|9.4|01.99|30.54
+Jon Auer|2004-12-07|2013-04-08|21915990111130717,Sense And Sensibility,Joann Cormier|55|3.4|31.18|31.62
+Florence Lockman|2009-04-27|2022-09-28|19022461351266223,The Hearing Trumpet,Jeannette Luettgen|62|4.7|05.74|35.22
+Debbie Stokes|2003-10-02|2020-06-20|06679346280432852,The Death Of Virgil,Lela Herzog|50|3.4|43.84|32.19
+Matt Predovic|2014-09-23|2020-03-09|23002388604332523,Cover Her Face,Elias Thiel|14|10.0|47.45|23.96
+Phillip O'Conner|2000-06-06|2018-02-03|79724418864164301,The Castle,Donald Ullrich|53|9.3|44.44|12.97
+Susie Rempel|2000-02-15|2002-01-14|85117154080267376,Affinity,Jackie Christiansen|71|9.0|45.05|17.64
+Armando Murray|2004-02-20|2026-10-04|21915990111130717,Sense And Sensibility,Joann Cormier|78|5.2|41.59|13.69
+Israel Gleason|2011-04-09|2021-03-13|85117154080267376,Affinity,Jackie Christiansen|47|4.0|14.61|10.07
+Becky Bergstrom|2001-08-04|2018-02-22|22232742496879957,The Road,Delores Sanford|78|7.7|16.15|03.43
+Terrance Marquardt|2025-04-30|2026-09-08|79724418864164301,The Castle,Donald Ullrich|5|4.2|28.34|28.63
+Jonathan Harris|2005-04-18|2005-07-13|21915990111130717,Sense And Sensibility,Joann Cormier|85|5.4|36.61|39.40
+Abraham Rippin|2005-12-24|2014-11-09|23002388604332523,Cover Her Face,Elias Thiel|97|4.4|18.34|03.59
+Javier Runolfsson|2002-11-07|2013-05-02|79724418864164301,The Castle,Donald Ullrich|50|0.4|07.25|09.82
+Boyd Steuber|2006-08-07|2011-05-08|07169883272978432,The Mighty Walzer Howard,Darrel VonRueden|54|4.8|47.08|20.61
+Ramiro Schoen|2009-04-03|2024-07-30|21915990111130717,Sense And Sensibility,Joann Cormier|71|6.2|20.08|41.82
+Leigh Willms|2013-05-18|2021-09-01|19022461351266223,The Hearing Trumpet,Jeannette Luettgen|87|7.6|31.54|04.75
+Ken Jenkins|2015-11-03|2026-06-21|53628163523374767,A History Of The World In 10 1/2 Chapters,Clinton Ondricka|44|3.2|42.03|09.44
+Miguel Thompson|2007-01-22|2026-01-19|71505577966235591,The Rectors Daughter,Orville Williamson|39|5.2|27.40|16.23
+Robin Bode|2006-08-02|2024-02-12|91197419646919508,Le Pere Goriot,Reginald Hintz|30|6.1|10.25|41.17
+Andrea Zulauf|2010-08-16|2025-04-15|07169883272978432,The Mighty Walzer Howard,Darrel VonRueden|11|5.0|32.72|38.92
+Bryant Schuppe|2005-11-16|2008-04-08|23002388604332523,Cover Her Face,Elias Thiel|51|8.5|24.81|15.94
+Jason Marks|2022-12-02|2024-08-29|27116740449571557,The Vagabond,Terri Heidenreich|12|3.1|28.47|41.98
+Randy Stark|2005-09-09|2013-01-23|91197419646919508,Le Pere Goriot,Reginald Hintz|31|2.9|29.80|47.54
+Allison Muller|2008-06-18|2008-07-15|50446304532084029,The Glass Bead Game,Jeffery Larson|89|7.5|39.24|08.84
+Julia Watsica-Schuster|2000-01-05|2002-12-01|79724418864164301,The Castle,Donald Ullrich|58|0.4|12.61|33.97
+Barbara Green|2003-07-01|2020-10-25|79724418864164301,The Castle,Donald Ullrich|83|0.4|32.12|35.70
+Lillian Upton|2002-11-17|2007-12-29|50446304532084029,The Glass Bead Game,Jeffery Larson|47|5.3|33.86|49.38
+Heidi Parisian|2010-12-07|2021-04-30|53628163523374767,A History Of The World In 10 1/2 Chapters,Clinton Ondricka|50|4.6|46.29|22.86
+Jan McDermott|2010-06-04|2021-02-16|85117154080267376,Affinity,Jackie Christiansen|45|4.0|23.68|09.64
+Elijah Huels|2007-05-17|2009-07-08|27116740449571557,The Vagabond,Terri Heidenreich|58|2.0|13.53|05.93
+Wm Turcotte-Mills|2010-03-15|2026-09-20|19022461351266223,The Hearing Trumpet,Jeannette Luettgen|21|7.1|00.03|04.44
+Meredith Feil|2011-07-12|2016-09-20|21915990111130717,Sense And Sensibility,Joann Cormier|60|8.3|03.19|32.62
+Miguel Greenholt|2007-03-14|2024-11-05|23002388604332523,Cover Her Face,Elias Thiel|40|9.1|20.84|08.05
+Christine Stamm|2004-10-20|2012-04-26|95491770733263324,The Immoralist,George Wunsch|76|2.5|32.83|16.49
+Beulah Monahan|2000-02-02|2025-02-22|53628163523374767,A History Of The World In 10 1/2 Chapters,Clinton Ondricka|17|2.1|46.50|21.29
+Pearl Legros|2024-06-14|2024-11-25|23002388604332523,Cover Her Face,Elias Thiel|81|7.2|11.29|35.08
+Peter Marvin|2001-02-12|2003-03-09|95491770733263324,The Immoralist,George Wunsch|51|2.4|36.42|18.14
+Joseph Boyle|2010-11-02|2016-10-27|95491770733263324,The Immoralist,George Wunsch|47|0.8|44.29|33.46
+Louis Schuppe|2002-05-25|2014-11-15|85117154080267376,Affinity,Jackie Christiansen|25|9.1|30.10|09.41
+Kelly Stokes|2009-11-02|2021-10-27|21915990111130717,Sense And Sensibility,Joann Cormier|85|0.9|03.80|18.65
+Ted Legros|2004-09-19|2024-02-19|22232742496879957,The Road,Delores Sanford|93|2.4|29.16|36.89
+Lester Renner|2017-01-19|2020-03-01|06679346280432852,The Death Of Virgil,Lela Herzog|37|4.4|14.47|21.22
+Ernesto Hyatt|2004-10-23|2016-07-23|71505577966235591,The Rectors Daughter,Orville Williamson|67|0.2|16.78|46.29
+Donnie Jacobs|2011-06-12|2023-06-21|91197419646919508,Le Pere Goriot,Reginald Hintz|29|4.0|14.92|31.52
+Randall Wehner|2014-07-01|2016-05-17|35724673244413226,Ennui,Martha Buckridge|16|9.6|42.40|46.26
+Lynn Leffler|2002-04-22|2015-08-03|85117154080267376,Affinity,Jackie Christiansen|62|10.0|04.84|28.76
+Willie Tremblay|2017-05-02|2018-05-24|23002388604332523,Cover Her Face,Elias Thiel|62|5.0|45.02|04.85
+Dwayne Bauch|2009-08-07|2019-03-27|50446304532084029,The Glass Bead Game,Jeffery Larson|33|4.5|16.81|20.12
+Edna Larkin|2005-11-08|2019-09-10|19022461351266223,The Hearing Trumpet,Jeannette Luettgen|16|6.2|06.30|47.13
+Steve Langosh|2014-07-30|2025-06-24|85117154080267376,Affinity,Jackie Christiansen|83|7.1|44.91|04.98
+Christopher Auer|2021-12-22|2024-07-23|50446304532084029,The Glass Bead Game,Jeffery Larson|51|6.6|20.96|39.57
+Tom Nolan|2009-07-26|2013-07-12|50446304532084029,The Glass Bead Game,Jeffery Larson|18|0.5|31.32|04.09
+Wm Thompson|2007-02-28|2007-10-07|21915990111130717,Sense And Sensibility,Joann Cormier|86|8.3|46.22|46.96
+Kathryn Grady|2018-08-05|2023-10-07|22232742496879957,The Road,Delores Sanford|31|1.3|36.27|05.75
+Melanie Hartmann|2009-09-20|2015-01-06|91197419646919508,Le Pere Goriot,Reginald Hintz|16|3.4|22.95|26.10
+Amber Ward-Blick|2008-08-19|2026-04-27|53628163523374767,A History Of The World In 10 1/2 Chapters,Clinton Ondricka|4|4.0|49.18|18.72
+Steve McGlynn|2008-06-08|2019-09-13|91197419646919508,Le Pere Goriot,Reginald Hintz|72|3.5|46.86|14.73
+Alison Senger-Davis|2006-03-10|2026-06-10|85117154080267376,Affinity,Jackie Christiansen|19|6.0|19.17|22.41
+Jared Smitham|2011-06-22|2022-11-06|27116740449571557,The Vagabond,Terri Heidenreich|43|8.5|00.08|14.06
+Penny Effertz|2007-07-29|2018-04-19|85117154080267376,Affinity,Jackie Christiansen|22|1.3|30.62|48.62
+Viola Hills|2010-10-12|2021-04-14|35724673244413226,Ennui,Martha Buckridge|60|2.6|18.88|26.27
+Annette Predovic|2002-06-23|2020-01-08|22232742496879957,The Road,Delores Sanford|38|0.9|04.84|36.53
+Lori Howe|2007-12-30|2020-07-26|35724673244413226,Ennui,Martha Buckridge|100|8.5|28.60|42.90
+Rick Purdy|2015-08-20|2017-02-05|22232742496879957,The Road,Delores Sanford|68|1.9|22.89|29.31
+Seth Medhurst|2013-01-07|2021-10-13|91197419646919508,Le Pere Goriot,Reginald Hintz|84|5.5|20.66|34.67
+Tommie Schamberger|2017-02-30|2024-03-11|19022461351266223,The Hearing Trumpet,Jeannette Luettgen|58|4.4|42.33|43.62
+Barbara Hickle|2022-05-21|2025-10-23|19022461351266223,The Hearing Trumpet,Jeannette Luettgen|13|8.1|18.06|17.85
+Ramiro Schoen|2016-03-25|2017-05-05|95491770733263324,The Immoralist,George Wunsch|54|7.4|05.44|47.55
+Kent Herman|2014-04-29|2014-05-26|22232742496879957,The Road,Delores Sanford|85|6.4|25.73|27.73
+Nellie Predovic|2004-01-18|2021-04-17|35724673244413226,Ennui,Martha Buckridge|56|2.3|16.99|11.41
+Elena Hansen|2013-05-17|2022-05-25|50446304532084029,The Glass Bead Game,Jeffery Larson|99|5.2|48.38|20.33
+Matt King|2006-05-27|2009-01-16|23002388604332523,Cover Her Face,Elias Thiel|89|5.0|16.81|40.13
+Elias Grant|2001-09-11|2007-04-12|95491770733263324,The Immoralist,George Wunsch|60|2.0|40.52|10.27
+Rosie Koch|2000-09-21|2003-04-23|91197419646919508,Le Pere Goriot,Reginald Hintz|9|8.4|13.88|35.00
+Ramiro Schoen|2013-04-14|2017-09-17|27116740449571557,The Vagabond,Terri Heidenreich|41|6.2|13.43|31.38
+Celia Crooks|2000-09-14|2025-01-18|95491770733263324,The Immoralist,George Wunsch|49|6.2|47.09|04.48
+Dolores Johnston|2007-08-06|2026-11-28|53628163523374767,A History Of The World In 10 1/2 Chapters,Clinton Ondricka|37|7.2|42.63|07.40
+Juanita Schaefer|2017-12-29|2025-11-19|91197419646919508,Le Pere Goriot,Reginald Hintz|82|9.8|18.43|03.25
+Jacquelyn Rohan|2019-01-09|2019-12-09|95491770733263324,The Immoralist,George Wunsch|40|0.6|07.43|34.34
+Pedro Kilback-Hegmann|2002-07-28|2007-07-08|85117154080267376,Affinity,Jackie Christiansen|58|5.9|38.53|16.83
+Iris Dicki|2006-04-28|2023-11-07|50446304532084029,The Glass Bead Game,Jeffery Larson|86|10.0|25.89|34.44
+Eula Rosenbaum|2001-01-12|2023-11-20|07169883272978432,The Mighty Walzer Howard,Darrel VonRueden|38|4.9|17.78|29.13
+Howard Schuppe|2005-01-15|2008-08-01|95491770733263324,The Immoralist,George Wunsch|70|7.6|00.36|49.49
+Harry Beatty|2000-04-11|2025-12-11|07169883272978432,The Mighty Walzer Howard,Darrel VonRueden|84|1.6|29.70|17.30
+Terri Towne|2006-06-03|2009-07-07|35724673244413226,Ennui,Martha Buckridge|63|9.8|31.45|43.31
+Tina Heaney|2000-01-10|2024-07-01|22232742496879957,The Road,Delores Sanford|81|3.3|10.29|10.47
+Thomas Abshire|2020-02-22|2020-08-12|85117154080267376,Affinity,Jackie Christiansen|49|8.3|33.18|26.12
+Nicole Fisher|2011-01-07|2011-05-23|35724673244413226,Ennui,Martha Buckridge|87|2.4|20.85|46.11
+Alexander Dickinson|2004-03-02|2018-12-27|79724418864164301,The Castle,Donald Ullrich|86|6.7|42.00|42.92
+Kathryn Hoppe|2002-03-16|2005-09-23|07169883272978432,The Mighty Walzer Howard,Darrel VonRueden|5|9.8|37.73|09.74
+Valerie Dooley-Hermann|2002-12-23|2019-12-16|19022461351266223,The Hearing Trumpet,Jeannette Luettgen|48|1.8|05.82|09.49
+Kathryn Parker|2001-11-18|2021-12-21|07169883272978432,The Mighty Walzer Howard,Darrel VonRueden|2|2.2|32.52|13.55
+Jeannette Luettgen|2004-08-28|2018-09-30|50446304532084029,The Glass Bead Game,Jeffery Larson|90|1.4|40.03|20.71
+Travis Roob|2005-07-18|2024-05-03|07169883272978432,The Mighty Walzer Howard,Darrel VonRueden|39|2.2|36.32|13.27
+Albert Gusikowski|2020-09-02|2024-08-20|91197419646919508,Le Pere Goriot,Reginald Hintz|67|0.3|28.27|16.90
+Cecilia Sauer|2025-11-10|2026-07-06|71505577966235591,The Rectors Daughter,Orville Williamson|80|0.2|37.44|34.00
+Santiago Bednar|2001-12-07|2012-06-18|53628163523374767,A History Of The World In 10 1/2 Chapters,Clinton Ondricka|43|10.0|45.98|01.14
+Robin McLaughlin-Davis|2012-09-15|2013-07-07|71505577966235591,The Rectors Daughter,Orville Williamson|66|1.8|44.13|16.53
+Kathryn Grady|2015-12-08|2015-12-25|53628163523374767,A History Of The World In 10 1/2 Chapters,Clinton Ondricka|36|6.1|01.85|04.06
+Ross Cummings|2020-08-06|2026-01-18|85117154080267376,Affinity,Jackie Christiansen|94|1.2|11.54|02.74
+Carl Cormier-McGlynn|2014-07-25|2025-03-18|27116740449571557,The Vagabond,Terri Heidenreich|30|4.1|00.68|34.10
