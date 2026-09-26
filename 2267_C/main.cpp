@@ -1,4 +1,4 @@
-#define LOCAL
+//#define LOCAL
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -26,14 +26,69 @@ if (s[i] == ')' || s[i] == '}') b--; else if (s[i] == ',' && b == 0) {cerr << "\
 #define ld long double
 #define endl "\n"
 
+ll gcd (ll a, ll b) {
+    if (b == 0)
+        return a;
+    else
+        return gcd (b, a % b);
+}
+
+
 int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
+
+    ll N = 3e5 + 5;
+    vector<int> factor(N); // smallest prime factor
+    for (int i = 2; i < N; i++) {
+        if (factor[i] == 0) {
+            for (int j = i; j < N; j += i) {
+                factor[j] = i;     
+            }
+        }
+    }
     
-    
+    int t; cin >> t;
+    while (t--) {
+        ll n, x; cin >> n >> x;
+
+        vector<ll> arr (n);
+        for (int i = 0; i < n; i++) cin >> arr[i];
+
+        map<ll, ll> pf;
+
+        while (x > 1) {
+            ll fac = factor[x];
+            ll exp = 0;
+            while (x % fac == 0) {
+                x /= fac;
+                exp++;
+            }
+            pf[fac] = exp;
+        }
+
+        print(pf);
+
+        ll best = 0;
+
+        for (auto f : pf) {
+            ll cur = 0;
+
+            for (auto a : arr) {
+                if (a % f.first == 0) {
+                    cur += a;
+                }
+            }
+
+            best = max(best, cur);
+        }
+
+        cout << best << endl;
+
+    }
 
 
     return 0;

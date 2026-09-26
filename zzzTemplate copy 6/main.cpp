@@ -33,7 +33,11 @@ int main () {
     freopen("input.txt", "r", stdin);
     freopen("output.txt", "w", stdout);
     
-    
+    mt19937 rng ((ll) new char);
+
+    uniform_int_distribution<ll> rand (1, 5);
+
+    cout << rand(rng) << endl;
 
 
     return 0;

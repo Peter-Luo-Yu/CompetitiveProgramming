@@ -1,8 +1,10 @@
+"""Author: Peter Yu
+   It is ok to share my code anonymously for educational purposes"""
+
 //#define LOCAL
 
 #include <bits/stdc++.h>
 using namespace std;
-using namespace std::chrono;
 
 #ifdef LOCAL
 #define print(...) debug(#__VA_ARGS__, __VA_ARGS__)
@@ -27,19 +29,57 @@ if (s[i] == ')' || s[i] == '}') b--; else if (s[i] == ',' && b == 0) {cerr << "\
 #define ld long double
 #define endl "\n"
 
-ll MOD = 1e9 + 7;
 
-ll power (ll a, ll b) {
-    ll res = 1;
-    while (b > 0) {
-        if (b % 2 == 1) {
-            res = (res * a) % MOD;
-        }
-        a = (a * a) % MOD;
-        b /= 2;
+// a very cooked problem
+// because can choose to have multiple 
+// print statements per run
+
+
+ll N, R, P; 
+vector<ll> dp;
+
+// x is the cur block size
+void recurse(ll blocksize) {
+    if (blocksize == 1) {
+        dp[blocksize] = 0;
+        return;
     }
-    return res;
+
+    // don't forget to memoize
+    if (dp[blocksize] != 1e18) {
+        return;
+    }
+
+    vector<pair<ll, ll>> pairs; // {blocksize, prints}
+        
+    // case 1: blocksize x <= sqrt(n)
+    // relationship is x = ceil(n/(p + 1)), we solve for min prints
+    // By def x >= n / (p + 1)
+    // x(p + 1) >= n
+    // p + 1 >= n / x
+    // p >= ceil(n / x) - 1
+
+    for (int x = 1; x <= sqrt(blocksize); x++) {
+        ll p = ((blocksize + x - 1) / x) - 1;
+        pairs.push_back({x, p});
+    }
+
+    // case2: blocksize x > sqrt(n) -> min(p) <= sqrt(n);
+    // easy: x = ceil(n / (p + 1))
+    for (int p = 1; p <= sqrt(blocksize); p++) {
+        ll x = (blocksize + p) / (p + 1);
+        pairs.push_back({x, p});
+    }
+
+    //print(pairs);
+    
+    for (auto p : pairs) {
+        recurse(p.first);
+        dp[blocksize] = min(dp[blocksize], p.second * P + R + dp[p.first]);
+    }
 }
+
+
 
 int main () {
     ios_base::sync_with_stdio(false);
@@ -48,68 +88,16 @@ int main () {
     //freopen("input.txt", "r", stdin);
     //freopen("output.txt", "w", stdout);
 
-    // the whole point of setting N = 1e7 is to kill the 
-    // strategy of precomputing the answer for all N up to 1e7
-    // however, we only have up to 25 test cases,
-    // which means we just need to quickly compute the answer to those tests 
-    // Tatha told me to use legendre theorem
+    cin >> N >> R >> P;
 
-    ll N = 1e7 + 5;
-    vector<bool> isPrime(N, true); // smallest prime factor
-    for (int i = 2; i < N; i++) {
-        if (isPrime[i]) {
-            for (int j = 2 * i; j < N; j += i) {
-                isPrime[j] = false;     
-            }
-        }
-    }
+    // dp[i] = answer for block size i
+    dp = vector<ll> (N + 1, 1e18);
 
-    vector<ll> primes;
-    for (int i = 2; i < N; i++) {
-        if (isPrime[i]) {
-            primes.push_back(i);
-        }
-    }
-    
-    //print(primes, primes.size());
+    recurse(N);
 
-    string s;
-    while (s != "0") { 
-        getline(cin, s);
+    print(dp);
 
-        if (s == "0") break;
-        //cout << s << endl;
-
-        ll n = stoi(s);
-
-        ll ans = 1;
-
-        for (auto p : primes) {
-            ll exp = 0;
-            ll cur = p;
-            while (cur <= n) {
-                exp += n / cur;
-                cur *= p;
-            }
-
-            if (exp > 0) {
-                if (exp % 2 == 1) {
-                    exp--;
-                }
-
-                if (exp > 0) {
-                    ans *= power(p, exp);
-                    ans %= MOD;
-                }
-            }
-        }
-        
-        cout << ans << endl;
-    }
-        
-        
-        
-        
+    cout << dp[N] << endl;
 
     return 0;
 }

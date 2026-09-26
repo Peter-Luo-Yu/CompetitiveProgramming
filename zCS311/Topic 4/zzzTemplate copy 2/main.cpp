@@ -1,4 +1,4 @@
-#define LOCAL
+//#define LOCAL
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -26,19 +26,19 @@ if (s[i] == ')' || s[i] == '}') b--; else if (s[i] == ',' && b == 0) {cerr << "\
 #define ld long double
 #define endl "\n"
 
-ll gcd(ll a, ll b, ll& x, ll& y) {
-    if (b == 0) {
-        x = 1;
-        y = 0;
-        return a;
-    }
-    ll x1, y1;
-    ll d = gcd(b, a % b, x1, y1);
-    x = y1;
-    y = x1 - y1 * (a / b);
-    return d;
-}
+ll MOD = 1e9 + 7;
 
+ll power (ll a, ll b) {
+    ll res = 1;
+    while (b > 0) {
+        if (b % 2 == 1) {
+            res = (res * a) % MOD;
+        }
+        a = (a * a) % MOD;
+        b /= 2;
+    }
+    return res;
+}
 
 int main () {
     ios_base::sync_with_stdio(false);
@@ -47,53 +47,53 @@ int main () {
     //freopen("input.txt", "r", stdin);
     //freopen("output.txt", "w", stdout);
 
-    // need k * x + 1, only buy in batches of c
-    // so k * x + 1 = c * y
-    // take mod k
-    // cy = 1 (mod k)
-    // the answer to the problem is to find y = c^-1
+    int n, k; cin >> n >> k;
+    
+    // ways = k * (k - 1) ^ (n - 1); ex. 3 * 2 ^ 3 = 24
+    // factor = (k choose k - 1) ... 
 
-    int t; cin >> t;
-    while (t--) {
-        ll k, c; cin >> k >> c;
+    int N = 2600;
+    vector<ll> fact(N);
+    vector<ll> invfact(N);
 
-        ll x, y;
-        ll g = gcd (c, k, x, y);
-        
-        if (g != 1) {
-            cout << "IMPOSSIBLE" << endl;
+    fact[0] = 1, fact[1] = 1;
+    for (int i = 2; i < N; i++) {
+        fact[i] = (fact[i - 1] * i) % MOD;
+    }
+
+    for (int i = 0; i < N; i++) {
+        invfact[i] = power(fact[i], MOD - 2);
+    }
+
+    print(fact);
+    print(invfact);
+
+    ll ans = 0;
+    bool sign = true;
+    for (int i = k; i >= 2; i--) {
+        ll ways = i * power(i - 1, n - 1) % MOD;
+
+        print(ways);
+
+        ways *= ((fact[k] * invfact[i] % MOD) * invfact[k - i]) % MOD;
+        ways %= MOD;
+
+        print(ways);
+
+        if (sign) {
+            ans += ways;
+            ans %= MOD;
         }
         else {
-            x = (x % k + k) % k; 
-
-            // edge case if x = 0, then you can't buy nothing
-            if (x == 0) {
-                x += k;
-            }
-
-            // then c = 1 is a fat edge case, because mod 1 always = 0
-            if (c == 1) {
-                if (k + 1 > 1e9) {
-                    cout << "IMPOSSIBLE" << endl;
-                }
-                else {
-                    cout << k + 1 << endl;
-                }
-            }
-            else {
-                if (x > 1e9) {
-                    cout << "IMPOSSIBLE" << endl;
-                }
-                else {
-                    cout << x << endl;
-                }
-            }
+            ans -= ways;
+            ans = (ans + MOD) % MOD; 
         }
-        
 
-
-
+        sign = !sign;
     }
-    
+
+    cout << ans << endl;
+
+
     return 0;
 }

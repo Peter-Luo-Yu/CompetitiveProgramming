@@ -26,14 +26,46 @@ if (s[i] == ')' || s[i] == '}') b--; else if (s[i] == ',' && b == 0) {cerr << "\
 #define ld long double
 #define endl "\n"
 
+ll MOD = 1e9 + 7;
+
+ll power(ll a, ll b) {
+    ll res = 1;
+    while (b) {
+        if (b & 1 == 1) {
+            res = (res * a) % MOD;
+        }
+        a = (a * a) % MOD;
+        b >>= 1;
+    }
+    return res;
+}
+
 int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
-    
-    
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
+
+    // # of pos. d digit numbers that don't contain a 9
+
+    // if d = 1: 9 doesn't work
+    // d = 2: 90 - (tens digit 9 - 10) - (ones digit 9 - 9) + (both 1)
+    //        90 - 10 - 9 + 1 = 72
+
+    // d = 3: 900 - (hundred - 10 * 10) - (tens - )...
+
+    // we can do this or we can simply do constructive counting
+    // 8 poss * 9 poss * 9 poss ......
+
+    int t; cin >> t;
+    while (t--) {
+        ll n; cin >> n;
+
+        ll ans = 8 * power(9, n - 1) % MOD;
+        cout << ans << endl;
+    }
+              
 
 
     return 0;

@@ -1,3 +1,6 @@
+"""Author: Peter Yu
+   It is ok to share my code anonymously for educational purposes"""
+
 //#define LOCAL
 
 #include <bits/stdc++.h>
@@ -48,6 +51,7 @@ int main () {
 
         ll p = stoi(P), q = stoi(Q);
 
+        // a few edge cases at the top of the tree
         if (p == 0 || q == 0) {
             cout << id << " " << 1 << "/" << 1 << endl;
             continue;
@@ -62,13 +66,15 @@ int main () {
             cout << id << " " << 1 << "/" << 2 << endl;
             continue;
         }
+
+        // easy case: go from left child to the right child
         if (p < q) { // p / q -> q / q - p
             cout << id << " " << q << "/" << q - p << endl;
             continue;
         }
 
         // if (p > q) 
-        if (q == 1) { // the edge case: p / 1 -> 1 / q + 1
+        if (q == 1) { // the edge case at the literal edge: p / 1 -> 1 / q + 1
             cout << id << " " << 1 << "/" << p + 1 << endl;
             continue;
         }

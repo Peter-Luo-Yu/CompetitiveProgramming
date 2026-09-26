@@ -1,4 +1,4 @@
-#define LOCAL
+//#define LOCAL
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -30,10 +30,72 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
-    
+    int t; cin >> t;
+    while (t--) {
+        int n; cin >> n;
+        vector<int> arr (n);
+        for (int i = 0; i < n; i++) cin >> arr[i];
+
+        map<int, int> freq;
+        for (auto a : arr) {
+            freq[a]++;
+        }
+
+        int idx = 0;
+        vector<int> ans (n);
+     
+        while (idx < n) {
+            int Max = freq.rbegin() -> first;
+            int Maxf = freq.rbegin() -> second;
+
+            print(Max, Maxf);
+
+            freq[Max] = 0;
+            freq.erase(Max);
+
+            for (int i = 0; i < Maxf; i++) {
+                ans[idx] = Max;
+                idx++;
+            }
+
+            print(ans);
+
+            for (auto it = freq.begin(); it != freq.end();) {
+
+                int amt = min (Maxf, it -> second);
+
+                for (int i = 0; i < amt; i++) {
+                    ans[idx] = it -> first;
+                    idx++;
+                }
+
+                it -> second -= amt;
+
+                if (it -> second == 0) {
+                    freq.erase(it++);
+                }
+                else {
+                    it++;
+                }
+            }
+
+
+        }
+
+        print(ans);
+        
+        space;
+
+        for (auto a : ans) {
+            cout << a << " ";
+        }
+        cout << endl;
+
+
+    }
 
 
     return 0;

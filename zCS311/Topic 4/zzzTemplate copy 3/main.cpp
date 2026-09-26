@@ -26,15 +26,47 @@ if (s[i] == ')' || s[i] == '}') b--; else if (s[i] == ',' && b == 0) {cerr << "\
 #define ld long double
 #define endl "\n"
 
+
 int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
     freopen("input.txt", "r", stdin);
     freopen("output.txt", "w", stdout);
-    
-    
 
+    int n, x, y; cin >> n >> x >> y;
+    vector<vector<ll>> dp (n + 1, vector<ll> (n + 1));    
+
+    for (int i = x; i <= n; i++) {
+        for (int j = y; j <= n; j++) {
+            dp[i][j] = 1;
+        }
+    }
+
+    for (int i = x; i <= n; i++) {
+        for (int j = y; j <= n; j++) {
+            print(i, j);
+            for (int r = x; r <= i - x; r++) {
+                for (int c = y; c <= j - y; c++) {
+                    print(r, c);
+                    dp[i][j] += dp[r][c];
+                }
+            }
+
+            space;
+        }
+    }
+    
+    
+    for (int i = 0; i <= n; i++) {
+        for (int j = 0; j <= n; j++) {
+            cout << dp[i][j] << " ";
+        }
+        cout << endl;
+    }
+        
+
+    cout << dp[n][n] << endl;
 
     return 0;
 }
