@@ -1,3 +1,6 @@
+"""Author: Peter Yu
+   It is ok to share my code anonymously for educational purposes"""
+   
 //#define LOCAL
 
 #include <bits/stdc++.h>
@@ -34,6 +37,14 @@ int main () {
     //freopen("input.txt", "r", stdin);
     //freopen("output.txt", "w", stdout);
 
+    // One thing to notice is that they aren't asking for factorials mod some prime
+    // that means you need the actual values of the chooses
+    // so we just use pascal's triangles to find the chooses
+    
+    // The problem asks for the probability that our candidate 1 wins the election
+    // which is basically a bionomial distribution, and we must 
+    // sum up the cases where he earns enough votes.
+
     int N = 55;
     vector<vector<ll>> pascal(N);
     pascal[0] = {1};
@@ -58,9 +69,13 @@ int main () {
     while (t--) {
         ll n, v1, v2; ld w; cin >> n >> v1 >> v2 >> w;
 
+        // how many votes left
         ll left = n - v1 - v2;
 
+        // how many votes required to win majority
         ll winamt = n / 2 + 1;
+
+        // how many votes we need
         ll need = winamt - v1; 
         
         print(left, winamt, need);
@@ -70,6 +85,9 @@ int main () {
             space;
             continue;
         }
+
+        // binom cdf, we have "left" amount of trials, 50% of success
+        // and we need at least "need" successes
 
         ld num = 0;
         ld denom = (1LL << left);

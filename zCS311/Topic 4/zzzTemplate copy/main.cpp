@@ -1,3 +1,6 @@
+"""Author: Peter Yu
+   It is ok to share my code anonymously for educational purposes"""
+   
 #define LOCAL
 
 #include <bits/stdc++.h>

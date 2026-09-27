@@ -1,3 +1,6 @@
+"""Author: Peter Yu
+   It is ok to share my code anonymously for educational purposes"""
+
 //#define LOCAL
 
 #include <bits/stdc++.h>
@@ -49,8 +52,14 @@ int main () {
 
     int n, k; cin >> n >> k;
     
+    // minimum 2 colorings
     // ways = k * (k - 1) ^ (n - 1); ex. 3 * 2 ^ 3 = 24
-    // factor = (k choose k - 1) ... 
+    // factor = (k choose k - 1) , (k choose k - 2) ...... (k choose 2)
+
+    // Using inclusion exclusion, we find the number of ways to color with exactly k colors
+    // by first finding <= k, subtracting <= k - 1, adding back <= k - 2 .... until 2
+    // but the caveat is that you can choose k - 1 or k - 2 colors out of the k colors 
+    // to color with, so we also take that into account.
 
     int N = 2600;
     vector<ll> fact(N);

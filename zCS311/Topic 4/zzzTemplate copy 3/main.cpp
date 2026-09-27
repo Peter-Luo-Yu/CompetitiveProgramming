@@ -1,4 +1,7 @@
-#define LOCAL
+"""Author: Peter Yu
+   It is ok to share my code anonymously for educational purposes"""
+   
+//#define LOCAL
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -26,47 +29,73 @@ if (s[i] == ')' || s[i] == '}') b--; else if (s[i] == ',' && b == 0) {cerr << "\
 #define ld long double
 #define endl "\n"
 
+ll MOD = 1e9 + 7;
+
+vector<ll> fact, invfact;
+
+ll power(ll a, ll b) {
+    ll res = 1;
+    while (b) {
+        if (b & 1) {
+            res = (res * a) % MOD;
+        }
+        a = (a * a) % MOD;
+        b >>= 1;
+    }
+    return res;
+}
+
+ll C (ll n, ll k) {
+    return ((fact[n] * invfact[k] % MOD) * invfact[n - k]) % MOD;
+}
+
 
 int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
 
-    int n, x, y; cin >> n >> x >> y;
-    vector<vector<ll>> dp (n + 1, vector<ll> (n + 1));    
+    // so the observation was to break the cases down based on the number of steps
+    // if we have k steps
+    // you have dx1 + dx2 + ... + dxk = n
+    // this is the stars and bars shit with n candies and k - 1 bars, k buckets
+    // but dx1 >= x, since all steps are at least x
+    // which means each bucket must contain at least x candies
+    // so we have n - kx candies and k - 1 bars, k buckets
+    // answer is (n - kx - k - 1) choose (k - 1)
 
-    for (int i = x; i <= n; i++) {
-        for (int j = y; j <= n; j++) {
-            dp[i][j] = 1;
-        }
+    // since the y's are independent, you multiply the 2 chooses up
+
+
+    int N = 1e6 + 5;
+    fact = vector<ll> (N); invfact = vector<ll> (N);
+
+    fact[0] = 1;
+    for (int i = 1; i < N; i++) {
+        fact[i] = (i * fact[i - 1]) % MOD;
+    }
+    for (int i = 0; i < N; i++) {
+        invfact[i] = power(fact[i], MOD - 2);
     }
 
-    for (int i = x; i <= n; i++) {
-        for (int j = y; j <= n; j++) {
-            print(i, j);
-            for (int r = x; r <= i - x; r++) {
-                for (int c = y; c <= j - y; c++) {
-                    print(r, c);
-                    dp[i][j] += dp[r][c];
-                }
-            }
 
-            space;
-        }
-    }
-    
-    
-    for (int i = 0; i <= n; i++) {
-        for (int j = 0; j <= n; j++) {
-            cout << dp[i][j] << " ";
-        }
-        cout << endl;
-    }
-        
+    ll n, x, y; cin >> n >> x >> y;
 
-    cout << dp[n][n] << endl;
+    ll ans = 0;
+    for (int k = 1; k <= n / max(x, y); k++) {
+        ll X = C(n - k * x + k - 1, k - 1);
+        ll Y = C(n - k * y + k - 1, k - 1);
+
+        print(X, Y);
+
+        ans += (X * Y) % MOD;
+        ans %= MOD;
+    }
+
+    cout << ans << endl;
+   
 
     return 0;
 }
