@@ -26,59 +26,46 @@ if (s[i] == ')' || s[i] == '}') b--; else if (s[i] == ',' && b == 0) {cerr << "\
 #define ld long double
 #define endl "\n"
 
-bool check (vector<int> arr) {
-    int Max = -1;
-    int idx = -1;
-
-    for (int i = 0; i < arr.size(); i++) {
-        if (arr[i] > Max) {
-            Max = arr[i];
-            idx = i;
-        }
-    }
-
-    bool failed = false;
-
-    for (int i = 0; i < idx; i++) {
-        if (arr[i] >= arr[i + 1]) {
-            failed = true;
-        }
-    }
-
-    for (int i = idx; i < arr.size(); i++) {
-        if (arr[i] <= arr[i + 1]) {
-            failed = true;
-        }
-    }
-
-    return failed;
-}
-
 int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
     int t; cin >> t;
     while (t--) {
         int n; cin >> n;
-        vector<int> arr (n);
-        for (int i = 0; i < n; i++) cin >> arr[i];
-
-        vector<int> a, b;
-        for (int i = 0; i < n; i += 2) {
-            a.push_back(arr[i]);
+        vector<int> arr (n), pairity (n + 1);
+        for (int i = 0; i < n; i++) {
+            cin >> arr[i];
+            pairity[arr[i]] = (i % 2);
         }
-        for (int i = 1; i < n; i += 2) {
-            b.push_back(arr[i]);
-        }
-        
-        print(a); print(b);
 
-        
-        space;
+        print(arr);
+        print(pairity);
+
+        bool failed = false;
+        int l = 0, r = n - 1;
+        for (int i = 1; i <= n; i++) {
+            if ((l % 2) == pairity[i]) {
+                l++;
+            }
+            else if ((r % 2) == pairity[i]) {
+                r--;
+            }
+            else {
+                failed = true;
+                break;
+            }
+        }
+
+        if (failed) {
+            cout << "NO" << endl;
+        }
+        else {
+            cout << "YES" << endl;
+        }
 
     }
 
