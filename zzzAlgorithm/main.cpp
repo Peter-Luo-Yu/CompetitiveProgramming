@@ -25,6 +25,51 @@ if (s[i] == ')' || s[i] == '}') b--; else if (s[i] == ',' && b == 0) {cerr << "\
 #define ld long double
 #define endl "\n"
 
+// topo sort
+
+void dfs (int s, vector<vector<int>> &adj, vector<bool> &vis, vector<int> &topo) {
+    if (vis[s]) return;
+    vis[s] = true;
+    for (auto u : adj[s]) dfs(u, adj, vis, topo);
+    topo.push_back(s);
+}
+
+
+struct DSU {
+    int n;
+    vector<int> parent, sz;
+
+    void setup (int x) {
+        n = x;
+        parent = sz = vector<int> (n);
+        for (int i = 0; i < n; i++) {
+            parent[i] = i;
+            sz[i] = 1;
+        }
+    }
+
+    int find (int x) {
+        while (x != parent[x]) {
+            x = parent[x];
+        }
+        return x;
+    }
+
+    bool same (int a, int b) {
+        return find(a) == find(b);
+    }
+
+    void unite(int a, int b) {
+        a = find(a); b = find(b);
+        if (a == b) return;
+
+        if (sz[a] < sz[b]) swap (a, b);
+        sz[a] += sz[b];
+        parent[b] = a;
+    }
+};
+
+
 struct SegmentTree {
     ll n;
     vector<ll> lazy, tree;
@@ -106,70 +151,54 @@ int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    //freopen("input.txt", "r", stdin);
-    //freopen("output.txt", "w", stdout);
+    // SMALLEST PRIME FACTOR
+
+    int N = 1e2;
+    vector<int> factors(N);
+
+    for (int i = 2; i <= N; i++) {
+		if (factors[i] == 0) {
+			for (int j = i; j <= N; j += i) { factors[j] = i; }
+		}
+	}
+
+    // DIJKSTRA
+     
+    vector<bool> vis (n);
+    vector<ll> dist (n, 1e18);
     
-    int t; cin >> t;
-    while (t--) {
-        ll n, k; cin >> n >> k;
-        vector<ll> arr (n);
-        for (int i = 0; i < n; i++) cin >> arr[i];
-
-        
-        vector<pair<ll, ll>> sorted(n);
-        for (int i = 0; i < n; i++) {
-            sorted[i] = {arr[i], i};
-        }
-        sort (sorted.begin(), sorted.end());
-
-       
-
-        vector<ll> pos (n); // convert from i idx of arr[i] to correct pos
-        for (int i = 0; i < sorted.size(); i++) {
-            pos[sorted[i].second] = i;
-        }
-
-        print(arr);
-        print(sorted);
-        print(pos);
-
-        SegmentTree vis;
-        SegmentTree val;
-        vis.init(n); 
-        val.init(n);
-
-        for (int i = 0; i < k - 1; i++) {
-            //print(i, pos[i]);
-            vis.add(pos[i], pos[i], 1);
-            val.add(pos[i], pos[i], arr[i]);
-        }
-
-
-        ll ans = -1e18;
-        for (int i = k - 1; i < n; i++) {
-            ll sum = 0;
-
-            if (k >= 2) {
-                ll idx = vis.findk(k - 2);
-                sum = val.sum(0, idx);
+    priority_queue<pair<ll, ll>, vector<pair<ll, ll>>, greater<pair<ll, ll>>> pq; // distance - idx
+ 
+    dist[0] = 0;
+    vis[0] = true;
+    pq.push({0, 0});
+ 
+    while (!pq.empty()) {
+        ll d = pq.top().first;
+        ll cur = pq.top().second;
+        pq.pop();
+ 
+        // to not TLE
+        if (d != dist[cur]) continue;
+ 
+        for (auto next : adj[cur]) {
+            if (vis[next.first]) continue;
+ 
+            if (dist[cur] + next.second < dist[next.first]) {
+                dist[next.first] = dist[cur] + next.second;
+                pq.push({dist[next.first], next.first});
             }
-
-            ll cur = k * arr[i] - sum;
-            ans = max (ans, cur);
-
-            print(arr[i], sum, cur, idx);
-
-            vis.add(pos[i], pos[i], 1);
-            val.add(pos[i], pos[i], arr[i]);
         }
-
-        
-
-        cout << ans << endl;
-        print(ans);
+    }
 
 
-        space;
+    // Kruskals: unite if not the same
+
+    for (auto e : edges) {
+        if (!dsu.same(e.a, e.b)) {
+            dsu.unite(e.a, e.b);
+            ans += e.w;
+        }
     }
 
 
