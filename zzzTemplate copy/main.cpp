@@ -1,4 +1,4 @@
-#define LOCAL
+//#define LOCAL
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -26,14 +26,160 @@ if (s[i] == ')' || s[i] == '}') b--; else if (s[i] == ',' && b == 0) {cerr << "\
 #define ld long double
 #define endl "\n"
 
+
+
+struct SegmentTree {
+    ll n;
+    vector<ll> lazy, tree;
+ 
+    void init(ll x) {
+        n = x;
+        tree = lazy = vector<ll> (4 * n);
+    }
+ 
+    void apply(ll v, ll len, ll val) {
+        tree[v] += len * val;
+        lazy[v] += val;
+    }
+ 
+    void push(ll v, ll l, ll r) {
+        ll mid = (l + r) / 2;
+        apply(2 * v, mid - l + 1, lazy[v]);
+        apply(2 * v + 1, r - mid, lazy[v]);
+        lazy[v] = 0;
+    }
+ 
+    void add(ll v, ll l, ll r, ll ql, ll qr, ll val) {
+        if (qr < l || ql > r) return;
+        if (ql <= l && r <= qr) {
+            apply(v, r - l + 1, val);
+        }
+        else {
+            push(v, l, r);
+            ll mid = (l + r) / 2;
+            add(2 * v, l, mid, ql, qr, val);
+            add(2 * v + 1, mid + 1, r, ql, qr, val);
+            tree[v] = tree[2 * v] + tree[2 * v + 1];
+        }
+    }
+ 
+    void add(ll ql, ll qr, ll val) {
+        add(1, 0, n - 1, ql, qr, val);
+    }
+ 
+    ll sum(ll v, ll l, ll r, ll ql, ll qr) {
+        if (qr < l || ql > r) return 0;
+        if (ql <= l && r <= qr) {
+            return tree[v];
+        }
+        else {
+            push(v, l, r);
+            ll mid = (l + r) / 2;
+            return sum(2 * v, l, mid, ql, qr) + sum(2 * v + 1, mid + 1, r, ql, qr);
+        }
+    }
+ 
+    ll sum(ll ql, ll qr) {
+        if (ql > qr) {
+            return 0;
+        }
+        return sum(1, 0, n - 1, ql, qr);
+    }
+ 
+    ll findk (ll k) { // 0 indexed
+        ll v = 1, l = 0, r = n - 1;
+ 
+        while (l < r) {
+            push(v, l, r);
+            ll mid = (l + r) / 2;
+            if (tree[2 * v] > k) { // left side has more than k active
+                v = 2 * v;
+                r = mid;
+            }
+            else {
+                k -= tree[2 * v];
+                v = 2 * v + 1;
+                l = mid + 1;
+            }
+        }
+ 
+        return l;
+    }
+ 
+};
+
 int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     
+    ll n; cin >> n;
+    vector<ll> arr (n), pos(n);
+    for (ll i = 0; i < n; i++) {
+        cin >> arr[i];
+        pos[arr[i] - 1] = i;
+    }
+
+    print(pos);
+
+    SegmentTree segtree;
+    segtree.init(n);
+    segtree.add(0, n - 1, 1);
+
+    ll idx = 0;
+    ll ans = 0;
+    for (ll i = 0; i < n; i++) {
+        ll target = pos[i];
+        print(idx, target);
+
+        if (target == idx) {
+            print("already");
+
+            segtree.add(idx, idx, -1);
+            idx++;
+            idx %= n;
+
+            ans++;
+        }
+        else if (target >= idx) { // [.... idx ..... target ...]
+            ll dist1 = segtree.sum(idx, target) - 1;
+            ll dist2 = segtree.sum(0, idx) + segtree.sum(target, n - 1) - 1;
+
+            print("c1", dist1, dist2);
+
+            ans += min(dist1, dist2) + 1;
+            
+            // make sure we move to the target first and remove second dumbass
+            idx = target;
+
+            segtree.add(idx, idx, -1);
+            idx++;
+            idx %= n;
+        }
+        else {                  // [.... target ..... idx ...]
+            ll dist1 = segtree.sum(target, idx) - 1;
+            ll dist2 = segtree.sum(idx, n - 1) + segtree.sum(0, target) - 1;
+
+            print("c2", dist1, dist2);
+
+            ans += min(dist1, dist2) + 1;
+
+            idx = target;
+            
+            segtree.add(idx, idx, -1);
+            idx++;
+            idx %= n;
+        }
+
+        print(ans);
+        space;
+
+       
+    }
     
+    cout << ans << endl;
 
 
     return 0;
