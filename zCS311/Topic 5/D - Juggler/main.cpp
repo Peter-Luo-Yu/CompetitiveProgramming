@@ -138,12 +138,12 @@ int main () {
         ll tidx = segtree.sum(0, target - 1); //relative position of target
 
         
-        ll d = abs(tidx - idx);
-        ll dist = min(d, balls - d);
+        ll d = abs(tidx - idx); // find dist 1
+        ll dist = min(d, balls - d); // dist 2 = balls - dist 1
 
         ans += (dist + 1);
-
-        segtree.add(target, target, -1);
+        
+        segtree.add(target, target, -1); 
 
         balls--;
 

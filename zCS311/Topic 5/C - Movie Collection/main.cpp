@@ -130,6 +130,7 @@ int main () {
 
         //print(arr);
 
+        // segtree stores 1's and 0's to indicate the presence of a movie
         SegmentTree segtree;
         segtree.init(N);
 
@@ -140,13 +141,15 @@ int main () {
         for (int i = 0; i < m; i++) {
             int val; cin >> val;
 
+            // query for how many are above it
             int ans = segtree.sum(arr[val - 1] + 1, N - 1);
             cout << ans << " ";
 
+            // update the current position and increment the target position
             segtree.add(arr[val - 1], arr[val - 1], -1);
             arr[val - 1] = next;
             segtree.add(next, next, 1);
-
+            
             next++;
         }
 

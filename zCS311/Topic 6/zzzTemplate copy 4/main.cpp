@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 //#define LOCAL
+=======
+#define LOCAL
+>>>>>>> 27437abf1c7a21494695ab2a2d2b6fc861744816
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -27,6 +31,7 @@ if (s[i] == ')' || s[i] == '}') b--; else if (s[i] == ',' && b == 0) {cerr << "\
 #define endl "\n"
 
 
+<<<<<<< HEAD
 struct SegmentTree {
     ll n;
     vector<ll> lazy, tree;
@@ -105,10 +110,13 @@ struct SegmentTree {
 };
 
 
+=======
+>>>>>>> 27437abf1c7a21494695ab2a2d2b6fc861744816
 int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
+<<<<<<< HEAD
     //freopen("input.txt", "r", stdin);
     //freopen("output.txt", "w", stdout);
 
@@ -173,6 +181,11 @@ int main () {
 
     space;
     
+=======
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
+
+>>>>>>> 27437abf1c7a21494695ab2a2d2b6fc861744816
     
 
 
