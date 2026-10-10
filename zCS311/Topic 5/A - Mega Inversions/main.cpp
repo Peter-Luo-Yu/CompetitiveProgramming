@@ -143,12 +143,12 @@ int main () {
         left.add(arr[i], arr[i], 1);
 
         // need ai > aj > ak
-        ll bigger = left.sum(arr[i] + 1, n);
-        ll smaller = right.sum(0, arr[i] - 1);
+        ll bigger = left.sum(arr[i] + 1, n); // looking for bigger on left
+        ll smaller = right.sum(0, arr[i] - 1); // looking for smaller on right
 
         print(bigger, smaller);
 
-        ans += bigger * smaller;
+        ans += bigger * smaller; // you can pick one from each side independently
     }
 
     cout << ans << endl;
