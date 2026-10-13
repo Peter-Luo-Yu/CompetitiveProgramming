@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 //#define LOCAL
-=======
-#define LOCAL
->>>>>>> 27437abf1c7a21494695ab2a2d2b6fc861744816
 
 #include <bits/stdc++.h>
 using namespace std;
