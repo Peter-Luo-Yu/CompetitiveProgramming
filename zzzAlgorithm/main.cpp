@@ -69,7 +69,6 @@ struct DSU {
     }
 };
 
-
 struct SegmentTree {
     ll n;
     vector<ll> lazy, tree;
@@ -79,8 +78,8 @@ struct SegmentTree {
         tree = lazy = vector<ll> (4 * n);
     }
  
-    void apply(ll v, ll len, ll val) {
-        tree[v] += len * val;
+    void apply(ll v, ll len, ll val) { // changed for max seg tree
+        tree[v] += val;
         lazy[v] += val;
     }
  
@@ -101,7 +100,7 @@ struct SegmentTree {
             ll mid = (l + r) / 2;
             add(2 * v, l, mid, ql, qr, val);
             add(2 * v + 1, mid + 1, r, ql, qr, val);
-            tree[v] = tree[2 * v] + tree[2 * v + 1];
+            tree[v] = max(tree[2 * v] , tree[2 * v + 1]); // here as well
         }
     }
  
@@ -109,15 +108,17 @@ struct SegmentTree {
         add(1, 0, n - 1, ql, qr, val);
     }
  
+    // sum actually returns the max now :)
+
     ll sum(ll v, ll l, ll r, ll ql, ll qr) {
-        if (qr < l || ql > r) return 0;
+        if (qr < l || ql > r) return -1e18;
         if (ql <= l && r <= qr) {
             return tree[v];
         }
         else {
             push(v, l, r);
             ll mid = (l + r) / 2;
-            return sum(2 * v, l, mid, ql, qr) + sum(2 * v + 1, mid + 1, r, ql, qr);
+            return max(sum(2 * v, l, mid, ql, qr), sum(2 * v + 1, mid + 1, r, ql, qr));
         }
     }
  
@@ -143,6 +144,39 @@ struct SegmentTree {
         }
  
         return l;
+    }
+
+    
+    void build(ll v, ll l, ll r, const vector<ll>& a) { // set leaves from a[0..n-1]
+        lazy[v] = 0;
+        if (l == r) { tree[v] = a[l]; return; }
+        ll mid = (l + r) / 2;
+        build(2 * v, l, mid, a);
+        build(2 * v + 1, mid + 1, r, a);
+        tree[v] = max(tree[2 * v], tree[2 * v + 1]);
+    }
+
+    void build(const vector<ll>& a) {
+        build(1, 0, n - 1, a);
+    }
+
+    void erase(ll pos) {
+        add(pos, pos, -(ll)1e12);
+    }
+
+
+    // push every position in [ql, qr] whose value is >= T
+    void collect(ll v, ll l, ll r, ll ql, ll qr, ll T, vector<int>& out) {
+        if (qr < l || ql > r || tree[v] < T) return;
+        if (l == r) { out.push_back((int)l); return; }
+        push(v, l, r);
+        ll mid = (l + r) / 2;
+        collect(2 * v, l, mid, ql, qr, T, out);
+        collect(2 * v + 1, mid + 1, r, ql, qr, T, out);
+    }
+
+    void collect(ll ql, ll qr, ll T, vector<int>& out) {
+        collect(1, 0, n - 1, ql, qr, T, out);
     }
  
 };
