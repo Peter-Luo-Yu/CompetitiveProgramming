@@ -1,3 +1,7 @@
+/*Author: Peter Yu
+   It is ok to share my code anonymously for educational purposes */
+
+
 #define LOCAL
 
 #include <bits/stdc++.h>
@@ -111,6 +115,8 @@ int main () {
     //freopen("input.txt", "r", stdin);
     //freopen("output.txt", "w", stdout);
 
+    // pretty simple problem asking how many 1's inbetween a range
+
     int n, q; cin >> n >> q;
 
     SegmentTree segtree;
@@ -122,10 +128,12 @@ int main () {
         if (type == 'F') {
             int idx; cin >> idx;
 
+            // if there's a one there or zero there
+            // you add or subtract 1 accordingly
             if (segtree.sum(idx, idx) == 1) {
                 segtree.add(idx, idx, -1);
             }
-            else {
+            else { // segtree.sum = 0
                 segtree.add(idx, idx, 1);
             }
         }

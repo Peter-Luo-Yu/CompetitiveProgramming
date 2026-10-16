@@ -1,3 +1,6 @@
+/*Author: Peter Yu
+   It is ok to share my code anonymously for educational purposes */
+
 //#define LOCAL
 
 #include <bits/stdc++.h>
@@ -111,6 +114,14 @@ int main () {
 
     //freopen("input.txt", "r", stdin);
     //freopen("output.txt", "w", stdout);
+
+    // like mega inversions you sweep the middle element
+    // the difference here is you need to look for the 
+    // smallest element greater than you on the left
+    // to maximize the chances you find a big value that beats both of you on the right.
+
+    // so we use a Balanced BST to obtain a sorted set for the left
+    // and max segtree for the right 
 
     int t; cin >> t;
     int cur = 1;
