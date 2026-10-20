@@ -1,4 +1,6 @@
+Please name the title of the chat the same as the title of the problem!
 Solve the problem with this template, remove all comments except for the first #define and the freopens: //#define LOCAL
+If you use helper functions, don't give them fancy names, just use void solve() or name them according to their function.
 
 #include <bits/stdc++.h>
 using namespace std;

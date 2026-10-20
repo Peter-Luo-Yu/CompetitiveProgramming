@@ -1,4 +1,8 @@
-#define LOCAL
+/*Author: Peter Yu
+   It is ok to share my code anonymously for educational purposes */
+
+
+//#define LOCAL
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -26,14 +30,62 @@ if (s[i] == ')' || s[i] == '}') b--; else if (s[i] == ',' && b == 0) {cerr << "\
 #define ld long double
 #define endl "\n"
 
+#define pi (ld) 3.1415926535897932
+
+struct paint {
+    ld x;
+    ld y;
+    ld V;
+    string color;
+    ld r;
+
+    void computeR() {
+        r = sqrtl(V / pi);
+    }
+};
 
 int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
 
+    // pretty simple problem where we brute force each query
+    // by looping through all the paint operations
+
+    int t; cin >> t;
+    while (t--) {
+        int n; cin >> n;
+
+        vector<paint> drops (n);
+        for (int i = 0; i < n; i++) {
+            cin >> drops[i].x >> drops[i].y >> drops[i].V >> drops[i].color;
+            drops[i].computeR();
+        }
+
+        /*
+        for (auto d : drops) {
+            cout << d.x << " " << d.y << " " << d.r << " " << d.color << endl;
+        } */
+
+        int q; cin >> q;
+        for (int i = 0; i < q; i++) {
+            ld x, y; cin >> x >> y;
+            string ans = "";
+
+            for (int j = 0; j < n; j++) {
+                ld dist = sqrtl((drops[j].x - x) * (drops[j].x - x) + (drops[j].y - y) * (drops[j].y - y));
+                if (dist < drops[j].r + 1e-6) {
+                    ans = drops[j].color;
+                }
+            }
+
+            if (ans == "") ans = "white";
+            cout << ans << endl;
+        }
+        
+    }
     
 
 
