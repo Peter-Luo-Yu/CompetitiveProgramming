@@ -26,61 +26,64 @@ if (s[i] == ')' || s[i] == '}') b--; else if (s[i] == ',' && b == 0) {cerr << "\
 #define ld long double
 #define endl "\n"
 
-vector<ll> skills;
+// I promise no AI was used here: https://raw.githubusercontent.com/RussellDash332/kattis/main/src/Appeal%20to%20the%20Audience/appealtotheaudience.py
+
+// Obs 1: every node contributes once except the root
+// Idea: at each internal node, you have to select who gets to continue contributing 
+//       and who is cut off and no longer continues to contribute
+// Obs 2: you want the maximum value to contribute the most -> 
+//        WHOEVER WAS ALREADY CONTRIBUTING THE MOST TAKES PRIORITY
+// Obs 3: we track how many times any value could theoretically contribute,
+//        and then calculate the answer from the sorted array 
+
+
 vector<vector<ll>> adj;
 vector<bool> vis;
-vector<ll> depth, value;
+vector<ll> skills, contrib; 
 
-ll ans = 0;
+ll dfs(ll s, ll p, ll depth) { // returns depth from the leaf - distance to furthest leaf in cur subtree
 
-void calcdepth(ll s) {
-    if (vis[s]) return;
-    vis[s] = true;
+    if (adj[s].size() == 1) { // if leaf
+        return 1; // can only contribute itself once
+    }
 
+    ll maxDepth = -1;
+    vector<ll> childDepths;
     for (auto u : adj[s]) {
-        if (vis[u]) continue;
+        if (u == p) continue;
 
-        depth[u] = depth[s] + 1;
-        calcdepth(u);
+        ll d = dfs(u, s, depth + 1);
+        childDepths.push_back(d);
+        maxDepth = max(maxDepth, d);
+    }
+
+    print(s, childDepths);
+
+
+    for (int i = 0; i < childDepths.size(); i++) {
+        if (childDepths[i] == maxDepth) {  // any max survives
+            for (int j = 0; j < childDepths.size(); j++) { // everybody else is dead
+                if (i != j) {
+                    contrib.push_back(childDepths[j]);
+                }
+            }
+            return maxDepth + 1;
+        }
     }
 }
-
-
-void calcans(ll s) {
-    if (vis[s]) return;
-    vis[s] = true;
-
-    if (adj[s].size() == 1) { // skip leaf
-        return;
-    }
-
-    ll sum = 0;
-    ll winner = -1;
-    for (auto u : adj[s]) {
-        if (vis[u]) continue;
-
-        calcans(u);
-
-        winner = max(winner, value[u]);
-        sum += value[u];
-        
-    }
-    value[s] = winner;
-    ans += sum;
-}
-
 
 int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    //freopen("input.txt", "r", stdin);
-    //freopen("output.txt", "w", stdout);
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
 
     ll n, k; cin >> n >> k;
 
     skills = vector<ll> (k);
     for (ll i = 0; i < k; i++) cin >> skills[i];
+    sort (skills.begin(), skills.end());
 
     adj = vector<vector<ll>> (n);
     for (ll i = 1; i < n; i++) {
@@ -89,51 +92,27 @@ int main () {
         adj[p].push_back(i);
     }
 
-    print(adj);
-
-    vis = vector<bool> (n);
-    depth = vector<ll> (n);
-
-    calcdepth(0);
-
-    print(depth);
-
-    // put all the depths together, only for the leaves though :)
-    map<ll, vector<ll>> mp;
-    for (ll i = 0; i < n; i++) {
-        if (adj[i].size() == 1) {
-            mp[depth[i]].push_back(i);
-        }
-    }
-    print(mp);
-
-    // now we try to assign values
-    value = vector<ll> (n);
-    sort (skills.begin(), skills.end());
-    ll l = 0, r = skills.size() - 1;
-
-    for (auto it = mp.rbegin(); it != mp.rend(); it++) {
-        for (int i = 0; i < (it -> second).size(); i++) {
-            if (i == 0) {
-                value[(it -> second)[0]] = skills[r];
-                r--;
-            }
-            else {
-                value[(it -> second)[i]] = skills[l];
-                l++;
-            }
-        }
-    }
-
-    print(value);
+    //print(adj);
 
     vis = vector<bool> (n);
 
-    calcans(0);
+    contrib.push_back(dfs(0, -1, 0));
 
-    print(ans);
+    print(contrib);
+
+    
+    sort (contrib.begin(), contrib.end());
+    contrib[contrib.size() - 1]--; // it overcounts the root
+
+    
+    ll ans = 0;
+
+    for (int i = 0; i < k; i++) {
+        ans += skills[i] * contrib[i];
+    }
 
     cout << ans << endl;
+    
 
     return 0;
 }
