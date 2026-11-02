@@ -1,4 +1,4 @@
-#define LOCAL
+//#define LOCAL
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -23,6 +23,7 @@ if (s[i] == ')' || s[i] == '}') b--; else if (s[i] == ',' && b == 0) {cerr << "\
 
 
 #define ll long long
+#define lll  __int128_t
 #define ld long double
 #define endl "\n"
 
@@ -30,94 +31,90 @@ if (s[i] == ')' || s[i] == '}') b--; else if (s[i] == ',' && b == 0) {cerr << "\
 
 using namespace std;
 
-#define fpos piggy
-
-const int inf = 1e9;
-const int maxn = 1e4;
-char s[maxn];
-map<int, int> to[maxn];
-int len[maxn], fpos[maxn], link[maxn];
-int node, pos;
-int sz = 1, n = 0;
-
-int make_node(int _pos, int _len)
-{
-    fpos[sz] = _pos;
-    len [sz] = _len;
-    return sz++;
-}
-
-void go_edge()
-{
-    while(pos > len[to[node][s[n - pos]]])
-    {
-        node = to[node][s[n - pos]];
-        pos -= len[node];
-    }
-}
-
-void add_letter(int c)
-{
-    s[n++] = c;
-    pos++;
-    int last = 0;
-    while(pos > 0)
-    {
-        go_edge();
-        int edge = s[n - pos];
-        int &v = to[node][edge];
-        int t = s[fpos[v] + pos - 1];
-        if(v == 0)
-        {
-            v = make_node(n - pos, inf);
-            link[last] = node;
-            last = 0;
-        }
-        else if(t == c)
-        {
-            link[last] = node;
-            return;
-        }
-        else
-        {
-            int u = make_node(fpos[v], pos - 1);
-            to[u][c] = make_node(n - 1, inf);
-            to[u][t] = v;
-            fpos[v] += pos - 1;
-            len [v] -= pos - 1;
-            v = u;
-            link[last] = u;
-            last = u;
-        }
-        if(node == 0)
-            pos--;
-        else
-            node = link[node];
-    }
-}
-
-
-
-
 int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
+
+
+    ll n; cin >> n;
+    string s; cin >> s;
+
+    // hashing can be used to compare strings in O(1) -- with chance of failure
+
+    lll A = 999999999999999989, B = 1e18 + 3;
+
+    vector<lll> h(n);    // hash of each prefix
+    h[0] = s[0] - 'a';
+    for (int i = 1; i < n; i++) {
+        h[i] = (h[i - 1] * A + (s[i] - 'a')) % B;
+    }
     
-    int n; cin >> n;
+    //print(h);
 
-    len[0] = inf;
-    string s;
-    cin >> s;
-    int ans = 0;
-    for(int i = 0; i < s.size(); i++)
-        add_letter(s[i]);
-    for(int i = 1; i < sz; i++)
-        ans += min((int)s.size() - fpos[i], len[i]);
-    cout << ans << "\n";
+    vector<lll> p(n); // power
+    p[0] = 1;
+    for (int i = 1; i < n; i++) {
+        p[i] = (p[i - 1] * A) % B;
+    }
 
+    //print(p);
+
+    //print(A, B);
+
+
+    // Binary Search the Answer
+    ll l = 1, r = n;
+    ll ans = 0;
+    while (l <= r) {
+        ll mid = (l + r) / 2;
+        print(l, r, mid);
+
+        unordered_map<ll, ll> freq; // freq of each hash value
+
+        for (int i = 0; i <= n - mid; i++) {
+            ll a = i, b = i + mid - 1;
+            print(a, b);
+
+            ll hash = -1e18;
+            if (i == 0) {
+                hash = h[b];
+            }
+            else {
+                lll val = ((h[b] - (h[a - 1] * p[b - a + 1] % B)) + B) % B;
+                hash = val;
+            }
+
+            print(hash);
+
+            freq[hash]++;
+        }
+
+        print(freq);
+
+        bool found = false;
+        for (auto f : freq) {
+            if (f.second >= 2) {
+                found = true;
+            }
+        }
+
+        print(found);
+
+        if (found) {
+            ans = max (ans, mid);
+            l = mid + 1;
+        }
+        else {
+            r = mid - 1;
+        }
+
+    }
+
+    cout << ans << endl;
+    
     
 
     return 0;
