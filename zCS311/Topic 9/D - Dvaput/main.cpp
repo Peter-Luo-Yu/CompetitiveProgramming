@@ -1,3 +1,6 @@
+/*Author: Peter Yu
+   It is ok to share my code anonymously for educational purposes */
+
 //#define LOCAL
 
 #include <bits/stdc++.h>
@@ -37,6 +40,19 @@ int main () {
 
     //freopen("input.txt", "r", stdin);
     //freopen("output.txt", "w", stdout);
+
+    // Most important thing is to not crash out, you don't need an O(n) solution - (ukkonnen) suffix tree (a patricia of suffix trie)
+    // O(nlog^2(n)) or O(nlogn) still passes
+
+    // We are trying to find the (length of the) longest repeated substring of a string 
+    // It's not obvious how to find said length.
+    // But we can easily check if a given length is possible by comparing it against
+    // the O(n) possible substrings of the given length.
+
+    // Finally, if a given length works, then any smaller length also works, 
+    // becuase you are simply taking a smaller portion of the repeating substring. 
+
+    // So the function is monotonic and BSTA works.
 
 
     ll n; cin >> n;

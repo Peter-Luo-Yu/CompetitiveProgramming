@@ -1,3 +1,7 @@
+/*Author: Peter Yu
+   It is ok to share my code anonymously for educational purposes */
+
+
 //#define LOCAL
 
 #include <bits/stdc++.h>
@@ -33,6 +37,17 @@ int main () {
 
     //freopen("input.txt", "r", stdin);
     //freopen("output.txt", "w", stdout);
+
+    // This problem isn't too hard to understand, but the implementation had
+    // to be done cleverly to avoid the TLE verdict.
+
+    // Essentially, it is another brute force:
+    // for each string, for each removed character, for each other string:
+
+    // you check if the string with one removed char equals another string already present
+    // Optimization: you realize a hash value is just an integer
+    // How to quickly find if an integer already exists in set of integers?
+    // Use binary search instead of linear search.
 
     int n; cin >> n;
     vector<string> arr (n);
@@ -86,7 +101,7 @@ int main () {
             
             
             // the difficult part is computing the hash value of the new string
-            // new = before + deleted char +  after 
+            // new = before | deleted char |  after 
 
 
             

@@ -1,3 +1,6 @@
+/*Author: Peter Yu
+   It is ok to share my code anonymously for educational purposes */
+
 //#define LOCAL
 
 #include <bits/stdc++.h>
@@ -33,6 +36,9 @@ int main () {
 
     //freopen("input.txt", "r", stdin);
     //freopen("output.txt", "w", stdout);
+
+    // pretty simple brute force problem, you just check every possible
+    // length for the repeating substring and output the biggest one.
 
     string s; getline(cin, s);
     int t = stoi(s);
