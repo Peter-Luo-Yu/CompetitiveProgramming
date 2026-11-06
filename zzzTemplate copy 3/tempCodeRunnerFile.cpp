@@ -1,0 +1,2 @@
+
+            print(amt, val, sum);

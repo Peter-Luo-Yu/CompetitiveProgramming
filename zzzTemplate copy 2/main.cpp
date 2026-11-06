@@ -42,82 +42,6 @@ int gcd(int a, int b) {
 }
 
 
-struct BinaryLift {
-    ll n, l, timer; 
-    vector<ll> tin, tout, depth;
-    vector<vector<ll>> adj, up;
-
-    BinaryLift (vector<vector<ll>> &g) { 
-        n = g.size();
-        adj = g;
-        preprocess(0);
-    }
-
-    void preprocess(ll root) {
-        tin.resize(n);
-        tout.resize(n);
-        depth.resize(n);
-        timer = 0;
-        l = ceil(log2(n));
-        up.assign(n, vector<ll>(l + 1));
-        dfs(root, root);
-    }
-
-    void dfs(ll v, ll p) {
-        tin[v] = ++timer;
-        depth[v] = (v == p ? 0 : depth[p] + 1);   
-        up[v][0] = p;
-        for (ll i = 1; i <= l; ++i) {
-            up[v][i] = up[up[v][i-1]][i-1];
-        }
-        for (ll u : adj[v]) {
-            if (u != p) {
-                dfs(u, v);
-            }
-        }
-
-        tout[v] = ++timer;
-    }
-
-
-    bool is_ancestor(ll u, ll v) {
-        return tin[u] <= tin[v] && tout[u] >= tout[v];
-    }
-
-    ll lca(ll u, ll v) {
-        if (is_ancestor(u, v))
-            return u;
-        if (is_ancestor(v, u))
-            return v;
-        for (ll i = l; i >= 0; --i) {
-            if (!is_ancestor(up[u][i], v))
-                u = up[u][i];
-        }
-        return up[u][0];
-    }
-
-    ll dist(ll u, ll v) {
-        return depth[u] + depth[v] - 2 * depth[lca(u, v)];
-    }
-};
-
-vector<vector<ll>> adj;
-vector<ll> cnt, paths;
-vector<bool> vis;
-
-void calcpaths (ll s) {
-    if (vis[s]) return;
-    vis[s] = true;
-
-    ll val = 0;
-    for (auto u : adj[s]) {
-        calcpaths(u);
-        val += paths[u];
-    }
-
-    paths[s] = val + cnt[s];
-}
-
 int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
@@ -129,124 +53,112 @@ int main () {
     
     int t; cin >> t;
     while (t--) {
-        print(t);
-
-        ll n; cin >> n;
-        adj = vector<vector<ll>> (n);
-        cnt = paths = vector<ll> (n);
-        vis = vector<bool> (n);
-
-        for (int i = 0; i < n - 1; i++) {
-            int a, b; cin >> a >> b; a--, b--;
-            adj[a].push_back(b);
-            adj[b].push_back(a);
+        int n; cin >> n;
+        vector<ll> arr (n);
+        map<ll, ll> freq;
+        for (int i = 0; i < n; i++) {
+            cin >> arr[i];
+            arr[i] = (1LL << arr[i]);
+            freq[arr[i]]++;
         }
 
-        if (n % 2 == 0) {
-            cout << n + 1 << endl;
-            continue;
+        print(freq);
+
+        ll Max = freq.rbegin() -> first;
+        print(Max);
+
+        for (auto &f : freq) {
+            ll cur = f.first;
+
+            if (cur == Max) break;
+
+            if (f.second >= 2) {
+                freq[cur * 2] += (f.second / 2);
+                f.second -= 2 * (f.second / 2);
+            } 
         }
 
-        BinaryLift bl (adj);
-
-        // check k = n, then n is left out
-        for (int i = 1; i <= n; i++) {
-            int a = i;
-            int b = n - i;
-
-            if (a == b || b < 1) continue;
-
-            //print(a, b);
-
-            a--, b--;
-
-            cnt[a]++;
-            cnt[b]++;
-            cnt[bl.lca(a, b)]--;
-
-            if (bl.lca(a, b) != 0) {
-                cnt[bl.up[bl.lca(a,b)][0]]--;
+        for (auto it = freq.begin(); it != freq.end();) {
+            if (it -> second == 0) {
+                it = freq.erase(it);
+            }
+            else {
+                it++;
             }
         }
+
+        print(freq);
+
+
+        ll a;
+        ll b; 
+
+        if (freq[Max] % 2 == 1) {
+            a = (freq[Max] / 2 + 1) * Max;
+            b = (freq[Max] / 2) * Max;
+
+            for (auto f : freq) {
+                if (f.first == Max) break;
+                b += (f.first * f.second);
+            }
+            ll ans = a * b;
+            cout << ans << endl;
+        }
+        else {
+            a = 0;
+            b = 0;
+
+            for (auto it = freq.rbegin(); it != freq.rend();) {
+                if (it -> second % 2 == 0) {
+                    a += (it -> first) * (it -> second) / 2;
+                    b += (it -> first) * (it -> second) / 2;
+                    it -> second = 0;
+                }
+                else {
+                    break;
+                }
+                it++;
+            }
+
+            print(a, b);
+            print(freq);
+            
+            for (auto it = freq.begin(); it != freq.end();) {
+                if (it == freq.end()) break;
+                if (it -> second == 0) {
+                    freq.erase(it++);
+                }
+                else {
+                    it++;
+                }
+            }
+          
+            if (freq.begin() == freq.end()) {
+                ll ans = a * b;
+                cout << ans << endl;
+                print("done");
+                continue;
+            }
+
+            Max = freq.rbegin() -> first;
+            a += Max;
+
+            for (auto f : freq) {
+                if (f.first == Max) break;
+                b += (f.first * f.second);
+            }
+
+            print(a, b);
+
+            ll ans = a * b;
+            cout << ans << endl;
+
+        }
+
         
-        calcpaths(0);
-        print(paths);
-        print(paths[n - 1]);
-
-        if (paths[n - 1] > 0) {
-            cout << n << endl;
-            continue;
-        }
-
-
-        vis = vector<bool> (n);
-        cnt = paths = vector<ll> (n);
-        // check k = n + 1, then (n + 1) / 2 is left out
-        for (int i = 1; i <= n; i++) {
-            int a = i;
-            int b = n + 1 - i;
-
-            if (a == b || b < 1) continue;
-
-            //print(a, b);
-
-            a--, b--;
-
-            cnt[a]++;
-            cnt[b]++;
-            cnt[bl.lca(a, b)]--;
-
-            if (bl.lca(a, b) != 0) {
-                cnt[bl.up[bl.lca(a,b)][0]]--;
-            }
-        }
-        
-        calcpaths(0);
-
-        print(paths[((n + 1) / 2) - 1]);
-        if (paths[((n + 1) / 2) - 1] > 0) {
-            cout << n + 1 << endl;
-            continue;
-        }
-
-        vis = vector<bool> (n);
-        cnt = paths = vector<ll> (n);
-        // check k = n + 2, then 1 is left out
-        for (int i = 1; i <= n; i++) {
-            int a = i;
-            int b = n + 2 - i;
-
-            if (a == b || b < 1 || b > n) continue;
-
-            //print(a, b);
-
-            a--, b--;
-
-            cnt[a]++;
-            cnt[b]++;
-            cnt[bl.lca(a, b)]--;
-
-            if (bl.lca(a, b) != 0) {
-                cnt[bl.up[bl.lca(a,b)][0]]--;
-            }
-        }
-
-        calcpaths(0);
-        print(paths[0]);
-
-        if (paths[0] > 0) {
-            cout << n + 2 << endl;
-            continue;
-        }
-
-
-        cout << n << endl;
-
 
         space;
-
     }
-    
 
 
     return 0;

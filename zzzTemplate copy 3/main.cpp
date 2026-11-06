@@ -51,7 +51,56 @@ int main () {
         freopen("output.txt", "w", stdout);
     #endif    
     
-    
+    int t; cin >> t;
+    while (t--) {
+        int n, k; cin >> n >> k;
+        vector<ll> arr (n);
+        for (int i = 0; i < n; i++) cin >> arr[i];
+
+        sort (arr.begin(), arr.end());
+
+        vector<ll> ans;
+        int idx = n - 1;
+        for (int i = 0; i < n - k; i++) {
+            ans.push_back(arr[idx]); 
+            idx--;
+        }
+
+        for (int i = 0; i < k; i++) {
+            ans.push_back(arr[i]);
+        }
+
+        print(ans);
+
+
+        int pleasant = 1;
+        ll sum = ans[0];
+        ll amt = 1;
+        for (int i = 1; i < n; i++) {
+            ll val = ans[i] * amt;
+            print(val, sum);
+            if (val >= sum) {
+                pleasant++;
+            }
+
+            amt++;
+            sum += ans[i];
+        }
+
+        print(pleasant);
+
+        if (pleasant == k) {
+            cout << "YES" << endl;
+            for (auto a : ans) {
+                cout << a << " ";
+            }
+            cout << endl;
+        }
+        else {
+            cout << "NO" << endl;
+        }
+
+    }
 
 
     return 0;
