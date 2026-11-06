@@ -181,6 +181,66 @@ struct SegmentTree {
  
 };
 
+
+struct BinaryLift {
+    ll n, l, timer; 
+    vector<ll> tin, tout, depth;
+    vector<vector<ll>> adj, up;
+
+    BinaryLift (vector<vector<ll>> &g) { 
+        n = g.size();
+        adj = g;
+        preprocess(0);
+    }
+
+    void preprocess(ll root) {
+        tin.resize(n);
+        tout.resize(n);
+        depth.resize(n);
+        timer = 0;
+        l = ceil(log2(n));
+        up.assign(n, vector<ll>(l + 1));
+        dfs(root, root);
+    }
+
+    void dfs(ll v, ll p) {
+        tin[v] = ++timer;
+        depth[v] = (v == p ? 0 : depth[p] + 1);   
+        up[v][0] = p;
+        for (ll i = 1; i <= l; ++i) {
+            up[v][i] = up[up[v][i-1]][i-1];
+        }
+        for (ll u : adj[v]) {
+            if (u != p) {
+                dfs(u, v);
+            }
+        }
+
+        tout[v] = ++timer;
+    }
+
+
+    bool is_ancestor(ll u, ll v) {
+        return tin[u] <= tin[v] && tout[u] >= tout[v];
+    }
+
+    ll lca(ll u, ll v) {
+        if (is_ancestor(u, v))
+            return u;
+        if (is_ancestor(v, u))
+            return v;
+        for (ll i = l; i >= 0; --i) {
+            if (!is_ancestor(up[u][i], v))
+                u = up[u][i];
+        }
+        return up[u][0];
+    }
+
+    ll dist(ll u, ll v) {
+        return depth[u] + depth[v] - 2 * depth[lca(u, v)];
+    }
+};
+
 int gcd(int a, int b, int& x, int& y) {
     if (b == 0) {
         x = 1;

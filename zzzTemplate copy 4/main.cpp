@@ -23,15 +23,33 @@ if (s[i] == ')' || s[i] == '}') b--; else if (s[i] == ',' && b == 0) {cerr << "\
 
 
 #define ll long long
+#define lll __int128_t
 #define ld long double
 #define endl "\n"
+
+int gcd(int a, int b) {
+    if (!a || !b)
+        return a | b;
+    unsigned shift = __builtin_ctz(a | b);
+    a >>= __builtin_ctz(a);
+    do {
+        b >>= __builtin_ctz(b);
+        if (a > b)
+            swap(a, b);
+        b -= a;
+    } while (b);
+    return a << shift;
+}
+
 
 int main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    #ifdef LOCAL
+        freopen("input.txt", "r", stdin);
+        freopen("output.txt", "w", stdout);
+    #endif    
     
     
 
