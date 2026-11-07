@@ -54,110 +54,28 @@ int main () {
     int t; cin >> t;
     while (t--) {
         int n; cin >> n;
-        vector<ll> arr (n);
-        map<ll, ll> freq;
-        for (int i = 0; i < n; i++) {
-            cin >> arr[i];
-            arr[i] = (1LL << arr[i]);
-            freq[arr[i]]++;
+
+        cout << "? 1 " << n << endl; cout.flush();
+
+        int ones; cin >> ones;
+
+        if (ones == n || ones == 0) {
+            cout << "! NO" << endl; cout.flush();
+            continue;
         }
 
-        print(freq);
+        //int zeros = n - ones;
+        cout << "? 1 " << ones << endl; cout.flush();
 
-        ll Max = freq.rbegin() -> first;
-        print(Max);
+        int res; cin >> res;
 
-        for (auto &f : freq) {
-            ll cur = f.first;
-
-            if (cur == Max) break;
-
-            if (f.second >= 2) {
-                freq[cur * 2] += (f.second / 2);
-                f.second -= 2 * (f.second / 2);
-            } 
-        }
-
-        for (auto it = freq.begin(); it != freq.end();) {
-            if (it -> second == 0) {
-                it = freq.erase(it);
-            }
-            else {
-                it++;
-            }
-        }
-
-        print(freq);
-
-
-        ll a;
-        ll b; 
-
-        if (freq[Max] % 2 == 1) {
-            a = (freq[Max] / 2 + 1) * Max;
-            b = (freq[Max] / 2) * Max;
-
-            for (auto f : freq) {
-                if (f.first == Max) break;
-                b += (f.first * f.second);
-            }
-            ll ans = a * b;
-            cout << ans << endl;
+        if (res == ones) {
+            cout << "! NO" << endl; cout.flush();
         }
         else {
-            a = 0;
-            b = 0;
-
-            for (auto it = freq.rbegin(); it != freq.rend();) {
-                if (it -> second % 2 == 0) {
-                    a += (it -> first) * (it -> second) / 2;
-                    b += (it -> first) * (it -> second) / 2;
-                    it -> second = 0;
-                }
-                else {
-                    break;
-                }
-                it++;
-            }
-
-            print(a, b);
-            print(freq);
-            
-            for (auto it = freq.begin(); it != freq.end();) {
-                if (it == freq.end()) break;
-                if (it -> second == 0) {
-                    freq.erase(it++);
-                }
-                else {
-                    it++;
-                }
-            }
-          
-            if (freq.begin() == freq.end()) {
-                ll ans = a * b;
-                cout << ans << endl;
-                print("done");
-                continue;
-            }
-
-            Max = freq.rbegin() -> first;
-            a += Max;
-
-            for (auto f : freq) {
-                if (f.first == Max) break;
-                b += (f.first * f.second);
-            }
-
-            print(a, b);
-
-            ll ans = a * b;
-            cout << ans << endl;
-
+            cout << "! YES" << endl; cout.flush();
         }
 
-        
-
-        space;
     }
 
 

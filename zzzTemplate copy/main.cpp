@@ -53,16 +53,41 @@ int main () {
     
     int t; cin >> t;
     while (t--) {
-        int n; cin >> n;
+        int n, k; cin >> n >> k;
+        vector<int> a(n), b(n);
+        for (int i = 0; i < n; i++) cin >> a[i];
+        for (int i = 0; i < n; i++) cin >> b[i];
 
-        ll ans;
-        if (n % 2 == 0)
-            ans = (n / 2) * (n / 2);
-        else {
-            ans = (n / 2 + 1) * (n / 2);
+        int Aodd = 0, Bodd = 0;
+        for (int i = 0; i < n; i++) {
+            Aodd += (a[i] % 2 == 1);
+            Bodd += (b[i] % 2 == 1);
         }
 
-        cout << ans << endl;
+        if (Aodd == Bodd) {
+            cout << "YES" << endl;
+            continue;
+        }
+        
+        if (Aodd > Bodd) { // convert odds to evens
+            if (k % 2 == 1) {
+                cout << "NO" << endl;
+            }
+            else {
+                cout << "YES" << endl;
+            }
+        }
+        else {  // convert evens to odds
+            if (k % 2 == 0) {
+                cout << "NO" << endl;
+            }
+            else {
+                cout << "YES" << endl;
+            }
+        }
+        
+
+
     }
 
 
