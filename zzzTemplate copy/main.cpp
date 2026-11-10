@@ -1,4 +1,4 @@
-//#define LOCAL
+#define LOCAL
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -42,7 +42,7 @@ int gcd(int a, int b) {
 }
 
 
-int main () {
+int32_t main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
@@ -53,39 +53,9 @@ int main () {
     
     int t; cin >> t;
     while (t--) {
-        int n, k; cin >> n >> k;
-        vector<int> a(n), b(n);
-        for (int i = 0; i < n; i++) cin >> a[i];
-        for (int i = 0; i < n; i++) cin >> b[i];
 
-        int Aodd = 0, Bodd = 0;
-        for (int i = 0; i < n; i++) {
-            Aodd += (a[i] % 2 == 1);
-            Bodd += (b[i] % 2 == 1);
-        }
+        
 
-        if (Aodd == Bodd) {
-            cout << "YES" << endl;
-            continue;
-        }
-        
-        if (Aodd > Bodd) { // convert odds to evens
-            if (k % 2 == 1) {
-                cout << "NO" << endl;
-            }
-            else {
-                cout << "YES" << endl;
-            }
-        }
-        else {  // convert evens to odds
-            if (k % 2 == 0) {
-                cout << "NO" << endl;
-            }
-            else {
-                cout << "YES" << endl;
-            }
-        }
-        
 
 
     }

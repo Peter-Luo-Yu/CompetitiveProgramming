@@ -1,4 +1,4 @@
-#define LOCAL
+//#define LOCAL
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -51,7 +51,32 @@ int main () {
         freopen("output.txt", "w", stdout);
     #endif    
     
-    
+    int t; cin >> t;
+    while (t--) {
+        int n; cin >> n;
+
+        cout << "? 1 " << n << endl; cout.flush();
+
+        int ones; cin >> ones;
+
+        if (ones == n || ones == 0) {
+            cout << "! NO" << endl; cout.flush();
+            continue;
+        }
+
+        //int zeros = n - ones;
+        cout << "? 1 " << ones << endl; cout.flush();
+
+        int res; cin >> res;
+
+        if (res == ones) {
+            cout << "! NO" << endl; cout.flush();
+        }
+        else {
+            cout << "! YES" << endl; cout.flush();
+        }
+
+    }
 
 
     return 0;
