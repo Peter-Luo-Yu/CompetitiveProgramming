@@ -78,7 +78,7 @@ struct SegmentTree {
         tree = lazy = vector<ll> (4 * n);
     }
  
-    void apply(ll v, ll len, ll val) { // changed for max seg tree
+    void apply(ll v, ll len, ll val) { // change to val * len; 
         tree[v] += val;
         lazy[v] += val;
     }
@@ -100,7 +100,7 @@ struct SegmentTree {
             ll mid = (l + r) / 2;
             add(2 * v, l, mid, ql, qr, val);
             add(2 * v + 1, mid + 1, r, ql, qr, val);
-            tree[v] = max(tree[2 * v] , tree[2 * v + 1]); // here as well
+            tree[v] = max(tree[2 * v] , tree[2 * v + 1]); // change to tree[2v] + tree[2v + 1]
         }
     }
  
@@ -111,7 +111,7 @@ struct SegmentTree {
     // sum actually returns the max now :)
 
     ll sum(ll v, ll l, ll r, ll ql, ll qr) {
-        if (qr < l || ql > r) return -1e18;
+        if (qr < l || ql > r) return -1e18; // change to 0
         if (ql <= l && r <= qr) {
             return tree[v];
         }
