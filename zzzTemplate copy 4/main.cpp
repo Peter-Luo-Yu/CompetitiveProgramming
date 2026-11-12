@@ -1,4 +1,4 @@
-#define LOCAL
+//#define LOCAL
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -54,8 +54,43 @@ int32_t main () {
     int t; cin >> t;
     while (t--) {
 
-        
+        int n; cin >> n;
+        string s; cin >> s;
 
+        int l = 0, r = n - 1;
+
+        vector<bool> vis (26);
+        for (int i = 0; i < n / 2; i++) {
+            if (s[l] != s[r]) {
+
+                int left = s[l] - 'a';
+                int right = s[r] - 'a';
+
+                if (left > right) {
+                    swap(left, right);
+                }
+
+                print(s[l], s[r]);
+                print(left, right);
+
+                for (int j = left + 1; j <= right; j++) {
+                    vis[j] = true;
+                }
+            }
+
+            l++,r--;
+        }
+
+        print(vis);
+
+        int ans = 0;
+        for (auto v : vis) {
+            if (v) ans++;
+        }
+
+        cout << ans << endl;
+
+        space;
 
 
     }

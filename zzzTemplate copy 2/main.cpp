@@ -1,4 +1,4 @@
-#define LOCAL
+//#define LOCAL
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -54,9 +54,31 @@ int32_t main () {
     int t; cin >> t;
     while (t--) {
 
-        
+        int n; cin >> n;
+        string s; cin >> s;
 
+        bool red = true;
+        int ans = 0;
+        for (auto c : s) {
+            if (red) {
+                if (c == 'R') {
+                    red = !red;
+                }
+                else {
+                    ans++;
+                }
+            }
+            else {
+                if (c == 'B') {
+                    red = !red;
+                }
+                else {
+                    ans++;
+                }
+            }
+        }
 
+        cout << ans << endl;
 
     }
 

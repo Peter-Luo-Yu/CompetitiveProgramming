@@ -1,4 +1,4 @@
-#define LOCAL
+//#define LOCAL
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -54,9 +54,47 @@ int32_t main () {
     int t; cin >> t;
     while (t--) {
 
-        
+        int a, b, c; cin >> a >> b >> c;
+
+        bool good = false;
+
+        // move a -> b
+        if (a - 1 == b + 1 && b + 1 == c) {
+            good = true;
+        }
+
+        // move a -> c
+        if (a - 1 == c + 1 && c + 1 == b) {
+            good = true;
+        }
+
+        // move b -> a
+        if (b - 1 == a + 1 && a + 1 == c) {
+            good = true;
+        }
+
+        // move b -> c
+        if (b - 1 == c + 1 && c + 1 == a) {
+            good = true;
+        }
+
+        // move c -> a
+        if (c - 1 == a + 1 && a + 1 == b) {
+            good = true;
+        }
+
+        // move c -> b
+        if (c - 1 == b + 1 && b + 1 == a) {
+            good = true;
+        }
 
 
+        if (good) {
+            cout << "YES" << endl;
+        }
+        else {
+            cout << "NO" << endl;
+        }
 
     }
 
