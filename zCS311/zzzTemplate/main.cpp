@@ -22,19 +22,42 @@ template<typename T, typename... Args> void debug(string s, T x, Args... args) {
 if (s[i] == ')' || s[i] == '}') b--; else if (s[i] == ',' && b == 0) {cerr << "\033[1;35m" << s.substr(0, i) << "\033[0;32m = \033[33m" << x << "\033[31m | "; debug(s.substr(s.find_first_not_of(' ', i + 1)), args...); break;}}
 
 
-#define ll long long
+#define int long long
+#define lll __int128_t
 #define ld long double
 #define endl "\n"
 
+int gcd(int a, int b) {
+    if (!a || !b)
+        return a | b;
+    unsigned shift = __builtin_ctz(a | b);
+    a >>= __builtin_ctz(a);
+    do {
+        b >>= __builtin_ctz(b);
+        if (a > b)
+            swap(a, b);
+        b -= a;
+    } while (b);
+    return a << shift;
+}
 
-int main () {
+int32_t main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
-
+    #ifdef LOCAL
+        freopen("input.txt", "r", stdin);
+        freopen("output.txt", "w", stdout);
+    #endif    
     
+    int t; cin >> t;
+    while (t--) {
+
+
+
+
+
+    }
 
 
     return 0;
