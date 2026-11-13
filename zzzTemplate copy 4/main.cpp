@@ -1,4 +1,4 @@
-//#define LOCAL
+#define LOCAL
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -22,7 +22,7 @@ template<typename T, typename... Args> void debug(string s, T x, Args... args) {
 if (s[i] == ')' || s[i] == '}') b--; else if (s[i] == ',' && b == 0) {cerr << "\033[1;35m" << s.substr(0, i) << "\033[0;32m = \033[33m" << x << "\033[31m | "; debug(s.substr(s.find_first_not_of(' ', i + 1)), args...); break;}}
 
 
-#define ll long long
+#define int long long
 #define lll __int128_t
 #define ld long double
 #define endl "\n"
@@ -41,7 +41,6 @@ int gcd(int a, int b) {
     return a << shift;
 }
 
-
 int32_t main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
@@ -54,43 +53,8 @@ int32_t main () {
     int t; cin >> t;
     while (t--) {
 
-        int n; cin >> n;
-        string s; cin >> s;
 
-        int l = 0, r = n - 1;
 
-        vector<bool> vis (26);
-        for (int i = 0; i < n / 2; i++) {
-            if (s[l] != s[r]) {
-
-                int left = s[l] - 'a';
-                int right = s[r] - 'a';
-
-                if (left > right) {
-                    swap(left, right);
-                }
-
-                print(s[l], s[r]);
-                print(left, right);
-
-                for (int j = left + 1; j <= right; j++) {
-                    vis[j] = true;
-                }
-            }
-
-            l++,r--;
-        }
-
-        print(vis);
-
-        int ans = 0;
-        for (auto v : vis) {
-            if (v) ans++;
-        }
-
-        cout << ans << endl;
-
-        space;
 
 
     }

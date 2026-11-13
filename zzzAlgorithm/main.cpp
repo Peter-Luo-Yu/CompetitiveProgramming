@@ -69,69 +69,70 @@ struct DSU {
     }
 };
 
+
 struct SegmentTree {
-    ll n;
-    vector<ll> lazy, tree;
+    int n;
+    vector<int> lazy, tree;
  
-    void init(ll x) {
+    void init(int x) {
         n = x;
-        tree = lazy = vector<ll> (4 * n);
+        tree = lazy = vector<int> (4 * n);
     }
  
-    void apply(ll v, ll len, ll val) { // change to val * len; 
-        tree[v] += val;
+    void apply(int v, int len, int val) { // change tree[v] to val * len; 
+        tree[v] += val * len;
         lazy[v] += val;
     }
  
-    void push(ll v, ll l, ll r) {
-        ll mid = (l + r) / 2;
+    void push(int v, int l, int r) {
+        int mid = (l + r) / 2;
         apply(2 * v, mid - l + 1, lazy[v]);
         apply(2 * v + 1, r - mid, lazy[v]);
         lazy[v] = 0;
     }
  
-    void add(ll v, ll l, ll r, ll ql, ll qr, ll val) {
+    void add(int v, int l, int r, int ql, int qr, int val) {
         if (qr < l || ql > r) return;
         if (ql <= l && r <= qr) {
             apply(v, r - l + 1, val);
         }
         else {
             push(v, l, r);
-            ll mid = (l + r) / 2;
+            int mid = (l + r) / 2;
             add(2 * v, l, mid, ql, qr, val);
             add(2 * v + 1, mid + 1, r, ql, qr, val);
-            tree[v] = max(tree[2 * v] , tree[2 * v + 1]); // change to tree[2v] + tree[2v + 1]
+            tree[v] = tree[2 * v] + tree[2 * v + 1]; // change to tree[2v] + tree[2v + 1]
         }
     }
  
-    void add(ll ql, ll qr, ll val) {
+    void add(int ql, int qr, int val) {
         add(1, 0, n - 1, ql, qr, val);
     }
  
     // sum actually returns the max now :)
 
-    ll sum(ll v, ll l, ll r, ll ql, ll qr) {
-        if (qr < l || ql > r) return -1e18; // change to 0
+    int sum(int v, int l, int r, int ql, int qr) {
+        if (qr < l || ql > r) return 0; // change to 0
         if (ql <= l && r <= qr) {
             return tree[v];
         }
         else {
             push(v, l, r);
-            ll mid = (l + r) / 2;
+            int mid = (l + r) / 2;
             return max(sum(2 * v, l, mid, ql, qr), sum(2 * v + 1, mid + 1, r, ql, qr));
         }
     }
  
-    ll sum(ll ql, ll qr) {
+    int sum(int ql, int qr) {
         return sum(1, 0, n - 1, ql, qr);
     }
  
-    ll findk (ll k) { // 0 indexed
-        ll v = 1, l = 0, r = n - 1;
+    int findk (int k) { // 0 indexed
+        int v = 1, l = 0, r = n - 1;
  
         while (l < r) {
             push(v, l, r);
-            ll mid = (l + r) / 2;
+            int mid = (l + r) / 2;
             if (tree[2 * v] > k) { // left side has more than k active
                 v = 2 * v;
                 r = mid;
@@ -147,39 +148,45 @@ struct SegmentTree {
     }
 
     
-    void build(ll v, ll l, ll r, const vector<ll>& a) { // set leaves from a[0..n-1]
+    void build(int v, int l, int r, const vector<int>& a) { // set leaves from a[0..n-1]
         lazy[v] = 0;
         if (l == r) { tree[v] = a[l]; return; }
-        ll mid = (l + r) / 2;
+        int mid = (l + r) / 2;
         build(2 * v, l, mid, a);
         build(2 * v + 1, mid + 1, r, a);
         tree[v] = max(tree[2 * v], tree[2 * v + 1]);
     }
 
-    void build(const vector<ll>& a) {
+    void build(const vector<int>& a) {
         build(1, 0, n - 1, a);
     }
 
-    void erase(ll pos) {
-        add(pos, pos, -(ll)1e12);
+    void erase(int pos) {
+        add(pos, pos, -(int) 1e12);
+    }
+
+    void set(int pos, int val) {
+        add(pos, pos, sum(pos, pos) * -1);
+        add(pos, pos, val);
     }
 
 
     // push every position in [ql, qr] whose value is >= T
-    void collect(ll v, ll l, ll r, ll ql, ll qr, ll T, vector<int>& out) {
+    void collect(int v, int l, int r, int ql, int qr, int T, vector<int>& out) {
         if (qr < l || ql > r || tree[v] < T) return;
         if (l == r) { out.push_back((int)l); return; }
         push(v, l, r);
-        ll mid = (l + r) / 2;
+        int mid = (l + r) / 2;
         collect(2 * v, l, mid, ql, qr, T, out);
         collect(2 * v + 1, mid + 1, r, ql, qr, T, out);
     }
 
-    void collect(ll ql, ll qr, ll T, vector<int>& out) {
+    void collect(int ql, int qr, int T, vector<int>& out) {
         collect(1, 0, n - 1, ql, qr, T, out);
     }
  
 };
+
 
 
 struct BinaryLift {

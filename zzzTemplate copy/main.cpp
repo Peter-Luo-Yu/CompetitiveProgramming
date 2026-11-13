@@ -1,4 +1,4 @@
-//#define LOCAL
+#define LOCAL
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -22,7 +22,7 @@ template<typename T, typename... Args> void debug(string s, T x, Args... args) {
 if (s[i] == ')' || s[i] == '}') b--; else if (s[i] == ',' && b == 0) {cerr << "\033[1;35m" << s.substr(0, i) << "\033[0;32m = \033[33m" << x << "\033[31m | "; debug(s.substr(s.find_first_not_of(' ', i + 1)), args...); break;}}
 
 
-#define ll long long
+#define int long long
 #define lll __int128_t
 #define ld long double
 #define endl "\n"
@@ -41,7 +41,6 @@ int gcd(int a, int b) {
     return a << shift;
 }
 
-
 int32_t main () {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
@@ -54,47 +53,9 @@ int32_t main () {
     int t; cin >> t;
     while (t--) {
 
-        int a, b, c; cin >> a >> b >> c;
-
-        bool good = false;
-
-        // move a -> b
-        if (a - 1 == b + 1 && b + 1 == c) {
-            good = true;
-        }
-
-        // move a -> c
-        if (a - 1 == c + 1 && c + 1 == b) {
-            good = true;
-        }
-
-        // move b -> a
-        if (b - 1 == a + 1 && a + 1 == c) {
-            good = true;
-        }
-
-        // move b -> c
-        if (b - 1 == c + 1 && c + 1 == a) {
-            good = true;
-        }
-
-        // move c -> a
-        if (c - 1 == a + 1 && a + 1 == b) {
-            good = true;
-        }
-
-        // move c -> b
-        if (c - 1 == b + 1 && b + 1 == a) {
-            good = true;
-        }
 
 
-        if (good) {
-            cout << "YES" << endl;
-        }
-        else {
-            cout << "NO" << endl;
-        }
+
 
     }
 
