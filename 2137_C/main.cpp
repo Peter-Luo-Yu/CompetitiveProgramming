@@ -1,4 +1,4 @@
-#define LOCAL
+//#define LOCAL
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -53,8 +53,42 @@ int32_t main () {
     int t; cin >> t;
     while (t--) {
 
+        int a, b; cin >> a >> b;
 
+        if (a % 2 == 0 && b % 2 == 1) {
+            cout << -1 << endl;
+            continue;
+        }
 
+        int pow2 = 0;
+        int temp = b;
+        while (temp % 2 == 0) {
+            pow2++;
+            temp /= 2;
+        }
+
+        print(a, b, pow2);
+
+        if (a % 2 == 0 && b % 2 == 0) {
+            int k = b / 2;
+            a *= k;
+            b /= k;
+            cout << a + b << endl;
+        }
+        else if (a % 2 == 1 && b % 2 == 0) {
+            if (pow2 == 1) {
+                cout << -1 << endl;
+            }
+            else {
+                int k = b / 2;
+                a *= k;
+                b /= k;
+                cout << a + b << endl;
+            }
+        }
+        else { // both odd;
+            cout << a * b + 1 << endl;
+        }
 
 
     }
