@@ -1,4 +1,4 @@
-#define LOCAL
+//#define LOCAL
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -91,7 +91,7 @@ struct SegmentTree {
         else {
             push(v, l, r);
             int mid = (l + r) / 2;
-            return max(sum(2 * v, l, mid, ql, qr), sum(2 * v + 1, mid + 1, r, ql, qr));
+            return sum(2 * v, l, mid, ql, qr) + sum(2 * v + 1, mid + 1, r, ql, qr);
         }
     }
  
@@ -174,10 +174,69 @@ int32_t main () {
     vector<int> values (6);
     for (int i = 0; i < 6; i++) cin >> values[i];
 
-    string s; cin >> s;
-    SegmentTree segtree;
-    segtree.init(n);
+    vector<int> pos(n); // index -> which tree;
 
+    string s; cin >> s; // original gems
+   
+    SegmentTree t1, t2, t3, t4, t5, t6;
+    t1.init(n);
+    t2.init(n);
+    t3.init(n);
+    t4.init(n);
+    t5.init(n);
+    t6.init(n);
+    for (int i = 0; i < n; i++) {
+        if (s[i] == '1') {t1.add(i, i, 1); pos[i] = 1;}
+        if (s[i] == '2') {t2.add(i, i, 1); pos[i] = 2;}
+        if (s[i] == '3') {t3.add(i, i, 1); pos[i] = 3;}
+        if (s[i] == '4') {t4.add(i, i, 1); pos[i] = 4;}
+        if (s[i] == '5') {t5.add(i, i, 1); pos[i] = 5;}
+        if (s[i] == '6') {t6.add(i, i, 1); pos[i] = 6;}
+    }
+
+    print(pos);
+
+    while (q--) {
+        int type; cin >> type;
+        if (type == 1) {    // replace gem at index idx
+            int idx, t; cin >> idx >> t; idx--;
+
+            if (pos[idx] == 1) t1.add(idx, idx, -1); 
+            if (pos[idx] == 2) t2.add(idx, idx, -1);
+            if (pos[idx] == 3) t3.add(idx, idx, -1);
+            if (pos[idx] == 4) t4.add(idx, idx, -1);
+            if (pos[idx] == 5) t5.add(idx, idx, -1);
+            if (pos[idx] == 6) t6.add(idx, idx, -1);
+
+            pos[idx] = t;
+
+            if (t == 1) t1.add(idx, idx, 1);
+            if (t == 2) t2.add(idx, idx, 1);
+            if (t == 3) t3.add(idx, idx, 1);
+            if (t == 4) t4.add(idx, idx, 1);
+            if (t == 5) t5.add(idx, idx, 1);
+            if (t == 6) t6.add(idx, idx, 1);
+        }
+        else if (type == 2) { // revalue a gem
+            int t, val; cin >> t >> val;
+            values[t - 1] = val;
+        }
+        else { // range query
+            int l, r; cin >> l >> r; l--, r--;
+
+            int amt1 = t1.sum(l, r);
+            int amt2 = t2.sum(l, r);
+            int amt3 = t3.sum(l, r);
+            int amt4 = t4.sum(l, r);
+            int amt5 = t5.sum(l, r);
+            int amt6 = t6.sum(l, r);
+
+            int ans = values[0] * amt1 + values[1] * amt2 + values[2] * amt3 +
+                      values[3] * amt4 + values[4] * amt5 + values[5] * amt6;
+
+            cout << ans << endl;
+        }
+    }
 
 
     
