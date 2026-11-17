@@ -1,4 +1,4 @@
-#define LOCAL
+//#define LOCAL
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -50,12 +50,65 @@ int32_t main () {
         freopen("output.txt", "w", stdout);
     #endif    
     
+
     int t; cin >> t;
     while (t--) {
 
+        int n, k; cin >> n >> k;
+
+        map<int, int> freq;
+        map<int, vector<int>> loc;
+
+        vector<vector<int>> arr (n);
+
+        for (int i = 0; i < n; i++) {
+            int m; cin >> m;
+            for (int j = 0; j < m; j++) {
+                int num; cin >> num;
+                freq[num]++;
+                loc[num].push_back(i);
+                arr[i].push_back(num);
+            }
+        }
+
+        bool seenAll = true;
+        for (int i = 0; i < k; i++) {
+            if (freq[i + 1] == 0) {
+                seenAll = false;
+            }
+        }
+        
+        if (!seenAll) {
+            cout << "NO" << endl;
+            continue;
+        }
 
 
+        // check sets of size n - 1
 
+        int amt = 0;
+        for (int i = 0; i < n; i++) {
+            bool failed = false;
+            for (int j = 0; j < arr[i].size(); j++) {
+                if (freq[arr[i][j]] <= 1) {
+                    failed = true;
+                }
+            }
+
+            if (!failed) {
+                amt++;
+            }
+        }
+
+        if (amt >= 2) {
+            cout << "YES" << endl;
+        }
+        else {
+            cout << "NO" << endl;
+        }
+    
+        
+       
 
     }
 
