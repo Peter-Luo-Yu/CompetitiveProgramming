@@ -1,4 +1,4 @@
-#define LOCAL
+//#define LOCAL
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -53,11 +53,59 @@ int32_t main () {
     int t; cin >> t;
     while (t--) {
 
+        int n, k; cin >> n >> k;
+        
+        // add k or repleace with distance -> subtracting k if far away
+        // or replace x with k - x if close
 
+        // tc 3: k = 5
+        // 6 -> 11, also 6 -> 1 -> 5 -> 11
+        // 2 -> 3 -> 8
+        // 9 -> 4
 
+        vector<int> a(n), b(n);
+        for (int i = 0; i < n; i++) cin >> a[i];
+        for (int i = 0; i < n; i++) cin >> b[i];        
 
+        // if a[i] < k, then it can get replaced with k - a[i]
 
-    }
+        vector<int> A(n), B(n);
+        map<int, int> fa, fb;
+        for (int i = 0; i < n; i++) {
+            A[i] = a[i] % k;
+            B[i] = b[i] % k;
+            fa[A[i]]++; fb[B[i]]++;
+        }
+
+        print(A); print(B);
+
+        bool failed = false;
+        for (int i = 0; i < n; i++) {
+            int val = a[i] % k;
+            
+            if (fb[val] > 0) {
+                fb[val]--;
+            }
+            else if (fb[k - val] > 0) {
+                fb[k - val]--;
+            }
+            else {
+                failed = true;
+            }
+
+        }
+
+        print(failed);
+
+        if (failed) {
+            cout << "NO" << endl;
+        }
+        else {
+            cout << "YES" << endl;
+        }
+
+        space;
+    }   
 
 
     return 0;
