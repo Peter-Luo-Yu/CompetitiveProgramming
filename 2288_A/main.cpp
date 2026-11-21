@@ -1,4 +1,4 @@
-#define LOCAL
+//#define LOCAL
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -53,8 +53,35 @@ int32_t main () {
     int t; cin >> t;
     while (t--) {
 
+        int n; cin >> n;
 
+        int ans = 1e9;
 
+        if (n == 1) {
+            cout << 1 << endl;
+            continue;
+        }
+        if (n == 2) {
+            cout << 2 << endl;
+            continue;
+        }
+
+        for (int i = 3; i <= n; i++) {
+            int moves = 0;
+            int cur = 0;
+            int atk = i;
+            while (cur < n && atk > 0) {
+                cur += atk;
+                moves++;
+                atk--;
+            }
+
+            if (cur >= n) {
+                ans = min(ans, i + moves - 1);
+            }
+        }
+
+        cout << ans << endl;
 
 
     }

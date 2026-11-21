@@ -1,4 +1,4 @@
-#define LOCAL
+//#define LOCAL
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -50,14 +50,37 @@ int32_t main () {
         freopen("output.txt", "w", stdout);
     #endif    
     
-    int t; cin >> t;
-    while (t--) {
 
 
+    string s; cin >> s;
 
-
-
+    stack<char> stk;
+    int val = 0;
+    for (auto c : s) {
+        if (stk.empty()) {
+            stk.push(c);
+        }
+        else {
+            if (c == stk.top()) {
+                val++;
+                stk.pop();
+            }
+            else {
+                stk.push(c);
+            }
+        }
     }
+
+    print(val);
+
+    if (val % 2 == 0) {
+        cout << "NO" << endl;
+    }
+    else {
+        cout << "YES" << endl;
+    }
+
+
 
 
     return 0;
